@@ -77,6 +77,10 @@ theme = "hugo-icarus"
     label  = "其它"
     link   = "categories/其它"
 
+[[params.menu]]
+    before = false
+    label  = "个人简介"
+    link   = "resume"
 
 
 
