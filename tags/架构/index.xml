@@ -6,8 +6,90 @@
     <description>Recent content in 架构 on 彤星的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 19 Dec 2015 13:39:46 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 22 Dec 2015 13:39:46 +0200</lastBuildDate>
     <atom:link href="http://linjinxing.github.io/tags/%E6%9E%B6%E6%9E%84/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>MVC架构</title>
+      <link>http://linjinxing.github.io/2015/12/22/mvc%E6%9E%B6%E6%9E%84</link>
+      <pubDate>Tue, 22 Dec 2015 13:39:46 +0200</pubDate>
+      
+      <guid>http://linjinxing.github.io/2015/12/22/mvc%E6%9E%B6%E6%9E%84</guid>
+      <description>
+
+&lt;h2 id=&#34;本文试图解决以下问题:7d5d3c954aa0aef7d5e1f0a2a9dbf425&#34;&gt;本文试图解决以下问题：&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;掌握MVC架构&lt;/li&gt;
+&lt;li&gt;根据设计模式的单一职责，理清MVC中M,V,C的职责，特别是C(Controller)的职责，很多人对其有比较大的误解&lt;/li&gt;
+&lt;li&gt;做架构设计时，如何应用MVC做设计&lt;/li&gt;
+&lt;li&gt;MVC架构中主要使用的设计模式&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;什么？还有没被满足的需求？请添加QQ群：515767434，我会尽力帮你解决。和MVVM，MVP的区别将在另一篇中介绍。&lt;/p&gt;
+
+&lt;h2 id=&#34;简介:7d5d3c954aa0aef7d5e1f0a2a9dbf425&#34;&gt;简介&lt;/h2&gt;
+
+&lt;p&gt;MVC全名是Model View Controller，是模型(model)－视图(view)－控制器(controller)的缩写，一种软件设计典范，用一种业务逻辑、数据、界面显示分离的方法组织代码，将业务逻辑聚集到一个部件里面，在改进和个性化定制界面及用户交互的同时，不需要重新编写业务逻辑。&lt;a href=&#34;http://baike.baidu.com/view/5432454.htm?fromtitle=mvc&amp;amp;fromid=85990&amp;amp;type=syn&#34;&gt;(百度百科解释)&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;为什么使用mvc:7d5d3c954aa0aef7d5e1f0a2a9dbf425&#34;&gt;为什么使用MVC&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;耦合性低&lt;br&gt;
+视图层和业务模型层完全分离，它们之间没有任何耦合，因此视图层和业务层可以随意地变化，而这也符合设计模式的&lt;a href=&#34;http://baike.baidu.com/view/823220.htm&#34;&gt;迪米特原则&lt;/a&gt;。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;重用性高&lt;br&gt;
+由于视图层和业务模型层完全分离，能很大程度上保证他们被&lt;a href=&#34;http://blog.csdn.net/kevin_darkelf/article/details/11371353&#34;&gt;继承，组合，关联，依赖&lt;/a&gt;。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;容易分工，提高开发效率&lt;br&gt;
+可以将界面和模型层分配给两个人同时进行开发，缩短开发周期。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;扩展容易&lt;br&gt;
+界面变化时，业务模型层可以完全保持不变，反之亦然。&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;定义:7d5d3c954aa0aef7d5e1f0a2a9dbf425&#34;&gt;定义&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Model（数据模型）&lt;br&gt;
+模型封闭了业务逻辑和数据处理。模型的唯一职责：承担数据处理。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;View（视图）&lt;br&gt;
+视图是用户可以看到的部分。视图的唯一职责：负责展示数据模型层传递的数据以及用户行为响应。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Controller（控制器）&lt;br&gt;
+控制器是一个或者多个M和一个或者多个V之间的中介，是M和V之间数据交换的桥梁。控制器职责：负责M和V之间的数据交换。&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;几种模式分析:7d5d3c954aa0aef7d5e1f0a2a9dbf425&#34;&gt;几种模式分析&lt;/h2&gt;
+
+&lt;h5 id=&#34;传统mvc:7d5d3c954aa0aef7d5e1f0a2a9dbf425&#34;&gt;传统MVC&lt;/h5&gt;
+
+&lt;h2 id=&#34;架构分层:7d5d3c954aa0aef7d5e1f0a2a9dbf425&#34;&gt;架构分层&lt;/h2&gt;
+
+&lt;h2 id=&#34;用到的设计模式简介:7d5d3c954aa0aef7d5e1f0a2a9dbf425&#34;&gt;用到的设计模式简介&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;中介者模式&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;参与资料：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.apple.com/library/ios/documentation/General/Conceptual/DevPedia-CocoaCore/MVC.html&#34;&gt;苹果开发官网：Model-View-Controller&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>设计模式网上文章汇总</title>
+      <link>http://linjinxing.github.io/2015/12/19/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E7%BD%91%E4%B8%8A%E6%96%87%E7%AB%A0%E6%B1%87%E6%80%BB</link>
+      <pubDate>Sat, 19 Dec 2015 13:39:46 +0200</pubDate>
+      
+      <guid>http://linjinxing.github.io/2015/12/19/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E7%BD%91%E4%B8%8A%E6%96%87%E7%AB%A0%E6%B1%87%E6%80%BB</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://blog.csdn.net/martin_liang/article/details/8969074&#34;&gt;中介者模式(MVC为一应用)&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>软件架构网上文章汇总</title>
