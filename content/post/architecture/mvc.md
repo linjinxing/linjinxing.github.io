@@ -7,6 +7,7 @@ title = "MVC架构"
 +++
 
  ## 本文试图解决以下问题：
+- MVC有哪些优点？
 - 掌握MVC架构
 - 根据设计模式的单一职责，理清MVC中M,V,C的职责，特别是C(Controller)的职责，很多人对其有比较大的误解
 - 做架构设计时，如何应用MVC做设计
@@ -31,9 +32,17 @@ MVC全名是Model View Controller，是模型(model)－视图(view)－控制器(
 * 扩展容易<br>
   界面变化时，业务模型层可以完全保持不变，反之亦然。
 
-## 定义
+## 架构分层
+现在让我们设计一个播放器App的软件架构，个人认为分层应该如下:
+![播放器MVC架构](../../../../images/player_achitecture.png)
+PlayerViewController在最顶层，负责调用View和Model，是V和M之间的桥梁，而V层和M层之前是处于同一层，他们之间没有任何调用关系；再来看V层是一个PlayerView，它负责调用PlayerViewConrolerPanel实现控制播放器的暂停，播放，进度显示，快进等和用户交互的相关职责；最后是M层,PlayerModel和PlayerSettingModel都属于M层，PlayerModel需要加载视频数据，并解码，并控制播放，暂停，停止等播放器行为，而PlayerSettingModel记录了之前播放的地址以及播放的进度
+
+![图1 播放器软件详细设计](../../../../images/player_uml.jpg)
+这是一个播放器的软件详细设计(看不懂UML图的，请[百度](https://www.baidu.com/s?wd=uml&rsv_spt=1&rsv_iqid=0xc60657990001b0a9&issp=1&f=8&rsv_bp=0&rsv_idx=2&ie=utf-8&tn=baiduhome_pg&rsv_enter=1&rsv_sug3=2&rsv_sug1=2))。
+
+### 简单定义
 * Model（数据模型）<br>
-模型封闭了业务逻辑和数据处理。模型的唯一职责：承担数据处理。
+模型封闭了业务逻辑和数据处理，通常一个M可以被多个界面视图使用。模型的唯一职责：承担数据处理。
 
 * View（视图）<br>
 视图是用户可以看到的部分。视图的唯一职责：负责展示数据模型层传递的数据以及用户行为响应。
@@ -53,11 +62,9 @@ MVC全名是Model View Controller，是模型(model)－视图(view)－控制器(
 当V层用户事件发生时，用户事件传递到C层，C层再调用M层响应用户事件，可能是从服务器获取数据，或者更新，删除数据。<br>
 当M层数据变化时，会通知C层，C层再调用V层接口更新用户界面，完成更新操作。
 
-
-
-## 架构分层
-
 ## 用到的设计模式简介
+既然是简介，这里省略几百字。：）
+
 - 中介者
 - 组合
 - 职责链
@@ -65,12 +72,17 @@ MVC全名是Model View Controller，是模型(model)－视图(view)－控制器(
 - 观察者
 
 ## MVC的缺点
-- 
+
+请查看[(百度百科解释)](http://baike.baidu.com/view/5432454.htm?fromtitle=mvc&fromid=85990&type=syn#6_2)
+
+**除了最后一点，由于不了解其它的开发环境，其它观点我完全不同意，本人未发现目前MVC有什么缺点。<br>
+还有疑问？欢迎和我一起讨论指正，请添加QQ群：515767434**
 
 
-参与资料：
 
-- [苹果开发官网：Model-View-Controller](https://developer.apple.com/library/ios/documentation/General/Conceptual/DevPedia-CocoaCore/MVC.html)
+#### 参与资料：
+
+[苹果开发官网：Model-View-Controller](https://developer.apple.com/library/ios/documentation/General/Conceptual/DevPedia-CocoaCore/MVC.html)
 
 
 
