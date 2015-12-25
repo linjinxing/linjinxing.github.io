@@ -52,15 +52,8 @@
 &lt;h2 id=&#34;架构分层:7d5d3c954aa0aef7d5e1f0a2a9dbf425&#34;&gt;架构分层&lt;/h2&gt;
 
 &lt;p&gt;现在让我们设计一个播放器App的软件架构，个人认为分层应该如下:
-&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt; HEAD
-&lt;img src=&#34;../../../../images/player_achitecture.jpg&#34; alt=&#34;播放器MVC架构&#34; /&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;playerviewcontroller在最顶层-负责调用view和model-是v和m之间的桥梁-而v层和m层是处于同一层-他们之间没有任何调用关系-再来看v层是一个playerview-它负责调用playerviewconrolerpanel实现和用户交互的相关职责-用户可以暂停-播放-快进-查看播放进度等等-而playerviewrender负责渲染playermodel解码的视频数据-也就是用户看到的视频-最后是m层-playermodel和playersettingmodel都属于m层-playermodel需要加载视频数据-并解码-并控制播放-暂停-停止等播放器行为-而playersettingmodel记录了之前播放的地址以及播放的进度-请注意-这里playermodel和playersettingmodel也在同一层-他们之间没有任何的调用关系-都是通过c层传递数据:7d5d3c954aa0aef7d5e1f0a2a9dbf425&#34;&gt;PlayerViewController在最顶层，负责调用View和Model，是V和M之间的桥梁，而V层和M层是处于同一层，他们之间没有任何调用关系；再来看V层是一个PlayerView，它负责调用PlayerViewConrolerPanel实现和用户交互的相关职责，用户可以暂停，播放，快进，查看播放进度等等，而PlayerViewRender负责渲染PlayerModel解码的视频数据，也就是用户看到的视频；最后是M层,PlayerModel和PlayerSettingModel都属于M层，PlayerModel需要加载视频数据，并解码，并控制播放，暂停，停止等播放器行为，而PlayerSettingModel记录了之前播放的地址以及播放的进度，请注意，这里PlayerModel和PlayerSettingModel也在同一层，他们之间没有任何的调用关系，都是通过C层传递数据。&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&#34;../../../../images/player_achitecture.png&#34; alt=&#34;图1 播放器MVC架构&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;PlayerViewController在最顶层，负责调用View和Model，是V和M之间的桥梁，而V层和M层之前是处于同一层，他们之间没有任何调用关系；再来看V层是一个PlayerView，它负责调用PlayerViewConrolerPanel实现控制播放器的暂停，播放，进度显示，快进等和用户交互的相关职责；最后是M层,PlayerModel和PlayerSettingModel都属于M层，PlayerModel需要加载视频数据，并解码，并控制播放，暂停，停止等播放器行为，而PlayerSettingModel记录了之前播放的地址以及播放的进度
-&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt; 4cd48ec4cd5356fef5b67e9a419e7b327c6ec656&lt;/p&gt;
+&lt;img src=&#34;../../../../images/player_achitecture.jpg&#34; alt=&#34;图1 播放器MVC架构&#34; /&gt;
+PlayerViewController在最顶层，负责调用View和Model，是V和M之间的桥梁，而V层和M层是处于同一层，他们之间没有任何调用关系；再来看V层是一个PlayerView，它负责调用PlayerViewConrolerPanel实现和用户交互的相关职责，用户可以暂停，播放，快进，查看播放进度等等，而PlayerViewRender负责渲染PlayerModel解码的视频数据，也就是用户看到的视频；最后是M层,PlayerModel和PlayerSettingModel都属于M层，PlayerModel需要加载视频数据，并解码，并控制播放，暂停，停止等播放器行为，而PlayerSettingModel记录了之前播放的地址以及播放的进度，请注意，这里PlayerModel和PlayerSettingModel也在同一层，他们之间没有任何的调用关系，都是通过C层传递数据。&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;../../../../images/player_uml.jpg&#34; alt=&#34;图2 播放器软件详细设计&#34; /&gt;&lt;/p&gt;
 
