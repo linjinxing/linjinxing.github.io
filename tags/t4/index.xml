@@ -147,6 +147,7 @@
 &lt;h2 id=&#34;本文试图解决以下问题:7d5d3c954aa0aef7d5e1f0a2a9dbf425&#34;&gt;本文试图解决以下问题：&lt;/h2&gt;
 
 &lt;ul&gt;
+&lt;li&gt;MVC有哪些优点？&lt;/li&gt;
 &lt;li&gt;掌握MVC架构&lt;/li&gt;
 &lt;li&gt;根据设计模式的单一职责，理清MVC中M,V,C的职责，特别是C(Controller)的职责，很多人对其有比较大的误解&lt;/li&gt;
 &lt;li&gt;做架构设计时，如何应用MVC做设计&lt;/li&gt;
@@ -162,7 +163,7 @@
 &lt;h2 id=&#34;为什么使用mvc:7d5d3c954aa0aef7d5e1f0a2a9dbf425&#34;&gt;为什么使用MVC&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;耦合性低&lt;br&gt;
+&lt;li&gt;&lt;p&gt;耦合度低&lt;br&gt;
 视图层和业务模型层完全分离，它们之间没有任何耦合，因此视图层和业务层可以随意地变化，而这也符合设计模式的&lt;a href=&#34;http://baike.baidu.com/view/823220.htm&#34;&gt;迪米特原则&lt;/a&gt;。&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;重用性高&lt;br&gt;
@@ -175,11 +176,22 @@
 界面变化时，业务模型层可以完全保持不变，反之亦然。&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;定义:7d5d3c954aa0aef7d5e1f0a2a9dbf425&#34;&gt;定义&lt;/h2&gt;
+&lt;h2 id=&#34;架构分层:7d5d3c954aa0aef7d5e1f0a2a9dbf425&#34;&gt;架构分层&lt;/h2&gt;
+
+&lt;p&gt;现在让我们设计一个播放器App的软件架构，个人认为分层应该如下:
+&lt;img src=&#34;../../../../images/player_achitecture.png&#34; alt=&#34;图1 播放器MVC架构&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;PlayerViewController在最顶层，负责调用View和Model，是V和M之间的桥梁，而V层和M层之前是处于同一层，他们之间没有任何调用关系；再来看V层是一个PlayerView，它负责调用PlayerViewConrolerPanel实现控制播放器的暂停，播放，进度显示，快进等和用户交互的相关职责；最后是M层,PlayerModel和PlayerSettingModel都属于M层，PlayerModel需要加载视频数据，并解码，并控制播放，暂停，停止等播放器行为，而PlayerSettingModel记录了之前播放的地址以及播放的进度&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../../../../images/player_uml.jpg&#34; alt=&#34;图2 播放器软件详细设计&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;这是一个播放器的软件详细设计(看不懂UML图的，请&lt;a href=&#34;https://www.baidu.com/s?wd=uml&amp;amp;rsv_spt=1&amp;amp;rsv_iqid=0xc60657990001b0a9&amp;amp;issp=1&amp;amp;f=8&amp;amp;rsv_bp=0&amp;amp;rsv_idx=2&amp;amp;ie=utf-8&amp;amp;tn=baiduhome_pg&amp;amp;rsv_enter=1&amp;amp;rsv_sug3=2&amp;amp;rsv_sug1=2&#34;&gt;百度&lt;/a&gt;)。&lt;/p&gt;
+
+&lt;h3 id=&#34;简单定义:7d5d3c954aa0aef7d5e1f0a2a9dbf425&#34;&gt;简单定义&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Model（数据模型）&lt;br&gt;
-模型封闭了业务逻辑和数据处理。模型的唯一职责：承担数据处理。&lt;/p&gt;&lt;/li&gt;
+模型封闭了业务逻辑和数据处理，通常一个M可以被多个界面视图使用。模型的唯一职责：承担数据处理。&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;View（视图）&lt;br&gt;
 视图是用户可以看到的部分。视图的唯一职责：负责展示数据模型层传递的数据以及用户行为响应。&lt;/p&gt;&lt;/li&gt;
@@ -190,21 +202,43 @@
 
 &lt;h2 id=&#34;几种模式分析:7d5d3c954aa0aef7d5e1f0a2a9dbf425&#34;&gt;几种模式分析&lt;/h2&gt;
 
-&lt;h5 id=&#34;传统mvc:7d5d3c954aa0aef7d5e1f0a2a9dbf425&#34;&gt;传统MVC&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;传统MVC&lt;/strong&gt;
+&lt;img src=&#34;../../../../images/traditional_mvc.gif&#34; alt=&#34;传统MVC&#34; /&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;h2 id=&#34;架构分层:7d5d3c954aa0aef7d5e1f0a2a9dbf425&#34;&gt;架构分层&lt;/h2&gt;
+&lt;p&gt;传统模式V和M之间需要相互调用，知道对方的存在，明显耦合度比较高。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;进化的MVC&lt;/strong&gt;
+&lt;img src=&#34;../../../../images/model_view_controller_2x.png&#34; alt=&#34;进化的MVC&#34; /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;当V层用户事件发生时，用户事件传递到C层，C层再调用M层响应用户事件，可能是从服务器获取数据，或者更新，删除数据。&lt;br&gt;
+当M层数据变化时，会通知C层，C层再调用V层接口更新用户界面，完成更新操作。&lt;/p&gt;
 
 &lt;h2 id=&#34;用到的设计模式简介:7d5d3c954aa0aef7d5e1f0a2a9dbf425&#34;&gt;用到的设计模式简介&lt;/h2&gt;
 
-&lt;ul&gt;
-&lt;li&gt;中介者模式&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;参与资料：&lt;/p&gt;
+&lt;p&gt;既然是简介，这里省略几百字。：）&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://developer.apple.com/library/ios/documentation/General/Conceptual/DevPedia-CocoaCore/MVC.html&#34;&gt;苹果开发官网：Model-View-Controller&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;中介者&lt;/li&gt;
+&lt;li&gt;组合&lt;/li&gt;
+&lt;li&gt;职责链&lt;/li&gt;
+&lt;li&gt;策略&lt;/li&gt;
+&lt;li&gt;观察者&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;h2 id=&#34;mvc的缺点:7d5d3c954aa0aef7d5e1f0a2a9dbf425&#34;&gt;MVC的缺点&lt;/h2&gt;
+
+&lt;p&gt;请查看&lt;a href=&#34;http://baike.baidu.com/view/5432454.htm?fromtitle=mvc&amp;amp;fromid=85990&amp;amp;type=syn#6_2&#34;&gt;(百度百科解释)&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;除了最后一点，由于不了解其它的开发环境，其它观点我完全不同意，本人未发现目前MVC有什么缺点。&lt;br&gt;
+还有疑问？欢迎和我一起讨论指正，请添加QQ群：515767434&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;参与资料:7d5d3c954aa0aef7d5e1f0a2a9dbf425&#34;&gt;参与资料：&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://developer.apple.com/library/ios/documentation/General/Conceptual/DevPedia-CocoaCore/MVC.html&#34;&gt;苹果开发官网：Model-View-Controller&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
