@@ -5,7 +5,7 @@
     <link>http://linjinxing.github.io/post/</link>
     <description>Recent content in Posts on 彤星的博客</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>zh-cn</language>
     <lastBuildDate>Wed, 23 Dec 2015 13:39:46 +0200</lastBuildDate>
     <atom:link href="http://linjinxing.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
@@ -147,13 +147,14 @@
 &lt;h2 id=&#34;本文试图解决以下问题:7d5d3c954aa0aef7d5e1f0a2a9dbf425&#34;&gt;本文试图解决以下问题：&lt;/h2&gt;
 
 &lt;ul&gt;
+&lt;li&gt;MVC有哪些优点？&lt;/li&gt;
 &lt;li&gt;掌握MVC架构&lt;/li&gt;
 &lt;li&gt;根据设计模式的单一职责，理清MVC中M,V,C的职责，特别是C(Controller)的职责，很多人对其有比较大的误解&lt;/li&gt;
 &lt;li&gt;做架构设计时，如何应用MVC做设计&lt;/li&gt;
 &lt;li&gt;MVC架构中主要使用的设计模式&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;什么？还有没被满足的需求？请添加QQ群：515767434，我会尽力帮你解决。和MVVM，MVP的区别将在另一篇中介绍。&lt;/p&gt;
+&lt;p&gt;和MVVM，MVP的区别将在另一篇中介绍。&lt;/p&gt;
 
 &lt;h2 id=&#34;简介:7d5d3c954aa0aef7d5e1f0a2a9dbf425&#34;&gt;简介&lt;/h2&gt;
 
@@ -162,7 +163,7 @@
 &lt;h2 id=&#34;为什么使用mvc:7d5d3c954aa0aef7d5e1f0a2a9dbf425&#34;&gt;为什么使用MVC&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;耦合性低&lt;br&gt;
+&lt;li&gt;&lt;p&gt;耦合度低&lt;br&gt;
 视图层和业务模型层完全分离，它们之间没有任何耦合，因此视图层和业务层可以随意地变化，而这也符合设计模式的&lt;a href=&#34;http://baike.baidu.com/view/823220.htm&#34;&gt;迪米特原则&lt;/a&gt;。&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;重用性高&lt;br&gt;
@@ -175,11 +176,28 @@
 界面变化时，业务模型层可以完全保持不变，反之亦然。&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;定义:7d5d3c954aa0aef7d5e1f0a2a9dbf425&#34;&gt;定义&lt;/h2&gt;
+&lt;h2 id=&#34;架构分层:7d5d3c954aa0aef7d5e1f0a2a9dbf425&#34;&gt;架构分层&lt;/h2&gt;
+
+&lt;p&gt;现在让我们设计一个播放器App的软件架构，个人认为分层应该如下:
+&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt; HEAD
+&lt;img src=&#34;../../../../images/player_achitecture.jpg&#34; alt=&#34;播放器MVC架构&#34; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;playerviewcontroller在最顶层-负责调用view和model-是v和m之间的桥梁-而v层和m层是处于同一层-他们之间没有任何调用关系-再来看v层是一个playerview-它负责调用playerviewconrolerpanel实现和用户交互的相关职责-用户可以暂停-播放-快进-查看播放进度等等-而playerviewrender负责渲染playermodel解码的视频数据-也就是用户看到的视频-最后是m层-playermodel和playersettingmodel都属于m层-playermodel需要加载视频数据-并解码-并控制播放-暂停-停止等播放器行为-而playersettingmodel记录了之前播放的地址以及播放的进度-请注意-这里playermodel和playersettingmodel也在同一层-他们之间没有任何的调用关系-都是通过c层传递数据:7d5d3c954aa0aef7d5e1f0a2a9dbf425&#34;&gt;PlayerViewController在最顶层，负责调用View和Model，是V和M之间的桥梁，而V层和M层是处于同一层，他们之间没有任何调用关系；再来看V层是一个PlayerView，它负责调用PlayerViewConrolerPanel实现和用户交互的相关职责，用户可以暂停，播放，快进，查看播放进度等等，而PlayerViewRender负责渲染PlayerModel解码的视频数据，也就是用户看到的视频；最后是M层,PlayerModel和PlayerSettingModel都属于M层，PlayerModel需要加载视频数据，并解码，并控制播放，暂停，停止等播放器行为，而PlayerSettingModel记录了之前播放的地址以及播放的进度，请注意，这里PlayerModel和PlayerSettingModel也在同一层，他们之间没有任何的调用关系，都是通过C层传递数据。&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&#34;../../../../images/player_achitecture.png&#34; alt=&#34;图1 播放器MVC架构&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;PlayerViewController在最顶层，负责调用View和Model，是V和M之间的桥梁，而V层和M层之前是处于同一层，他们之间没有任何调用关系；再来看V层是一个PlayerView，它负责调用PlayerViewConrolerPanel实现控制播放器的暂停，播放，进度显示，快进等和用户交互的相关职责；最后是M层,PlayerModel和PlayerSettingModel都属于M层，PlayerModel需要加载视频数据，并解码，并控制播放，暂停，停止等播放器行为，而PlayerSettingModel记录了之前播放的地址以及播放的进度
+&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt; 4cd48ec4cd5356fef5b67e9a419e7b327c6ec656&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../../../../images/player_uml.jpg&#34; alt=&#34;图2 播放器软件详细设计&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;这是一个播放器的软件详细设计(看不懂UML图的，请&lt;a href=&#34;https://www.baidu.com/s?wd=uml&amp;amp;rsv_spt=1&amp;amp;rsv_iqid=0xc60657990001b0a9&amp;amp;issp=1&amp;amp;f=8&amp;amp;rsv_bp=0&amp;amp;rsv_idx=2&amp;amp;ie=utf-8&amp;amp;tn=baiduhome_pg&amp;amp;rsv_enter=1&amp;amp;rsv_sug3=2&amp;amp;rsv_sug1=2&#34;&gt;百度&lt;/a&gt;)。&lt;/p&gt;
+
+&lt;h3 id=&#34;简单定义:7d5d3c954aa0aef7d5e1f0a2a9dbf425&#34;&gt;简单定义&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Model（数据模型）&lt;br&gt;
-模型封闭了业务逻辑和数据处理。模型的唯一职责：承担数据处理。&lt;/p&gt;&lt;/li&gt;
+模型封闭了业务逻辑和数据处理，通常一个M可以被多个界面视图使用。模型的唯一职责：承担数据处理，包括业务逻辑。&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;View（视图）&lt;br&gt;
 视图是用户可以看到的部分。视图的唯一职责：负责展示数据模型层传递的数据以及用户行为响应。&lt;/p&gt;&lt;/li&gt;
@@ -190,21 +208,43 @@
 
 &lt;h2 id=&#34;几种模式分析:7d5d3c954aa0aef7d5e1f0a2a9dbf425&#34;&gt;几种模式分析&lt;/h2&gt;
 
-&lt;h5 id=&#34;传统mvc:7d5d3c954aa0aef7d5e1f0a2a9dbf425&#34;&gt;传统MVC&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;传统MVC&lt;/strong&gt;
+&lt;img src=&#34;../../../../images/traditional_mvc.jpg&#34; alt=&#34;传统MVC&#34; /&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;h2 id=&#34;架构分层:7d5d3c954aa0aef7d5e1f0a2a9dbf425&#34;&gt;架构分层&lt;/h2&gt;
+&lt;p&gt;传统模式V和M之间需要相互调用，知道对方的存在，明显耦合度比较高。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;进化的MVC&lt;/strong&gt;
+&lt;img src=&#34;../../../../images/model_view_controller_2x.jpg&#34; alt=&#34;进化的MVC&#34; /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;当V层用户事件发生时，用户事件传递到C层，C层再调用M层响应用户事件，可能是从服务器获取数据，或者更新，删除数据。&lt;br&gt;
+当M层数据变化时，会通知C层，C层再调用V层接口更新用户界面，完成更新操作。&lt;/p&gt;
 
 &lt;h2 id=&#34;用到的设计模式简介:7d5d3c954aa0aef7d5e1f0a2a9dbf425&#34;&gt;用到的设计模式简介&lt;/h2&gt;
 
-&lt;ul&gt;
-&lt;li&gt;中介者模式&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;参与资料：&lt;/p&gt;
+&lt;p&gt;既然是简介，这里省略几百字。：）&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://developer.apple.com/library/ios/documentation/General/Conceptual/DevPedia-CocoaCore/MVC.html&#34;&gt;苹果开发官网：Model-View-Controller&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;中介者&lt;/li&gt;
+&lt;li&gt;组合&lt;/li&gt;
+&lt;li&gt;职责链&lt;/li&gt;
+&lt;li&gt;策略&lt;/li&gt;
+&lt;li&gt;观察者&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;h2 id=&#34;mvc的缺点:7d5d3c954aa0aef7d5e1f0a2a9dbf425&#34;&gt;MVC的缺点&lt;/h2&gt;
+
+&lt;p&gt;请查看&lt;a href=&#34;http://baike.baidu.com/view/5432454.htm?fromtitle=mvc&amp;amp;fromid=85990&amp;amp;type=syn#6_2&#34;&gt;(百度百科解释)&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;除了最后一点，由于不了解其它的开发环境，其它观点我完全不同意，本人未发现目前MVC有什么缺点。&lt;br&gt;
+还有疑问？欢迎和我一起讨论指正&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;参与资料:7d5d3c954aa0aef7d5e1f0a2a9dbf425&#34;&gt;参与资料：&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://developer.apple.com/library/ios/documentation/General/Conceptual/DevPedia-CocoaCore/MVC.html&#34;&gt;苹果开发官网：Model-View-Controller&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -226,6 +266,10 @@
       <description>&lt;p&gt;&lt;a href=&#34;http://ios.skyfox.org/route.html&#34;&gt;iOS学习路线&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.open-open.com/lib/view/open1437486677521.html&#34;&gt;27个提升效率的iOS开源库推荐&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://mdsa.51cto.com/art/201512/502018.htm&#34;&gt;iOS 视图，动画渲染机制探究&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://mobile.51cto.com/iphone-463665.htm&#34;&gt;最全面 iOS 语言学习资料整理&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -235,7 +279,8 @@
       <pubDate>Sat, 19 Dec 2015 13:39:46 +0200</pubDate>
       
       <guid>http://linjinxing.github.io/2015/12/19/%E4%BA%A7%E5%93%81%E7%BB%8F%E7%90%86%E7%BD%91%E4%B8%8A%E6%96%87%E7%AB%A0%E6%B1%87%E6%80%BB</guid>
-      <description></description>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.csdn.net/article/2015-12-21/2826537&#34;&gt;如何获取有价值的用户反馈？&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -262,7 +307,16 @@
       <pubDate>Sat, 19 Dec 2015 13:39:46 +0200</pubDate>
       
       <guid>http://linjinxing.github.io/2015/12/19/%E6%95%8F%E6%8D%B7%E5%BC%80%E5%8F%91%E7%BD%91%E4%B8%8A%E6%96%87%E7%AB%A0%E6%B1%87%E6%80%BB</guid>
-      <description></description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MjM5NjQ4MzI5MA==&amp;amp;mid=207981325&amp;amp;idx=1&amp;amp;sn=c4d2e24e8cd9b0d30e42a53f5dfffd40&amp;amp;scene=1&amp;amp;srcid=1224mOEbD6Zo1IyFYAKobEs4&amp;amp;key=62bb001fdbc364e5d5265557e546d5d31322fc39c555a0e1cc0063f72f31d58b5fcb2222542beb4ba84c00c2b949e1dc&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OJ8tvjktQBdzTqNNJYAw8odp2%2Bnx0twoIDjswi5lvjc%3D&#34;&gt;精益化的团队高效协作&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.woshipm.com/discuss/86673.html&#34;&gt;前腾讯研发总监王速瑜揭秘TX敏捷研发方法与平台&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MjM5NjQ4MzI5MA==&amp;amp;mid=400023941&amp;amp;idx=1&amp;amp;sn=e231c448b6e235ed0fc38eb239659110&amp;amp;scene=1&amp;amp;srcid=1224eZEYecqkprcnuaK8YgIh&amp;amp;key=62bb001fdbc364e51d7cb6e50505894f3b7b4ed83d809e6b31f401426ed2d1f3829f24c1ced00c6d4477b8b1b9dfdfab&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OJ8tvjktQBdzTqNNJYAw8odp2%2Bnx0twoIDjswi5lvjc%3D&#34;&gt;为什么敏捷没有起作用&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MjM5OTM0MzIwMQ==&amp;amp;mid=400724295&amp;amp;idx=1&amp;amp;sn=aa843611b28ff9305d3bfbc57bce49be&amp;amp;scene=1&amp;amp;srcid=12247eo8wbl0fK7owCRWxKXk&amp;amp;key=62bb001fdbc364e5566ca9a35c8ff8df6f4e526e82c5fb68fc1f999c8078136dce6b1aea362ef1fe4c4a2f2007bc5665&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OJ8tvjktQBdzTqNNJYAw8odp2%2Bnx0twoIDjswi5lvjc%3D&#34;&gt;来就来全套！敏捷开发知识体系笔记&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MjM5NjQ4MzI5MA==&amp;amp;mid=400969360&amp;amp;idx=1&amp;amp;sn=c7f4a71fb1dd14805771dca2c69c94db&amp;amp;scene=1&amp;amp;srcid=1224RtNsUTSjtflH0eyeGTjC&amp;amp;key=62bb001fdbc364e526e88bc3ded87df3f5319549a006fcad2dc263593eeb4037b0e9a659a97f46ed33d79bb89de59e11&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OJ8tvjktQBdzTqNNJYAw8odp2%2Bnx0twoIDjswi5lvjc%3D&#34;&gt;产品经理如何设计敏捷开发流程？&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -280,7 +334,9 @@
       <pubDate>Sat, 19 Dec 2015 13:39:46 +0200</pubDate>
       
       <guid>http://linjinxing.github.io/2015/12/19/%E7%AE%A1%E7%90%86%E7%BD%91%E4%B8%8A%E6%96%87%E7%AB%A0%E6%B1%87%E6%80%BB</guid>
-      <description></description>
+      <description>&lt;p&gt;###版本控制
+&lt;a href=&#34;http://www.cnblogs.com/cnblogsfans/p/5075073.html&#34;&gt;Git 在团队中的最佳实践&amp;ndash;如何正确使用Git Flow&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -289,7 +345,8 @@
       <pubDate>Sat, 19 Dec 2015 13:39:46 +0200</pubDate>
       
       <guid>http://linjinxing.github.io/2015/12/19/%E8%81%8C%E4%B8%9A%E8%A7%84%E5%88%92%E7%BD%91%E4%B8%8A%E6%96%87%E7%AB%A0%E6%B1%87%E6%80%BB</guid>
-      <description></description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MzAxNzEyODA2NQ==&amp;amp;mid=401356347&amp;amp;idx=1&amp;amp;sn=433c7466a74fe467bb64c666c925273d&amp;amp;scene=0&amp;amp;key=62bb001fdbc364e58f8d06e079181f1064838f0f73ded286bf5bfeeded1e69f63cafe0c8191f601b37d02029d4ca3bd0&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac14%2C1+OSX+OSX+10.10.5+build(14F1509)&amp;amp;version=11020201&amp;amp;pass_ticket=svbtapO9usny7hkSXXuN72buOfxQiGETmIyhf8tsHFU%3D&#34;&gt;可能是史上最好的职业生涯指南&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -318,7 +375,8 @@
       <pubDate>Sat, 19 Dec 2015 13:39:46 +0200</pubDate>
       
       <guid>http://linjinxing.github.io/2015/12/19/%E8%BD%AF%E4%BB%B6%E6%9E%B6%E6%9E%84%E7%BD%91%E4%B8%8A%E6%96%87%E7%AB%A0%E6%B1%87%E6%80%BB</guid>
-      <description></description>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.csdn.net/article/2015-12-24/2826552&#34;&gt;OpenStack高可用核心架构分析&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
   </channel>
