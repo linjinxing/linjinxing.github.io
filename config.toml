@@ -1,5 +1,5 @@
 baseurl = "http://linjinxing.github.io/"
-languageCode = "en-us"
+languageCode = "zh-cn"
 title = "彤星的博客"
 # Enable comments by entering your Disqus shortname
 # disqusShortname = "spf13"
