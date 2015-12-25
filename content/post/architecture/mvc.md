@@ -20,7 +20,7 @@ title = "MVC架构"
 MVC全名是Model View Controller，是模型(model)－视图(view)－控制器(controller)的缩写，一种软件设计典范，用一种业务逻辑、数据、界面显示分离的方法组织代码，将业务逻辑聚集到一个部件里面，在改进和个性化定制界面及用户交互的同时，不需要重新编写业务逻辑。[(百度百科解释)](http://baike.baidu.com/view/5432454.htm?fromtitle=mvc&fromid=85990&type=syn)
 
 ## 为什么使用MVC
-* 耦合性低<br>
+* 耦合度低<br>
    视图层和业务模型层完全分离，它们之间没有任何耦合，因此视图层和业务层可以随意地变化，而这也符合设计模式的[迪米特原则](http://baike.baidu.com/view/823220.htm)。
 
 * 重用性高<br>
@@ -34,10 +34,17 @@ MVC全名是Model View Controller，是模型(model)－视图(view)－控制器(
 
 ## 架构分层
 现在让我们设计一个播放器App的软件架构，个人认为分层应该如下:
+<<<<<<< HEAD
 ![播放器MVC架构](../../../../images/player_achitecture.jpg)
 PlayerViewController在最顶层，负责调用View和Model，是V和M之间的桥梁，而V层和M层是处于同一层，他们之间没有任何调用关系；再来看V层是一个PlayerView，它负责调用PlayerViewConrolerPanel实现和用户交互的相关职责，用户可以暂停，播放，快进，查看播放进度等等，而PlayerViewRender负责渲染PlayerModel解码的视频数据，也就是用户看到的视频；最后是M层,PlayerModel和PlayerSettingModel都属于M层，PlayerModel需要加载视频数据，并解码，并控制播放，暂停，停止等播放器行为，而PlayerSettingModel记录了之前播放的地址以及播放的进度，请注意，这里PlayerModel和PlayerSettingModel也在同一层，他们之间没有任何的调用关系，都是通过C层传递数据。
+=======
+![图1 播放器MVC架构](../../../../images/player_achitecture.png)
 
-![图1 播放器软件详细设计](../../../../images/player_uml.jpg)
+PlayerViewController在最顶层，负责调用View和Model，是V和M之间的桥梁，而V层和M层之前是处于同一层，他们之间没有任何调用关系；再来看V层是一个PlayerView，它负责调用PlayerViewConrolerPanel实现控制播放器的暂停，播放，进度显示，快进等和用户交互的相关职责；最后是M层,PlayerModel和PlayerSettingModel都属于M层，PlayerModel需要加载视频数据，并解码，并控制播放，暂停，停止等播放器行为，而PlayerSettingModel记录了之前播放的地址以及播放的进度
+>>>>>>> 4cd48ec4cd5356fef5b67e9a419e7b327c6ec656
+
+![图2 播放器软件详细设计](../../../../images/player_uml.jpg)
+
 这是一个播放器的软件详细设计(看不懂UML图的，请[百度](https://www.baidu.com/s?wd=uml&rsv_spt=1&rsv_iqid=0xc60657990001b0a9&issp=1&f=8&rsv_bp=0&rsv_idx=2&ie=utf-8&tn=baiduhome_pg&rsv_enter=1&rsv_sug3=2&rsv_sug1=2))。
 
 ### 简单定义
