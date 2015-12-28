@@ -105,3 +105,8 @@ theme = "hugo-icarus"
     categories = false
     tags = true
     tag_cloud = false
+
+
+# git subtree push --prefix=public git@gitcafe.com:linjinxing/linjinxing.git gitcafe-pages
+# git subtree add --prefix=public git@gitcafe.com:linjinxing/linjinxing.git gitcafe-pages --squash
+# git subtree pull --prefix=public git@gitcafe.com:linjinxing/linjinxing.git gitcafe-pages
