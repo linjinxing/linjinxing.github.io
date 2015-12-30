@@ -17,3 +17,12 @@ title = "iOS开发网上文章汇总"
 [最全面 iOS 语言学习资料整理](http://mobile.51cto.com/iphone-463665.htm)
 
 [iOS开发之音频口通信-通过方波来收发数据](http://www.jianshu.com/p/649e2c341c00)
+
+[iOS高性能图片架构与设计](http://zhuanlan.zhihu.com/magilu/20273299)
+
+
+
+
+
+
+>>>>>>> 7f9060582ce7f61ed66b26ab003366d123edc186
