@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>敏捷开发 on 彤星的博客</title>
-    <link>http://linjinxing.github.io/tags/%E6%95%8F%E6%8D%B7%E5%BC%80%E5%8F%91/</link>
+    <link>http://linjinxing.cn/tags/%E6%95%8F%E6%8D%B7%E5%BC%80%E5%8F%91/</link>
     <description>Recent content in 敏捷开发 on 彤星的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sat, 19 Dec 2015 13:39:46 +0200</lastBuildDate>
-    <atom:link href="http://linjinxing.github.io/tags/%E6%95%8F%E6%8D%B7%E5%BC%80%E5%8F%91/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://linjinxing.cn/tags/%E6%95%8F%E6%8D%B7%E5%BC%80%E5%8F%91/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>敏捷开发网上文章汇总</title>
-      <link>http://linjinxing.github.io/2015/12/19/%E6%95%8F%E6%8D%B7%E5%BC%80%E5%8F%91%E7%BD%91%E4%B8%8A%E6%96%87%E7%AB%A0%E6%B1%87%E6%80%BB</link>
+      <link>http://linjinxing.cn/2015/12/19/%E6%95%8F%E6%8D%B7%E5%BC%80%E5%8F%91%E7%BD%91%E4%B8%8A%E6%96%87%E7%AB%A0%E6%B1%87%E6%80%BB</link>
       <pubDate>Sat, 19 Dec 2015 13:39:46 +0200</pubDate>
       
-      <guid>http://linjinxing.github.io/2015/12/19/%E6%95%8F%E6%8D%B7%E5%BC%80%E5%8F%91%E7%BD%91%E4%B8%8A%E6%96%87%E7%AB%A0%E6%B1%87%E6%80%BB</guid>
+      <guid>http://linjinxing.cn/2015/12/19/%E6%95%8F%E6%8D%B7%E5%BC%80%E5%8F%91%E7%BD%91%E4%B8%8A%E6%96%87%E7%AB%A0%E6%B1%87%E6%80%BB</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MjM5NjQ4MzI5MA==&amp;amp;mid=207981325&amp;amp;idx=1&amp;amp;sn=c4d2e24e8cd9b0d30e42a53f5dfffd40&amp;amp;scene=1&amp;amp;srcid=1224mOEbD6Zo1IyFYAKobEs4&amp;amp;key=62bb001fdbc364e5d5265557e546d5d31322fc39c555a0e1cc0063f72f31d58b5fcb2222542beb4ba84c00c2b949e1dc&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OJ8tvjktQBdzTqNNJYAw8odp2%2Bnx0twoIDjswi5lvjc%3D&#34;&gt;精益化的团队高效协作&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.woshipm.com/discuss/86673.html&#34;&gt;前腾讯研发总监王速瑜揭秘TX敏捷研发方法与平台&lt;/a&gt;&lt;/p&gt;
