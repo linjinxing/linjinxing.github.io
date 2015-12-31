@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Javascript on 彤星的博客</title>
+    <link>http://linjinxing.gitcafe.io/tags/javascript/</link>
+    <description>Recent content in Javascript on 彤星的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 19 Dec 2015 13:39:46 +0200</lastBuildDate>
+    <atom:link href="http://linjinxing.gitcafe.io/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>前端开发网上文章汇总</title>
+      <link>http://linjinxing.gitcafe.io/2015/12/19/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E7%BD%91%E4%B8%8A%E6%96%87%E7%AB%A0%E6%B1%87%E6%80%BB</link>
+      <pubDate>Sat, 19 Dec 2015 13:39:46 +0200</pubDate>
+      
+      <guid>http://linjinxing.gitcafe.io/2015/12/19/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E7%BD%91%E4%B8%8A%E6%96%87%E7%AB%A0%E6%B1%87%E6%80%BB</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.cnblogs.com/Wayou/p/es6_new_features.html&#34;&gt;ES6新特性概览&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://segmentfault.com/a/1190000000606216&#34;&gt;React 的 diff 算法&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://taobaofed.org/blog/2015/12/30/the-communication-scheme-of-react-native-in-ios/&#34;&gt;使用 JS 构建跨平台的原生应用：React Native iOS 通信机制初探&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://zhuanlan.zhihu.com/magilu/20259704&#34;&gt;React Native For Android 架构初探&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://taobaofed.org/blog/2015/10/28/try-catch-runing-problem/&#34;&gt;try catch 对代码运行的性能影响&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://wiki.jikexueyuan.com/project/react-native/homepage.html&#34;&gt;React Native 教程&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

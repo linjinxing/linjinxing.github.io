@@ -8,12 +8,12 @@
     <meta name="author" content="John Doe">
     
     
-    <link rel="icon" href="http://linjinxing.github.io/favicon.ico">
-    <link rel="apple-touch-icon" href="http://linjinxing.github.io/apple-touch-icon.jpg" />
-    <link rel="stylesheet" href="http://linjinxing.github.io/css/style.css">
-    <link rel="stylesheet" href="http://linjinxing.github.io/css/font-awesome.min.css">
-    <link rel="stylesheet" href="http://linjinxing.github.io/css/monokai.css">
-    <link rel="stylesheet" href="http://linjinxing.github.io/fancybox/jquery.fancybox.css">
+    <link rel="icon" href="http://linjinxing.gitcafe.io/favicon.ico">
+    <link rel="apple-touch-icon" href="http://linjinxing.gitcafe.io/apple-touch-icon.jpg" />
+    <link rel="stylesheet" href="http://linjinxing.gitcafe.io/css/style.css">
+    <link rel="stylesheet" href="http://linjinxing.gitcafe.io/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://linjinxing.gitcafe.io/css/monokai.css">
+    <link rel="stylesheet" href="http://linjinxing.gitcafe.io/fancybox/jquery.fancybox.css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
     <script>
@@ -28,7 +28,7 @@
     <meta property="og:title" content="MVC架构" />
 <meta property="og:description" content="郑重申明，原创文章，转载请注明出处：彤星的博客-MVC架构 本文试图解决以下问题： MVC有哪些优点？ 掌握MVC架构 根据设计模式的单一职责，理清MVC中M,V,C的职责，特别是C(Controller)的职责，很多人对其有比较大的误解 做架构设计时，如何应用MVC做设计 MVC架构中主要使用的设计模式 和MVVM，MVP的区别将在另一篇中介绍。 简介 MVC全名是Model View Controller，是模型(model)－视图(view)－控制器(controller)的缩写，一种用于有用户界面的软件架构模式，它将应用程序分为数据、视图、控制器三个部分，从而将代码分离。而模型层将业务逻辑聚集到一个部件里面，在改进和个性化定制界面及用户交互的同时，不需要重新编写业务逻辑。(维基百科解释) MVC优点 耦合度低 视图层和业务模型层完全分离，它们之间没有任何耦合，因此视图层和业务层可以随意地变化，而这也符合设计模式的迪米特原则。 重用性高 由于视图层和业务模型层完全分离，能很大程度上保证他们被继承，组合，关联，依赖。 容易分工，提高开发效率 可以将界面和模型层分配给两个人同时进行开发，缩短开发周期。 扩展容易 界面变化时，业务模型层可以完全保持不变，反之亦然。 架构分层 现在让我们设计一个播放器App的软件架构，个人认为分层应该如下: 现在让我们设计一个播放器App的软件架构，个人认为分层应该如下: C层的PlayerViewController在最顶层，负责调用View和Model，是V和M之间的桥梁，而V层和M层是处于同一层，他们之间没有任何调用关系； 再来看V层是一个PlayerView，它负责调用PlayerViewConrolerPanel实现和用户交互的相关职责，用户可以暂停，播放，快进，查看播放进度等等，而PlayerViewRender负责渲染PlayerModel解码的视频数据，也就是用户看到的视频； 最后是M层,PlayerModel和PlayerSettingModel都属于M层，PlayerModel需要加载视频数据，并解码，并控制播放，暂停，停止等播放器行为，而PlayerSettingModel记录了之前播放的地址以及播放的进度，请注意，这里PlayerModel和PlayerSettingModel也在同一层，他们之间没有任何的调用关系，都是通过C层传递数据。 这是一个播放器的软件详细设计(看不懂UML图的，请百度)。 简单定义 Model（数据模型） 模型封闭了业务逻辑和数据处理，通常一个M可以被多个界面视图使用。模型的唯一职责：承担数据处理，包括业务逻辑。 View（视图） 视图是用户可以看到的部分。视图的唯一职责：负责展示数据模型层传递的数据以及用户行为响应。 Controller（控制器） 控制器是一个或者多个M和一个或者多个V之间的中介，是M和V之间数据交换的桥梁。控制器职责：负责M和V之间的数据交换。 几种模式分析 传统MVC 传统模式V和M之间需要相互调用，知道对方的存在，明显耦合度比较高。 进化的MVC 当V层用户事件发生时，用户事件传递到C层，C层再调用M层响应用户事件，可能是从服务器获取数据，或者更新，删除数据。 当M层数据变化时，会通知C层，C层再调用V层接口更新用户界面，完成更新操作。 使用的设计模式简介 既然是简介，这里省略几百字。：） 中介者：C承担V和M之间的中介 组合： 用户看到的视图，是由多个视图组合而成，比如播放器由播放器控制面板和播放器视图渲染组合而成 职责链：当用户点击控制面板上的按钮时，如果按钮不处理事件，事件就会一直往父视图传递，直到事件被处理了 策略：用户的事件需要被不同地处理，通常会调用不同的model处理函数 观察者：当数据更新时，需要通知C，数据变化了。 MVC的缺点 (百度百科解释) 没有明确的定义 不适合小型，中等规模的应用程序 增加系统结构和实现的复杂性 视图与控制器间的过于紧密的连接 视图对模型数据的低效率访问 一般高级的界面工具或构造器不支持模式 除了第4和6点，由于不了解其它的开发环境，其它观点我完全不同意，本人未发现目前MVC有什么缺点。 还有疑问？欢迎和我一起讨论指正，请添加QQ群：515767434 参与资料： 苹果开发官网：Model-View-Controller" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://linjinxing.github.io/2015/12/22/mvc%E6%9E%B6%E6%9E%84" />
+<meta property="og:url" content="http://linjinxing.gitcafe.io/2015/12/22/mvc%E6%9E%B6%E6%9E%84" />
 
 
 <meta property="og:updated_time" content="2015-12-22T13:39:46&#43;02:00"/>
@@ -53,7 +53,7 @@
 
 
 
-<meta itemprop="keywords" content="android,ios,产品,其它,学习方法,敏捷开发,时间管理,程序人生,管理,软件架构,android,ios,mvc,t1,t2,t3,t4,t5,t6,交互,产品经理,优秀,分层,学习方法,开发效率,扩展,提高,敏捷开发,时间管理,架构,汇总,管理,耦合,职业规划,能力,设计,设计模式,评级,运营,重用," />
+<meta itemprop="keywords" content="android,ios,产品,其它,前端,学习方法,敏捷开发,时间管理,程序人生,管理,软件架构,android,ios,javascript,mvc,t1,t2,t3,t4,t5,t6,交互,产品经理,优秀,分层,前端,学习方法,开发效率,扩展,提高,敏捷开发,时间管理,架构,汇总,管理,耦合,职业规划,能力,设计,设计模式,评级,运营,重用," />
 
     
 
@@ -74,19 +74,19 @@
 <header id="header">
   <div id="header-main" class="header-inner">
     <div class="outer">
-      <a href="http://linjinxing.github.io/" id="logo"><i class="logo" style="background-image: url('http://linjinxing.github.io/css/images/logo.jpg')"></i><span class="site-title">彤星的博客</span></a>
+      <a href="http://linjinxing.gitcafe.io/" id="logo"><i class="logo" style="background-image: url('http://linjinxing.gitcafe.io/css/images/logo.jpg')"></i><span class="site-title">彤星的博客</span></a>
       <nav id="main-nav">
           
           
-          <a class="main-nav-link" href="http://linjinxing.github.io/">首页</a>
+          <a class="main-nav-link" href="http://linjinxing.gitcafe.io/">首页</a>
           
           
           
-          <a class="main-nav-link" href="http://linjinxing.github.io/categories/ios">iOS</a>
+          <a class="main-nav-link" href="http://linjinxing.gitcafe.io/categories/ios">iOS</a>
           
           
           
-          <a class="main-nav-link" href="http://linjinxing.github.io/categories/%E8%BD%AF%E4%BB%B6%E6%9E%B6%E6%9E%84">架构</a>
+          <a class="main-nav-link" href="http://linjinxing.gitcafe.io/categories/%E8%BD%AF%E4%BB%B6%E6%9E%B6%E6%9E%84">架构</a>
           
           
           
@@ -114,31 +114,31 @@
           
           
           
-          <a class="main-nav-link" href="http://linjinxing.github.io/categories/%E7%A8%8B%E5%BA%8F%E4%BA%BA%E7%94%9F">程序人生</a>
+          <a class="main-nav-link" href="http://linjinxing.gitcafe.io/categories/%E7%A8%8B%E5%BA%8F%E4%BA%BA%E7%94%9F">程序人生</a>
           
           
           
-          <a class="main-nav-link" href="http://linjinxing.github.io/categories/%E7%AE%A1%E7%90%86">管理</a>
+          <a class="main-nav-link" href="http://linjinxing.gitcafe.io/categories/%E7%AE%A1%E7%90%86">管理</a>
           
           
           
-          <a class="main-nav-link" href="http://linjinxing.github.io/categories/%E6%95%8F%E6%8D%B7%E5%BC%80%E5%8F%91">敏捷开发</a>
+          <a class="main-nav-link" href="http://linjinxing.gitcafe.io/categories/%E6%95%8F%E6%8D%B7%E5%BC%80%E5%8F%91">敏捷开发</a>
           
           
           
-          <a class="main-nav-link" href="http://linjinxing.github.io/categories/android">android</a>
+          <a class="main-nav-link" href="http://linjinxing.gitcafe.io/categories/android">android</a>
           
           
           
-          <a class="main-nav-link" href="http://linjinxing.github.io/categories/%E4%BA%A7%E5%93%81">产品</a>
+          <a class="main-nav-link" href="http://linjinxing.gitcafe.io/categories/%E4%BA%A7%E5%93%81">产品</a>
           
           
           
-          <a class="main-nav-link" href="http://linjinxing.github.io/categories/%E5%85%B6%E5%AE%83">其它</a>
+          <a class="main-nav-link" href="http://linjinxing.gitcafe.io/categories/%E5%85%B6%E5%AE%83">其它</a>
           
           
           
-          <a class="main-nav-link" href="http://linjinxing.github.io/resume">个人简介</a>
+          <a class="main-nav-link" href="http://linjinxing.gitcafe.io/resume">个人简介</a>
           
           
       </nav>
@@ -155,15 +155,15 @@
           <tr>
           
           
-          <td><a class="main-nav-link" href="http://linjinxing.github.io/">首页</a></td>
+          <td><a class="main-nav-link" href="http://linjinxing.gitcafe.io/">首页</a></td>
           
           
           
-          <td><a class="main-nav-link" href="http://linjinxing.github.io/categories/ios">iOS</a></td>
+          <td><a class="main-nav-link" href="http://linjinxing.gitcafe.io/categories/ios">iOS</a></td>
           
           
           
-          <td><a class="main-nav-link" href="http://linjinxing.github.io/categories/%E8%BD%AF%E4%BB%B6%E6%9E%B6%E6%9E%84">架构</a></td>
+          <td><a class="main-nav-link" href="http://linjinxing.gitcafe.io/categories/%E8%BD%AF%E4%BB%B6%E6%9E%B6%E6%9E%84">架构</a></td>
           
           
           
@@ -191,31 +191,31 @@
           
           
           
-          <td><a class="main-nav-link" href="http://linjinxing.github.io/categories/%E7%A8%8B%E5%BA%8F%E4%BA%BA%E7%94%9F">程序人生</a></td>
+          <td><a class="main-nav-link" href="http://linjinxing.gitcafe.io/categories/%E7%A8%8B%E5%BA%8F%E4%BA%BA%E7%94%9F">程序人生</a></td>
           
           
           
-          <td><a class="main-nav-link" href="http://linjinxing.github.io/categories/%E7%AE%A1%E7%90%86">管理</a></td>
+          <td><a class="main-nav-link" href="http://linjinxing.gitcafe.io/categories/%E7%AE%A1%E7%90%86">管理</a></td>
           
           
           
-          <td><a class="main-nav-link" href="http://linjinxing.github.io/categories/%E6%95%8F%E6%8D%B7%E5%BC%80%E5%8F%91">敏捷开发</a></td>
+          <td><a class="main-nav-link" href="http://linjinxing.gitcafe.io/categories/%E6%95%8F%E6%8D%B7%E5%BC%80%E5%8F%91">敏捷开发</a></td>
           
           
           
-          <td><a class="main-nav-link" href="http://linjinxing.github.io/categories/android">android</a></td>
+          <td><a class="main-nav-link" href="http://linjinxing.gitcafe.io/categories/android">android</a></td>
           
           
           
-          <td><a class="main-nav-link" href="http://linjinxing.github.io/categories/%E4%BA%A7%E5%93%81">产品</a></td>
+          <td><a class="main-nav-link" href="http://linjinxing.gitcafe.io/categories/%E4%BA%A7%E5%93%81">产品</a></td>
           
           
           
-          <td><a class="main-nav-link" href="http://linjinxing.github.io/categories/%E5%85%B6%E5%AE%83">其它</a></td>
+          <td><a class="main-nav-link" href="http://linjinxing.gitcafe.io/categories/%E5%85%B6%E5%AE%83">其它</a></td>
           
           
           
-          <td><a class="main-nav-link" href="http://linjinxing.github.io/resume">个人简介</a></td>
+          <td><a class="main-nav-link" href="http://linjinxing.gitcafe.io/resume">个人简介</a></td>
           
           
           <td>
@@ -236,7 +236,7 @@
         <div class="article-inner">
             
             <header class="article-header">
-    <a href="http://linjinxing.github.io/2015/12/22/mvc%E6%9E%B6%E6%9E%84">
+    <a href="http://linjinxing.gitcafe.io/2015/12/22/mvc%E6%9E%B6%E6%9E%84">
     <h1 class="article-title" itemprop="name">
         MVC架构
     </h1>
@@ -257,7 +257,7 @@
         <div class="article-category">
             <i class="fa fa-folder"></i>
             
-            <a class="article-category-link" href="http://linjinxing.github.io/categories/%e8%bd%af%e4%bb%b6%e6%9e%b6%e6%9e%84">软件架构</a>
+            <a class="article-category-link" href="http://linjinxing.gitcafe.io/categories/%e8%bd%af%e4%bb%b6%e6%9e%b6%e6%9e%84">软件架构</a>
             
             
         </div>
@@ -268,31 +268,31 @@
         <div class="article-category">
             <i class="fa fa-tags"></i>
             
-            <a class="article-category-link" href="http://linjinxing.github.io/tags/mvc">MVC</a>
+            <a class="article-category-link" href="http://linjinxing.gitcafe.io/tags/mvc">MVC</a>
             &middot;
             
-            <a class="article-category-link" href="http://linjinxing.github.io/tags/%e6%9e%b6%e6%9e%84">架构</a>
+            <a class="article-category-link" href="http://linjinxing.gitcafe.io/tags/%e6%9e%b6%e6%9e%84">架构</a>
             &middot;
             
-            <a class="article-category-link" href="http://linjinxing.github.io/tags/%e8%80%a6%e5%90%88">耦合</a>
+            <a class="article-category-link" href="http://linjinxing.gitcafe.io/tags/%e8%80%a6%e5%90%88">耦合</a>
             &middot;
             
-            <a class="article-category-link" href="http://linjinxing.github.io/tags/%e9%87%8d%e7%94%a8">重用</a>
+            <a class="article-category-link" href="http://linjinxing.gitcafe.io/tags/%e9%87%8d%e7%94%a8">重用</a>
             &middot;
             
-            <a class="article-category-link" href="http://linjinxing.github.io/tags/%e5%bc%80%e5%8f%91%e6%95%88%e7%8e%87">开发效率</a>
+            <a class="article-category-link" href="http://linjinxing.gitcafe.io/tags/%e5%bc%80%e5%8f%91%e6%95%88%e7%8e%87">开发效率</a>
             &middot;
             
-            <a class="article-category-link" href="http://linjinxing.github.io/tags/%e6%89%a9%e5%b1%95">扩展</a>
+            <a class="article-category-link" href="http://linjinxing.gitcafe.io/tags/%e6%89%a9%e5%b1%95">扩展</a>
             &middot;
             
-            <a class="article-category-link" href="http://linjinxing.github.io/tags/%e8%ae%be%e8%ae%a1%e6%a8%a1%e5%bc%8f">设计模式</a>
+            <a class="article-category-link" href="http://linjinxing.gitcafe.io/tags/%e8%ae%be%e8%ae%a1%e6%a8%a1%e5%bc%8f">设计模式</a>
             &middot;
             
-            <a class="article-category-link" href="http://linjinxing.github.io/tags/%e5%88%86%e5%b1%82">分层</a>
+            <a class="article-category-link" href="http://linjinxing.gitcafe.io/tags/%e5%88%86%e5%b1%82">分层</a>
             &middot;
             
-            <a class="article-category-link" href="http://linjinxing.github.io/tags/t4">T4</a>
+            <a class="article-category-link" href="http://linjinxing.gitcafe.io/tags/t4">T4</a>
             
             
         </div>
@@ -417,7 +417,7 @@
 
             </div>
             <footer class="article-footer">
-    <a data-url="http://linjinxing.github.io/2015/12/22/mvc%E6%9E%B6%E6%9E%84" data-id="7d5d3c954aa0aef7d5e1f0a2a9dbf425" class="article-share-link">
+    <a data-url="http://linjinxing.gitcafe.io/2015/12/22/mvc%E6%9E%B6%E6%9E%84" data-id="7d5d3c954aa0aef7d5e1f0a2a9dbf425" class="article-share-link">
         共享
     </a>
     
@@ -428,7 +428,7 @@
         
 <nav id="article-nav">
     
-    <a href="http://linjinxing.github.io/2015/12/19/android%E5%BC%80%E5%8F%91%E7%BD%91%E4%B8%8A%E6%96%87%E7%AB%A0%E6%B1%87%E6%80%BB" id="article-nav-older" class="article-nav-link-wrap">
+    <a href="http://linjinxing.gitcafe.io/2015/12/19/android%E5%BC%80%E5%8F%91%E7%BD%91%E4%B8%8A%E6%96%87%E7%AB%A0%E6%B1%87%E6%80%BB" id="article-nav-older" class="article-nav-link-wrap">
       <strong class="article-nav-caption">
           更老文章
       </strong>
@@ -437,7 +437,7 @@
     
 
     
-    <a href="http://linjinxing.github.io/2015/12/23/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%B8%88%E6%8A%80%E6%9C%AF%E7%AD%89%E7%BA%A7%E8%AF%84%E5%AE%9A%E6%A0%87%E5%87%86%E5%88%9D%E7%A8%BF" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="http://linjinxing.gitcafe.io/2015/12/23/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%B8%88%E6%8A%80%E6%9C%AF%E7%AD%89%E7%BA%A7%E8%AF%84%E5%AE%9A%E6%A0%87%E5%87%86%E5%88%9D%E7%A8%BF" id="article-nav-newer" class="article-nav-link-wrap">
       <strong class="article-nav-caption">
           更新文章
       </strong>
@@ -467,21 +467,21 @@
             
             <li>
                 <div class="item-thumbnail">
-                    <a href="http://linjinxing.github.io/2015/12/22/mvc%E6%9E%B6%E6%9E%84" class="thumbnail">
+                    <a href="http://linjinxing.gitcafe.io/2015/12/22/mvc%E6%9E%B6%E6%9E%84" class="thumbnail">
                     
-                        <span style="background-image:url(http://linjinxing.github.io/banners/placeholder.png)" alt="MVC架构" class="thumbnail-image"></span>
+                        <span style="background-image:url(http://linjinxing.gitcafe.io/banners/placeholder.png)" alt="MVC架构" class="thumbnail-image"></span>
                     
                     </a>
                 </div>
                 <div class="item-inner">
                     
                     <p class="item-category">
-                        <a class="article-category-link" href="http://linjinxing.github.io/categories/%e5%85%b6%e5%ae%83">
+                        <a class="article-category-link" href="http://linjinxing.gitcafe.io/categories/%e5%85%b6%e5%ae%83">
                         其它
                         </a>
                     </p>
                     
-                    <p class="item-title"><a href="http://linjinxing.github.io/2015/12/23/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%B8%88%E6%8A%80%E6%9C%AF%E7%AD%89%E7%BA%A7%E8%AF%84%E5%AE%9A%E6%A0%87%E5%87%86%E5%88%9D%E7%A8%BF" class="title">软件工程师技术等级评定标准(初稿)</a></p>
+                    <p class="item-title"><a href="http://linjinxing.gitcafe.io/2015/12/23/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%B8%88%E6%8A%80%E6%9C%AF%E7%AD%89%E7%BA%A7%E8%AF%84%E5%AE%9A%E6%A0%87%E5%87%86%E5%88%9D%E7%A8%BF" class="title">软件工程师技术等级评定标准(初稿)</a></p>
                     <p class="item-date">
                         <time datetime="2015-12-23 13:39:46 &#43;0200 &#43;0200" itemprop="datePublished">2015-12-23</time>
                     </p>
@@ -490,21 +490,21 @@
             
             <li>
                 <div class="item-thumbnail">
-                    <a href="http://linjinxing.github.io/2015/12/22/mvc%E6%9E%B6%E6%9E%84" class="thumbnail">
+                    <a href="http://linjinxing.gitcafe.io/2015/12/22/mvc%E6%9E%B6%E6%9E%84" class="thumbnail">
                     
-                        <span style="background-image:url(http://linjinxing.github.io/banners/placeholder.png)" alt="MVC架构" class="thumbnail-image"></span>
+                        <span style="background-image:url(http://linjinxing.gitcafe.io/banners/placeholder.png)" alt="MVC架构" class="thumbnail-image"></span>
                     
                     </a>
                 </div>
                 <div class="item-inner">
                     
                     <p class="item-category">
-                        <a class="article-category-link" href="http://linjinxing.github.io/categories/%e8%bd%af%e4%bb%b6%e6%9e%b6%e6%9e%84">
+                        <a class="article-category-link" href="http://linjinxing.gitcafe.io/categories/%e8%bd%af%e4%bb%b6%e6%9e%b6%e6%9e%84">
                         软件架构
                         </a>
                     </p>
                     
-                    <p class="item-title"><a href="http://linjinxing.github.io/2015/12/22/mvc%E6%9E%B6%E6%9E%84" class="title">MVC架构</a></p>
+                    <p class="item-title"><a href="http://linjinxing.gitcafe.io/2015/12/22/mvc%E6%9E%B6%E6%9E%84" class="title">MVC架构</a></p>
                     <p class="item-date">
                         <time datetime="2015-12-22 13:39:46 &#43;0200 &#43;0200" itemprop="datePublished">2015-12-22</time>
                     </p>
@@ -513,21 +513,21 @@
             
             <li>
                 <div class="item-thumbnail">
-                    <a href="http://linjinxing.github.io/2015/12/22/mvc%E6%9E%B6%E6%9E%84" class="thumbnail">
+                    <a href="http://linjinxing.gitcafe.io/2015/12/22/mvc%E6%9E%B6%E6%9E%84" class="thumbnail">
                     
-                        <span style="background-image:url(http://linjinxing.github.io/banners/placeholder.png)" alt="MVC架构" class="thumbnail-image"></span>
+                        <span style="background-image:url(http://linjinxing.gitcafe.io/banners/placeholder.png)" alt="MVC架构" class="thumbnail-image"></span>
                     
                     </a>
                 </div>
                 <div class="item-inner">
                     
                     <p class="item-category">
-                        <a class="article-category-link" href="http://linjinxing.github.io/categories/android">
+                        <a class="article-category-link" href="http://linjinxing.gitcafe.io/categories/android">
                         android
                         </a>
                     </p>
                     
-                    <p class="item-title"><a href="http://linjinxing.github.io/2015/12/19/android%E5%BC%80%E5%8F%91%E7%BD%91%E4%B8%8A%E6%96%87%E7%AB%A0%E6%B1%87%E6%80%BB" class="title">android开发网上文章汇总</a></p>
+                    <p class="item-title"><a href="http://linjinxing.gitcafe.io/2015/12/19/android%E5%BC%80%E5%8F%91%E7%BD%91%E4%B8%8A%E6%96%87%E7%AB%A0%E6%B1%87%E6%80%BB" class="title">android开发网上文章汇总</a></p>
                     <p class="item-date">
                         <time datetime="2015-12-19 13:39:46 &#43;0200 &#43;0200" itemprop="datePublished">2015-12-19</time>
                     </p>
@@ -536,21 +536,21 @@
             
             <li>
                 <div class="item-thumbnail">
-                    <a href="http://linjinxing.github.io/2015/12/22/mvc%E6%9E%B6%E6%9E%84" class="thumbnail">
+                    <a href="http://linjinxing.gitcafe.io/2015/12/22/mvc%E6%9E%B6%E6%9E%84" class="thumbnail">
                     
-                        <span style="background-image:url(http://linjinxing.github.io/banners/placeholder.png)" alt="MVC架构" class="thumbnail-image"></span>
+                        <span style="background-image:url(http://linjinxing.gitcafe.io/banners/placeholder.png)" alt="MVC架构" class="thumbnail-image"></span>
                     
                     </a>
                 </div>
                 <div class="item-inner">
                     
                     <p class="item-category">
-                        <a class="article-category-link" href="http://linjinxing.github.io/categories/ios">
+                        <a class="article-category-link" href="http://linjinxing.gitcafe.io/categories/ios">
                         iOS
                         </a>
                     </p>
                     
-                    <p class="item-title"><a href="http://linjinxing.github.io/2015/12/19/ios%E5%BC%80%E5%8F%91%E7%BD%91%E4%B8%8A%E6%96%87%E7%AB%A0%E6%B1%87%E6%80%BB" class="title">iOS开发网上文章汇总</a></p>
+                    <p class="item-title"><a href="http://linjinxing.gitcafe.io/2015/12/19/ios%E5%BC%80%E5%8F%91%E7%BD%91%E4%B8%8A%E6%96%87%E7%AB%A0%E6%B1%87%E6%80%BB" class="title">iOS开发网上文章汇总</a></p>
                     <p class="item-date">
                         <time datetime="2015-12-19 13:39:46 &#43;0200 &#43;0200" itemprop="datePublished">2015-12-19</time>
                     </p>
@@ -559,21 +559,21 @@
             
             <li>
                 <div class="item-thumbnail">
-                    <a href="http://linjinxing.github.io/2015/12/22/mvc%E6%9E%B6%E6%9E%84" class="thumbnail">
+                    <a href="http://linjinxing.gitcafe.io/2015/12/22/mvc%E6%9E%B6%E6%9E%84" class="thumbnail">
                     
-                        <span style="background-image:url(http://linjinxing.github.io/banners/placeholder.png)" alt="MVC架构" class="thumbnail-image"></span>
+                        <span style="background-image:url(http://linjinxing.gitcafe.io/banners/placeholder.png)" alt="MVC架构" class="thumbnail-image"></span>
                     
                     </a>
                 </div>
                 <div class="item-inner">
                     
                     <p class="item-category">
-                        <a class="article-category-link" href="http://linjinxing.github.io/categories/%e4%ba%a7%e5%93%81">
+                        <a class="article-category-link" href="http://linjinxing.gitcafe.io/categories/%e4%ba%a7%e5%93%81">
                         产品
                         </a>
                     </p>
                     
-                    <p class="item-title"><a href="http://linjinxing.github.io/2015/12/19/%E4%BA%A7%E5%93%81%E7%BB%8F%E7%90%86%E7%BD%91%E4%B8%8A%E6%96%87%E7%AB%A0%E6%B1%87%E6%80%BB" class="title">产品经理网上文章汇总</a></p>
+                    <p class="item-title"><a href="http://linjinxing.gitcafe.io/2015/12/19/%E4%BA%A7%E5%93%81%E7%BB%8F%E7%90%86%E7%BD%91%E4%B8%8A%E6%96%87%E7%AB%A0%E6%B1%87%E6%80%BB" class="title">产品经理网上文章汇总</a></p>
                     <p class="item-date">
                         <time datetime="2015-12-19 13:39:46 &#43;0200 &#43;0200" itemprop="datePublished">2015-12-19</time>
                     </p>
@@ -597,210 +597,224 @@
         <ul class="category-list">
             
             
-                <a class="category-list-link" href="http://linjinxing.github.io/tags/android">
+                <a class="category-list-link" href="http://linjinxing.gitcafe.io/tags/android">
                     android(1)
                 </a>
                
             
             
             
-                <a class="category-list-link" href="http://linjinxing.github.io/tags/ios">
+                <a class="category-list-link" href="http://linjinxing.gitcafe.io/tags/ios">
                     ios(1)
                 </a>
                
             
             
             
-                <a class="category-list-link" href="http://linjinxing.github.io/tags/mvc">
+                <a class="category-list-link" href="http://linjinxing.gitcafe.io/tags/javascript">
+                    javascript(1)
+                </a>
+               
+            
+            
+            
+                <a class="category-list-link" href="http://linjinxing.gitcafe.io/tags/mvc">
                     mvc(1)
                 </a>
                
             
             
             
-                <a class="category-list-link" href="http://linjinxing.github.io/tags/t1">
+                <a class="category-list-link" href="http://linjinxing.gitcafe.io/tags/t1">
                     t1(2)
                 </a>
                
             
             
             
-                <a class="category-list-link" href="http://linjinxing.github.io/tags/t2">
+                <a class="category-list-link" href="http://linjinxing.gitcafe.io/tags/t2">
                     t2(2)
                 </a>
                
             
             
             
-                <a class="category-list-link" href="http://linjinxing.github.io/tags/t3">
+                <a class="category-list-link" href="http://linjinxing.gitcafe.io/tags/t3">
                     t3(2)
                 </a>
                
             
             
             
-                <a class="category-list-link" href="http://linjinxing.github.io/tags/t4">
+                <a class="category-list-link" href="http://linjinxing.gitcafe.io/tags/t4">
                     t4(3)
                 </a>
                
             
             
             
-                <a class="category-list-link" href="http://linjinxing.github.io/tags/t5">
+                <a class="category-list-link" href="http://linjinxing.gitcafe.io/tags/t5">
                     t5(2)
                 </a>
                
             
             
             
-                <a class="category-list-link" href="http://linjinxing.github.io/tags/t6">
+                <a class="category-list-link" href="http://linjinxing.gitcafe.io/tags/t6">
                     t6(2)
                 </a>
                
             
             
             
-                <a class="category-list-link" href="http://linjinxing.github.io/tags/%e4%ba%a4%e4%ba%92">
+                <a class="category-list-link" href="http://linjinxing.gitcafe.io/tags/%e4%ba%a4%e4%ba%92">
                     交互(1)
                 </a>
                
             
             
             
-                <a class="category-list-link" href="http://linjinxing.github.io/tags/%e4%ba%a7%e5%93%81%e7%bb%8f%e7%90%86">
+                <a class="category-list-link" href="http://linjinxing.gitcafe.io/tags/%e4%ba%a7%e5%93%81%e7%bb%8f%e7%90%86">
                     产品经理(1)
                 </a>
                
             
             
             
-                <a class="category-list-link" href="http://linjinxing.github.io/tags/%e4%bc%98%e7%a7%80">
+                <a class="category-list-link" href="http://linjinxing.gitcafe.io/tags/%e4%bc%98%e7%a7%80">
                     优秀(2)
                 </a>
                
             
             
             
-                <a class="category-list-link" href="http://linjinxing.github.io/tags/%e5%88%86%e5%b1%82">
+                <a class="category-list-link" href="http://linjinxing.gitcafe.io/tags/%e5%88%86%e5%b1%82">
                     分层(1)
                 </a>
                
             
             
             
-                <a class="category-list-link" href="http://linjinxing.github.io/tags/%e5%ad%a6%e4%b9%a0%e6%96%b9%e6%b3%95">
+                <a class="category-list-link" href="http://linjinxing.gitcafe.io/tags/%e5%89%8d%e7%ab%af">
+                    前端(1)
+                </a>
+               
+            
+            
+            
+                <a class="category-list-link" href="http://linjinxing.gitcafe.io/tags/%e5%ad%a6%e4%b9%a0%e6%96%b9%e6%b3%95">
                     学习方法(2)
                 </a>
                
             
             
             
-                <a class="category-list-link" href="http://linjinxing.github.io/tags/%e5%bc%80%e5%8f%91%e6%95%88%e7%8e%87">
+                <a class="category-list-link" href="http://linjinxing.gitcafe.io/tags/%e5%bc%80%e5%8f%91%e6%95%88%e7%8e%87">
                     开发效率(1)
                 </a>
                
             
             
             
-                <a class="category-list-link" href="http://linjinxing.github.io/tags/%e6%89%a9%e5%b1%95">
+                <a class="category-list-link" href="http://linjinxing.gitcafe.io/tags/%e6%89%a9%e5%b1%95">
                     扩展(1)
                 </a>
                
             
             
             
-                <a class="category-list-link" href="http://linjinxing.github.io/tags/%e6%8f%90%e9%ab%98">
+                <a class="category-list-link" href="http://linjinxing.gitcafe.io/tags/%e6%8f%90%e9%ab%98">
                     提高(2)
                 </a>
                
             
             
             
-                <a class="category-list-link" href="http://linjinxing.github.io/tags/%e6%95%8f%e6%8d%b7%e5%bc%80%e5%8f%91">
+                <a class="category-list-link" href="http://linjinxing.gitcafe.io/tags/%e6%95%8f%e6%8d%b7%e5%bc%80%e5%8f%91">
                     敏捷开发(1)
                 </a>
                
             
             
             
-                <a class="category-list-link" href="http://linjinxing.github.io/tags/%e6%97%b6%e9%97%b4%e7%ae%a1%e7%90%86">
+                <a class="category-list-link" href="http://linjinxing.gitcafe.io/tags/%e6%97%b6%e9%97%b4%e7%ae%a1%e7%90%86">
                     时间管理(1)
                 </a>
                
             
             
             
-                <a class="category-list-link" href="http://linjinxing.github.io/tags/%e6%9e%b6%e6%9e%84">
+                <a class="category-list-link" href="http://linjinxing.gitcafe.io/tags/%e6%9e%b6%e6%9e%84">
                     架构(3)
                 </a>
                
             
             
             
-                <a class="category-list-link" href="http://linjinxing.github.io/tags/%e6%b1%87%e6%80%bb">
-                    汇总(11)
+                <a class="category-list-link" href="http://linjinxing.gitcafe.io/tags/%e6%b1%87%e6%80%bb">
+                    汇总(12)
                 </a>
                
             
             
             
-                <a class="category-list-link" href="http://linjinxing.github.io/tags/%e7%ae%a1%e7%90%86">
+                <a class="category-list-link" href="http://linjinxing.gitcafe.io/tags/%e7%ae%a1%e7%90%86">
                     管理(1)
                 </a>
                
             
             
             
-                <a class="category-list-link" href="http://linjinxing.github.io/tags/%e8%80%a6%e5%90%88">
+                <a class="category-list-link" href="http://linjinxing.gitcafe.io/tags/%e8%80%a6%e5%90%88">
                     耦合(1)
                 </a>
                
             
             
             
-                <a class="category-list-link" href="http://linjinxing.github.io/tags/%e8%81%8c%e4%b8%9a%e8%a7%84%e5%88%92">
+                <a class="category-list-link" href="http://linjinxing.gitcafe.io/tags/%e8%81%8c%e4%b8%9a%e8%a7%84%e5%88%92">
                     职业规划(1)
                 </a>
                
             
             
             
-                <a class="category-list-link" href="http://linjinxing.github.io/tags/%e8%83%bd%e5%8a%9b">
+                <a class="category-list-link" href="http://linjinxing.gitcafe.io/tags/%e8%83%bd%e5%8a%9b">
                     能力(2)
                 </a>
                
             
             
             
-                <a class="category-list-link" href="http://linjinxing.github.io/tags/%e8%ae%be%e8%ae%a1">
+                <a class="category-list-link" href="http://linjinxing.gitcafe.io/tags/%e8%ae%be%e8%ae%a1">
                     设计(1)
                 </a>
                
             
             
             
-                <a class="category-list-link" href="http://linjinxing.github.io/tags/%e8%ae%be%e8%ae%a1%e6%a8%a1%e5%bc%8f">
+                <a class="category-list-link" href="http://linjinxing.gitcafe.io/tags/%e8%ae%be%e8%ae%a1%e6%a8%a1%e5%bc%8f">
                     设计模式(2)
                 </a>
                
             
             
             
-                <a class="category-list-link" href="http://linjinxing.github.io/tags/%e8%af%84%e7%ba%a7">
+                <a class="category-list-link" href="http://linjinxing.gitcafe.io/tags/%e8%af%84%e7%ba%a7">
                     评级(1)
                 </a>
                
             
             
             
-                <a class="category-list-link" href="http://linjinxing.github.io/tags/%e8%bf%90%e8%90%a5">
+                <a class="category-list-link" href="http://linjinxing.gitcafe.io/tags/%e8%bf%90%e8%90%a5">
                     运营(1)
                 </a>
                
             
             
             
-                <a class="category-list-link" href="http://linjinxing.github.io/tags/%e9%87%8d%e7%94%a8">
+                <a class="category-list-link" href="http://linjinxing.gitcafe.io/tags/%e9%87%8d%e7%94%a8">
                     重用(1)
                 </a>
                
@@ -832,8 +846,8 @@
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-<script src="http://linjinxing.github.io/fancybox/jquery.fancybox.pack.js"></script>
-<script src="http://linjinxing.github.io/js/script.js"></script>
+<script src="http://linjinxing.gitcafe.io/fancybox/jquery.fancybox.pack.js"></script>
+<script src="http://linjinxing.gitcafe.io/js/script.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.8.0/highlight.min.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 
