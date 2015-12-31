@@ -20,6 +20,14 @@ title = "iOS开发网上文章汇总"
 
 [iOS高性能图片架构与设计](http://zhuanlan.zhihu.com/magilu/20273299)
 
+[关于iOS/OS X线程安全的基础知识](http://www.cocoachina.com/ios/20151228/14799.html)
+
+[基于面向协议MVP模式下的软件设计－iOS篇](http://www.cocoachina.com/ios/20151223/14768.html)
+
+[加班到底有什么用：压一压就出活？](http://www.cocoachina.com/programmer/20151224/14782.html)
+
+[iOS崩溃调试的使用和技巧总结](http://www.cocoachina.com/ios/20151218/14748.html)
+
 
 
 
