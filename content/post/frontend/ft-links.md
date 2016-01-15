@@ -8,7 +8,27 @@ title = "前端开发网上文章汇总"
 
 
 
+
+[ES6新特性概览](http://www.cnblogs.com/Wayou/p/es6_new_features.html)
+
+[React 的 diff 算法](http://segmentfault.com/a/1190000000606216)
+
+[使用 JS 构建跨平台的原生应用：React Native iOS 通信机制初探](http://taobaofed.org/blog/2015/12/30/the-communication-scheme-of-react-native-in-ios/)
+
+[React Native For Android 架构初探](http://zhuanlan.zhihu.com/magilu/20259704)
+
+[try catch 对代码运行的性能影响](http://taobaofed.org/blog/2015/10/28/try-catch-runing-problem/)
+
 [React Native 教程](http://wiki.jikexueyuan.com/project/react-native/homepage.html)
+
+[React Native构建跨平台原生应用之ListView组件](http://item.congci.com/item/react-native-goujian-kua-pingtai-yuansheng-yingyong-zhi-listview-zujian)
+
+[慢牛系列四：好玩的React Native](http://www.cnblogs.com/hongyin163/p/stockman_animation.html)
+
+
+
+
+
 
 
 

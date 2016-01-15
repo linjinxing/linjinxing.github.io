@@ -20,4 +20,6 @@ title = "能力网上文章汇总"
 
 [CTO容易犯的三大错误](https://mp.weixin.qq.com/mp/appmsg/show?__biz=MjM5MjAwODM4MA==&appmsgid=10001204&itemidx=2&sign=485a4dfe2e22e27e960a512d3ba15f96&uin=MTM0ODQyNTk1&key=41ecb04b05111003b40f45ad3a5502d39130edb66f1311eb32c991e4555f612b07d04f2d080325135df45fc98a0014d1&ascene=0&pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D)
 
+[2015年，你不愿错过的10篇技术好文](https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=402002243&idx=1&sn=5b0eee66674c197051f7c46e7cfb86d2&scene=1&srcid=0105MnnkAP6XHzy4qKuDid6O&key=41ecb04b0511100352bfad5ed4fb2aa288e4a75bd15b1613fa8fded7b4d3ccca6b6bf540f2edcce80468aaf1fbb7f356&ascene=0&uin=MTM0ODQyNTk1&devicetype=iMac14%2C1+OSX+OSX+10.10.5+build(14F1509)&version=11020201&pass_ticket=T6Izr7VejgXglLiUgnU%2BNn3Krf%2B8VLr8qP2%2BC0qr7dY%3D)
+>>>>>>> 984a6907ab116513747fe47c2abce16fc72c9c65
 
