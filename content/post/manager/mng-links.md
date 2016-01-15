@@ -16,5 +16,6 @@ title = "管理网上文章汇总"
 
 [DevOps团队需具备的最佳品质](https://mp.weixin.qq.com/s?__biz=MjM5MjAwODM4MA==&mid=400078455&idx=2&sn=d050de9c11120b76e2e650fbb5d147e1&scene=0&key=41ecb04b0511100383a029082c7514bf0cc7086766ba225ccf280ff52b7b719faa1c945a4ed43c2046d76de0733664af&ascene=0&uin=MTM0ODQyNTk1&devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&version=11020201&pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D)
 
+[麦肯锡7S模型](http://baike.baidu.com/view/1016858.htm)
 
 
