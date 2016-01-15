@@ -21,6 +21,14 @@ title = "前端开发网上文章汇总"
 
 [React Native 教程](http://wiki.jikexueyuan.com/project/react-native/homepage.html)
 
+[React Native构建跨平台原生应用之ListView组件](http://item.congci.com/item/react-native-goujian-kua-pingtai-yuansheng-yingyong-zhi-listview-zujian)
+
+[慢牛系列四：好玩的React Native](http://www.cnblogs.com/hongyin163/p/stockman_animation.html)
+
+
+
+
+
 
 
 
