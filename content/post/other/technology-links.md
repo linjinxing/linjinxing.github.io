@@ -52,6 +52,8 @@ title = "心理学网上文章汇总"
 
 [65条最常用正则表达式,你要的都在这里了](https://mp.weixin.qq.com/s?__biz=MzA4NDIzNzMwMw==&mid=402528285&idx=1&sn=7773986165d93dba38d832f74b39413e&scene=0&key=41ecb04b05111003cfaf23bd4cbb829511fad9acea02c0a26e206dda4e5966983ede8f7ae55c517c53a8c92b15ce8e1f&ascene=0&uin=MTM0ODQyNTk1&devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&version=11020201&pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D)
 
+[Linux ps命令的几个高效用法](https://mp.weixin.qq.com/s?__biz=MzA4Nzc4MjI4MQ==&mid=401235349&idx=1&sn=2627d8a158e551131e46073fb02e65aa&scene=0&key=41ecb04b05111003a1de43815def67af512bc5c07c1408c0e9974a13d0dae6eacdfbfdf6e142bb6cb875fa0cb477fbc3&ascene=0&uin=MTM0ODQyNTk1&devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&version=11020201&pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D)
+
 
 
 

@@ -73,7 +73,9 @@ title = "前端开发网上文章汇总"
 
 [前端工程——基础篇](http://toutiao.com/a6187369155505225986/?iid=3015193378&app=news_article&wxshare_count=1&tt_from=weixin&utm_source=weixin&utm_medium=toutiao_android&utm_campaign=client_share&from=timeline&isappinstalled=1)
 
+[我的前端学习历程](https://mp.weixin.qq.com/s?__biz=MzAxODE2MjM1MA==&mid=207201399&idx=2&sn=cdd375ffdf291a3e221896613175a5a4&key=41ecb04b0511100375281a3c3d627e0220d69c00d4c998e10028582b8c983b2c06957f307fb6dae27426fb999e6a16eb&ascene=0&uin=MTM0ODQyNTk1&devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&version=11020201&pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D)
 
+[我为什么反对用Node！](https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=208906645&idx=1&sn=2a80b58e01327053b5736e018a39a882&scene=0&key=41ecb04b05111003134bd68ad6523984ec61ef9c5c5b7209120e0301564294f79897deefb34a4d2be2e2eab655968217&ascene=0&uin=MTM0ODQyNTk1&devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&version=11020201&pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D)
 
 
 

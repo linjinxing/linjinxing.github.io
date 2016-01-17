@@ -46,4 +46,12 @@ title = "创业网上文章汇总"
 
 [马云：11种人不能帮，10类人可合作，5类人不合伙 ！](https://mp.weixin.qq.com/s?__biz=MzAwMTEwMzU5NQ==&mid=205895177&idx=1&sn=b1a9089cc0b59f033b48f45fed03d4cd&key=41ecb04b05111003dd4057345c43ffbea0accc61367332a5a8541a22d640e423f99b929c3e24c5875832b92ab27539fb&ascene=0&uin=MTM0ODQyNTk1&devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&version=11020201&pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D)
 
+[反精益创业——顶层设计与业务推演: 思维导图、拓扑图与甘特图](http://m.xianguo.com/blog/8KN2N?devicetype=3)
+
+[契约精神（非常经典）](https://mp.weixin.qq.com/s?__biz=MjM5NzAzMDU4MA==&mid=208105722&idx=6&sn=fdb5f3b56017f115e2323b438699fa50&scene=2&key=41ecb04b051110037769f1fb60f8c120decde48d6fd72e9df11a23cc06eaa02598514fc544d229ba0ca18bc2fd933353&ascene=0&uin=MTM0ODQyNTk1&devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&version=11020201&pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D)
+
+[BAT职级薪酬深度分析 | 创业公司如何挖BAT的“墙脚”？](https://mp.weixin.qq.com/s?__biz=MzA5NjYyNTMxMw==&mid=209739623&idx=3&sn=eef8f09fdea756c4684969e550a306be&scene=0&key=41ecb04b051110030e23174bf31134cab7251f713146062216189ccf91cd782b62e0cd827db37ab049a1ac7e931f4d4e&ascene=0&uin=MTM0ODQyNTk1&devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&version=11020201&pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D)
+
+[创意很重要，但如何激发灵感、做个创意猎手？](http://m.xianguo.com/blog/8dBEF?devicetype=3&from=timeline&isappinstalled=0)
+
 

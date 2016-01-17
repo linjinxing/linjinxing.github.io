@@ -26,6 +26,7 @@ title = "职业规划网上文章汇总"
 
 [快乐地工作的 7个要素-积极心理学专家肖恩.阿克尔](https://mp.weixin.qq.com/s?__biz=MzA3NTAzMDA4MQ==&mid=201538540&idx=1&sn=0db7a19a0733e5511f351ed0ff66356f&scene=2&key=41ecb04b05111003ecf4379d6b48fcca6581342d84c096d7f4d1b5c9ec99282b5a35be1a666a71d80c72d5c14aeaf99d&ascene=0&uin=MTM0ODQyNTk1&devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&version=11020201&pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D)
 
+[技术高手是怎样炼成的？](https://mp.weixin.qq.com/s?__biz=MzA4NDIzNzMwMw==&mid=401077245&idx=2&sn=17136a9fefe4b8358a517b13090547f4&scene=0&key=41ecb04b0511100391c062f13bc51c9fc84ef8aa84c2ea3cb1921b048169e6c32d02b2ee79d8eb2913c0daaf55eb77e5&ascene=0&uin=MTM0ODQyNTk1&devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&version=11020201&pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D)
 
 
 

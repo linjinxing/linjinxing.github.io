@@ -47,6 +47,8 @@ title = "销售网上文章汇总"
 
 [☞深度解密 | 如何做到电商客户回头率80%？（收藏PPT）](https://mp.weixin.qq.com/s?__biz=MjM5MDc1NDkyMA==&mid=206792906&idx=5&sn=f0be67ea1aa98382fc465c19535d1624&key=41ecb04b051110034e8beb6e2a85820025c070cef43370d9fb0f489131cdd0137faad905aae6073b997774a29ccf105c&ascene=0&uin=MTM0ODQyNTk1&devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&version=11020201&pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D)
 
+[☞一个6年大店客服的经验！史上最全，没有之一！](https://mp.weixin.qq.com/s?__biz=MjM5MDc1NDkyMA==&mid=205651143&idx=4&sn=a4748f215c38f6a80df86bf9c28ae2a9&key=41ecb04b0511100377c210e1bec02a7ff80a680c080e3ef622e74774cb39dc6ea6db232d2e1bb01948c221c0e2393ae8&ascene=0&uin=MTM0ODQyNTk1&devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&version=11020201&pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D)
+
 
 
 

@@ -87,7 +87,13 @@ title = "产品经理网上文章汇总"
 
 [APP运营怎么样做好消息推送（push）呢？](https://mp.weixin.qq.com/s?__biz=MzA4ODA0MDAyOA==&mid=400513464&idx=1&sn=bf6fdda1984d4f96dd4f4a4e0ee4ebc7&scene=0&key=41ecb04b05111003ad9e06b67b5f35ad74fd940da253c18476edf19bdc9c7c3182824b6e26eea12a116f5e2161b9e2e9&ascene=0&uin=MTM0ODQyNTk1&devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&version=11020201&pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D)
 
+[顶尖微信运营宝典——从入门到精通，轻松学习微信推广方法](https://mp.weixin.qq.com/s?__biz=MzAxODE2MjM1MA==&mid=209087667&idx=1&sn=d61aec2faca1c4ac663753675150c831&key=41ecb04b0511100399018ead3a5ac649590ca07f29c6ab58632f71f26492f01cbd18227c3df27df23328e7dda722ca7e&ascene=0&uin=MTM0ODQyNTk1&devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&version=11020201&pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D)
+
+
+
 -- 方案
+[【干货】如何写微信公众号文章：文章流畅耐读的奥秘](https://mp.weixin.qq.com/s?__biz=MjM5NDEwMjg2MA==&mid=209086333&idx=1&sn=01a6f2cbd49a854e0a5843ac1f96d7a5&key=41ecb04b051110031d68c0cb87b528b61bf9ba3539578dc06d5f0e7540711e6174f9ff9c980956febcfd3cd4522cfcbb&ascene=0&uin=MTM0ODQyNTk1&devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&version=11020201&pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D)
+
 [写出价值3万的产品文案，你只需5步](https://mp.weixin.qq.com/s?__biz=MzAxODExMzcwNw==&mid=207419745&idx=1&sn=c285834a5cc303c185b5dde1663889ec&key=41ecb04b05111003b4c739305503eac0c94f272dbf0996a4977c494fd83bbb06b9efde59751d479b1e53413f54ecaf3a&ascene=0&uin=MTM0ODQyNTk1&devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&version=11020201&pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D)
 
 [【必读】文案都写不好，还谈什么互联网思维](https://mp.weixin.qq.com/s?__biz=MjM5NDEwMjg2MA==&mid=208296388&idx=2&sn=b49e77ba3956e9e4edaeab20c6364b48&key=41ecb04b051110039289f6256302af6d540fa281fb1f9584fc83cff660f6da3525f41945e7fb463b4cddb98145f7aa6d&ascene=0&uin=MTM0ODQyNTk1&devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&version=11020201&pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D)
@@ -97,6 +103,12 @@ title = "产品经理网上文章汇总"
 [【文案篇】文案月入3万不再只是梦！这里有借势高手死守的12个秘密](https://mp.weixin.qq.com/s?__biz=MjM5MzAyODIyMA==&mid=209359837&idx=1&sn=2970401f4fe95164b2a4ee951b579c03&scene=1&key=41ecb04b05111003a07dd9d6d516190ba5195087cb7bbd10e471bc78cecac53a805e46f5e9faabd12fe4171db9a7f9af&ascene=0&uin=MTM0ODQyNTk1&devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&version=11020201&pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D)
 
 -- 设计 
+[如何避免订单重复支付？](https://mp.weixin.qq.com/s?__biz=MjM5NDEwMjg2MA==&mid=401165993&idx=3&sn=c384704b409f11e1c6f7b3e651fa084b&scene=0&key=41ecb04b05111003f739328f6ac90b14b0d95d00ed020ba8f6b70ed723ff536795ca51543fdb940b695c352b47e86123&ascene=0&uin=MTM0ODQyNTk1&devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&version=11020201&pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D)
+
+[产品经理怎么做减法？](http://m.xianguo.com/blog/8GsMp?devicetype=3)
+
+[【设计篇】如何让设计看起来高大上？更具设计感？](https://mp.weixin.qq.com/s?__biz=MjM5MzAyODIyMA==&mid=207476289&idx=2&sn=a87bd2dbd56765551e9777ede6edda3e&key=41ecb04b05111003e5ed7fc86c297c2bd04ed6624861f3005561b394e0c7a7d52627161df370b721dac88d24f3855a8c&ascene=0&uin=MTM0ODQyNTk1&devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&version=11020201&pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D)
+
 [【产品思维】平台型产品的设计思路](https://mp.weixin.qq.com/s?__biz=MjM5OTEwNjI2MA==&mid=203444022&idx=1&sn=971207487785acc73544e785e93c00e3&scene=2&key=41ecb04b05111003adbaf584ad526efa1d98addd4c59ce81af54b7128804fa1fd0fa87af2a2d9aadf8470e0ce5d3cff8&ascene=0&uin=MTM0ODQyNTk1&devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&version=11020201&pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D)
 
 [【技能】帮你在10分钟内了解基于行为的产品设计](https://mp.weixin.qq.com/s?__biz=MjM5OTEwNjI2MA==&mid=204464660&idx=3&sn=90b3d5f9118b7e0bdb30de108ba0f212&key=41ecb04b05111003050e62d8caad04bfdaa35740ff7541796573220e2ee55d5d8aa26f6d7e2d1220258bf237cfcb1a0f&ascene=0&uin=MTM0ODQyNTk1&devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&version=11020201&pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D)
