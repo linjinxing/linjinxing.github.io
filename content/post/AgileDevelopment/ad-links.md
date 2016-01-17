@@ -7,8 +7,11 @@ title = "敏捷开发网上文章汇总"
 +++
 
 [前腾讯研发总监王速瑜揭秘TX敏捷研发方法与平台](http://www.woshipm.com/discuss/86673.html)
+
 [精益化的团队高效协作](https://mp.weixin.qq.com/s?__biz=MjM5NjQ4MzI5MA==&mid=207981325&idx=1&sn=c4d2e24e8cd9b0d30e42a53f5dfffd40&scene=1&srcid=1224mOEbD6Zo1IyFYAKobEs4&key=62bb001fdbc364e5d5265557e546d5d31322fc39c555a0e1cc0063f72f31d58b5fcb2222542beb4ba84c00c2b949e1dc&ascene=0&uin=MTM0ODQyNTk1&devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&version=11020201&pass_ticket=OJ8tvjktQBdzTqNNJYAw8odp2%2Bnx0twoIDjswi5lvjc%3D)
+
 [产品经理如何设计敏捷开发流程？](https://mp.weixin.qq.com/s?__biz=MjM5NjQ4MzI5MA==&mid=400969360&idx=1&sn=c7f4a71fb1dd14805771dca2c69c94db&scene=0&key=41ecb04b0511100325f0ceecd5b63e630cc356b4f769f2241a00df62a60eed9b1292c876ae91b91161dd564424f21de8&ascene=0&uin=MTM0ODQyNTk1&devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&version=11020201&pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D)
+
 [前腾讯研发总监王速瑜揭秘TX敏捷研发方法与平台](http://www.woshipm.com/discuss/86673.html)
 
 [为什么敏捷没有起作用](https://mp.weixin.qq.com/s?__biz=MjM5NjQ4MzI5MA==&mid=400023941&idx=1&sn=e231c448b6e235ed0fc38eb239659110&scene=1&srcid=1224eZEYecqkprcnuaK8YgIh&key=62bb001fdbc364e51d7cb6e50505894f3b7b4ed83d809e6b31f401426ed2d1f3829f24c1ced00c6d4477b8b1b9dfdfab&ascene=0&uin=MTM0ODQyNTk1&devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&version=11020201&pass_ticket=OJ8tvjktQBdzTqNNJYAw8odp2%2Bnx0twoIDjswi5lvjc%3D)
