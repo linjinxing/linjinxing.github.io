@@ -15,8 +15,67 @@
       <pubDate>Sat, 19 Dec 2015 13:39:46 +0200</pubDate>
       
       <guid>http://linjinxing.gitcafe.io/2015/12/19/%E7%AE%A1%E7%90%86%E7%BD%91%E4%B8%8A%E6%96%87%E7%AB%A0%E6%B1%87%E6%80%BB</guid>
-      <description>&lt;p&gt;###版本控制
-&lt;a href=&#34;http://www.cnblogs.com/cnblogsfans/p/5075073.html&#34;&gt;Git 在团队中的最佳实践&amp;ndash;如何正确使用Git Flow&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;###版本控制&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MjM5MjU1NDg1Mw==&amp;amp;mid=208741031&amp;amp;idx=2&amp;amp;sn=91ace470fbc3c07aa8b69cd8c54f2849&amp;amp;scene=24&amp;amp;srcid=0924FoLgfnTV18IbJ8Hdr7Dq&amp;amp;key=41ecb04b05111003b7ea02b60b6426166a839f2a21690410331f0fead43d81966e0a232579137e747952f44b59473df3&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;代码审查的5点经验教训总结&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/mp/appmsg/show?__biz=MjM5NjIzOTA2NA==&amp;amp;appmsgid=10000233&amp;amp;itemidx=1&amp;amp;sign=e5b6b39d211ee3816d57caa0b5efc1cd&amp;amp;scene=2&amp;amp;uin=MTM0ODQyNTk1&amp;amp;key=41ecb04b05111003979b00c46e6cb83ff4c9955cb7276b376a20a21a96b555ae09ad112a2137e74382c6a9e8c4f26a22&amp;amp;ascene=0&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;执行力差是谁的责任&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.woshipm.com/it/88015.html&#34;&gt;创业公司必学一招：高效研发的5个关键步骤&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&amp;amp;mid=400403468&amp;amp;idx=1&amp;amp;sn=8ba7a777659a0fa71ef42c6afd9e159b&amp;amp;scene=2&amp;amp;srcid=1101KTNoplYLpyt38n1JpAnP&amp;amp;from=timeline&amp;amp;isappinstalled=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;key=41ecb04b0511100313b353d7bdb1b39e24cd900800818775f0e62ebe756e632a7b6fd4aac5e6653df922692f5860384c&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;lang=zh_CN&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;你是否意识到技术债务管理的重要性！&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MjM5OTA1MDUyMA==&amp;amp;mid=207552695&amp;amp;idx=3&amp;amp;sn=b18e066772cf0329a3d08a4c0bee4f02&amp;amp;key=41ecb04b05111003bc003fe0e0027b3be957ad9aa89ea4f9a9e26f923743a4eff3e95f8e74422e2d340706cdb804b0cd&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;谈谈前后端的分工协作&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MjM5MjAwODM4MA==&amp;amp;mid=400078455&amp;amp;idx=2&amp;amp;sn=d050de9c11120b76e2e650fbb5d147e1&amp;amp;scene=0&amp;amp;key=41ecb04b0511100383a029082c7514bf0cc7086766ba225ccf280ff52b7b719faa1c945a4ed43c2046d76de0733664af&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;DevOps团队需具备的最佳品质&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MjM5MjAwODM4MA==&amp;amp;mid=208176676&amp;amp;idx=4&amp;amp;sn=9e26c96d952feb5b93c12eff32f4af94&amp;amp;key=41ecb04b05111003aa894fe82e4c4a6705afb0a16c88cfdb4c5e34b2e67bd5c6e413e2125e2374ea1ff94884ec6c7196&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;【特别策划】CTO观点大PK：管理和流程重要还是人和技术重要？&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MzA4MTU1NjI5NQ==&amp;amp;mid=207769278&amp;amp;idx=1&amp;amp;sn=e05f30b2c4e1f2ae855663e6688e8df0&amp;amp;scene=2&amp;amp;key=41ecb04b051110036f9eefc243e162983dca243c8055519f3fa82e7abba90ac17fc3392be052364eb286ace7ee11be38&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;腾讯180人产品团队如何管理？（1）&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/mp/appmsg/show?__biz=MjM5MjAwODM4MA==&amp;amp;appmsgid=10001199&amp;amp;itemidx=2&amp;amp;sign=8188397d7c4d91e0895e444c5044ab97&amp;amp;uin=MTM0ODQyNTk1&amp;amp;key=41ecb04b05111003e786e4c8e7d900a6152953ec9a402155e5cb1a584d4ac9449ea4609c027273c427ccf179b6cb0460&amp;amp;ascene=0&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;CTO如何避免决策失控（二）：遭遇棘手问题的七种迹象&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MjM5MjAwODM4MA==&amp;amp;mid=205589874&amp;amp;idx=3&amp;amp;sn=552b4038bf0265690228d3987a71b2c9&amp;amp;scene=2&amp;amp;key=41ecb04b05111003ba69c921905bcd29d1be1841e4d128746e726084d10a5d374c4c0eb3ef9eb81c9d5032fad21bca34&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;【程序员电子刊精选】同一个团队，同一个目标&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MjM5NjQ4MzI5MA==&amp;amp;mid=207981325&amp;amp;idx=1&amp;amp;sn=c4d2e24e8cd9b0d30e42a53f5dfffd40&amp;amp;key=41ecb04b051110037f0c54ca174041030317238dfff8ce5adeaff52b41313934e5239e0433162aff612cef3e1879b44a&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;精益化的团队高效协作&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MzAwMDI5MzA4OA==&amp;amp;mid=212212619&amp;amp;idx=4&amp;amp;sn=a24d69a72446bcdb9db59cbc144a2d8b&amp;amp;scene=2&amp;amp;key=41ecb04b0511100371fca01350cb64b580075c304522366cbf1c0c2e58220796b24d064d04dd0d82b59a5d620da07b17&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;千万别轻易离开团队!&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://baike.baidu.com/view/1016858.htm&#34;&gt;麦肯锡7S模型&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MjM5NjAwNjUwMQ==&amp;amp;mid=209897673&amp;amp;idx=8&amp;amp;sn=e8bd03950b9efb08a972e0ae8336f90d&amp;amp;scene=0&amp;amp;key=41ecb04b051110037266013508eb184602ec57825b4704dbd6dafe913cab5f65a1f11e8ae1772dff38a03922f5220e81&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;让你尖叫的思维方式（管理者必看）&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MjM5MjAwODM4MA==&amp;amp;mid=401057128&amp;amp;idx=2&amp;amp;sn=6502c696485d8d49dd248f4629b9e991&amp;amp;scene=0&amp;amp;key=41ecb04b05111003050ff23db712f56e67b870b9bb355ca7dab1ca5adad94394c20c45649290d222bc0cb83e00e606a0&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;盘点：10款适合创业团队使用的团队协作工具&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MjM5NjQ4MzI5MA==&amp;amp;mid=209081535&amp;amp;idx=1&amp;amp;sn=fc52532d10143858f627b655bbe29afb&amp;amp;scene=0&amp;amp;key=41ecb04b051110036b6f9400531bc3878a3f338863c430474b7b167b2fe4e55042e12fa034b66cc5df61b1883fc6e14c&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;在团队内实行了2年的晨会，在此分享一下积累的经验&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MzA4NTc3NzE5OQ==&amp;amp;mid=207710184&amp;amp;idx=1&amp;amp;sn=98ebcd78d0dea2a603440f8ffea36461&amp;amp;scene=2&amp;amp;key=41ecb04b051110037156edd37c472637f85c6437a4bfd582b1fcd152b0077102b915830c5b9c99a78b2f8b3a6363ba86&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;高质量交付，领导要做五件事&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MjM5NzYxMTIwNA==&amp;amp;mid=205915562&amp;amp;idx=2&amp;amp;sn=de5266e5f71480b31c39a5a3071c0c2a&amp;amp;key=41ecb04b0511100345a956219340ca553f4f93a320b1b871ee86fb5f78b55fd7bd42e542253a6625a7c4e14e5ade5c36&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;看看这四张图，就知道换位思考多重要！&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MjM5MjAwODM4MA==&amp;amp;mid=204082839&amp;amp;idx=1&amp;amp;sn=741ed4533bf11e21779dadcb94f8503c&amp;amp;scene=2&amp;amp;key=41ecb04b051110033a30cc8cebbba0ea29195669f583006eb1f8a95c173a96ca19db5dc8d429c358a77c3329183fe7da&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;同行代码审查实战分析&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MjM5MzA0OTkwMA==&amp;amp;mid=210451768&amp;amp;idx=2&amp;amp;sn=3672ac9cada0f2ad6c2b260ed3d23987&amp;amp;scene=2&amp;amp;key=41ecb04b05111003a118cc95a84b138a63845e876272576f22717a98d45cc1c4f68adc8d20004d6dbb10df79a4a232ba&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;如何提高团队编程水平？&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MzAxMzE2Mjc2Ng==&amp;amp;mid=211682087&amp;amp;idx=1&amp;amp;sn=e1a52acdfcc6fc47de81647ecb65192e&amp;amp;scene=0&amp;amp;key=41ecb04b051110032245837973fedd70f8f07c429e73e778994060d0b8802da49c9ab00392f32d02df9d670761207cee&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;《人月神话》读书笔记&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://app.myzaker.com/news/article.php?&amp;amp;pk=54c65e3a1bc8e05e1f000003&amp;amp;app_id=11063&amp;amp;sharechannel=wx&#34;&gt;技术团队的情绪与效率&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MjM5ODM0MjcwMw==&amp;amp;mid=400930717&amp;amp;idx=1&amp;amp;sn=6168cc854068904c9c7201637447bc39&amp;amp;scene=0&amp;amp;key=41ecb04b051110032d26b2e1f4692a4e43da032e92fa616a6ef6fea134b73642bc2b888fa460de2732f4bfc1f37760b7&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;管理必学：这10种方法，可以让你激励任何人！&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/mp/appmsg/show?__biz=MjM5MjAwODM4MA==&amp;amp;appmsgid=10001216&amp;amp;itemidx=1&amp;amp;sign=e28827eb01835bd6f351131cceb1f281&amp;amp;uin=MTM0ODQyNTk1&amp;amp;key=41ecb04b051110036ce6026d37b525d5ec07d221e0fa5e53f11917245e7d94fe3e5a24dd73f5abaf9016eebed2177139&amp;amp;ascene=0&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;10款免费且开源的项目管理工具&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MjM5ODM0MjcwMw==&amp;amp;mid=221852188&amp;amp;idx=1&amp;amp;sn=a7070e4945850ebdb8557ffcf1069ba6&amp;amp;scene=0&amp;amp;key=41ecb04b05111003dbbadf442804120e6ab6353a97a691c9ea889c487c444cd3440a6b013735a42922d231e218a1016d&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;【管理者阅读】八大管理思想，颠覆你的传统思维&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>管理网上文章汇总</title>
+      <link>http://linjinxing.gitcafe.io/2015/12/19/%E7%AE%A1%E7%90%86%E7%BD%91%E4%B8%8A%E6%96%87%E7%AB%A0%E6%B1%87%E6%80%BB</link>
+      <pubDate>Sat, 19 Dec 2015 13:39:46 +0200</pubDate>
+      
+      <guid>http://linjinxing.gitcafe.io/2015/12/19/%E7%AE%A1%E7%90%86%E7%BD%91%E4%B8%8A%E6%96%87%E7%AB%A0%E6%B1%87%E6%80%BB</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MjM5NDEwMjg2MA==&amp;amp;mid=208144416&amp;amp;idx=1&amp;amp;sn=1eaf002ee390a9debea3acf79ad5a90b&amp;amp;scene=2&amp;amp;key=41ecb04b051110030190032004c18790227e6c81b6d14a55686bd02ee433a62532e730d848ceaa22919cdbfa70552bac&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;【5分钟一本书】暗时间：用时间管理把握产品的进度条&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

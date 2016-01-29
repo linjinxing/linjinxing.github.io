@@ -12,6 +12,8 @@ title = "python网上文章汇总"
 [Python基础技术问题总结](https://mp.weixin.qq.com/s?__biz=MjM5OTA1MDUyMA==&mid=206184240&idx=2&sn=b655b4d6fb4eef237ce7ddd531a8a9a5&key=41ecb04b05111003f9f48fb3e8dc7b9bb14561f19273817321722ef738205498da4095562a38cfdcf12c600a7e1087ec&ascene=0&uin=MTM0ODQyNTk1&devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&version=11020201&pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D)
 
 
+[应用python编写shell脚本](http://hgoldfish.com/blogs/article/23/)
+
 
 
 

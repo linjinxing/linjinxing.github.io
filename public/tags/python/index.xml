@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on 彤星的博客</title>
+    <link>http://linjinxing.gitcafe.io/tags/python/</link>
+    <description>Recent content in Python on 彤星的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 19 Dec 2015 13:39:46 +0200</lastBuildDate>
+    <atom:link href="http://linjinxing.gitcafe.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>python网上文章汇总</title>
+      <link>http://linjinxing.gitcafe.io/2015/12/19/python%E7%BD%91%E4%B8%8A%E6%96%87%E7%AB%A0%E6%B1%87%E6%80%BB</link>
+      <pubDate>Sat, 19 Dec 2015 13:39:46 +0200</pubDate>
+      
+      <guid>http://linjinxing.gitcafe.io/2015/12/19/python%E7%BD%91%E4%B8%8A%E6%96%87%E7%AB%A0%E6%B1%87%E6%80%BB</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MzA4MzEwOTkyMQ==&amp;amp;mid=409218006&amp;amp;idx=1&amp;amp;sn=7d5f75406b1b3c0bc82fe934e3111190&amp;amp;scene=0&amp;amp;key=41ecb04b0511100366ad7ae57603ff8ecda2e332c52c867c5d705b21b8bc680e4e08b6c2a90c2fea01ef04b33187f67f&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;最好的Python机器学习库&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MjM5OTA1MDUyMA==&amp;amp;mid=206184240&amp;amp;idx=2&amp;amp;sn=b655b4d6fb4eef237ce7ddd531a8a9a5&amp;amp;key=41ecb04b05111003f9f48fb3e8dc7b9bb14561f19273817321722ef738205498da4095562a38cfdcf12c600a7e1087ec&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;Python基础技术问题总结&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://hgoldfish.com/blogs/article/23/&#34;&gt;应用python编写shell脚本&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

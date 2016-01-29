@@ -26,7 +26,7 @@
     })();
     </script>    
     <meta property="og:title" content="前端开发网上文章汇总" />
-<meta property="og:description" content="ES6新特性概览 React 的 diff 算法 使用 JS 构建跨平台的原生应用：React Native iOS 通信机制初探 React Native For Android 架构初探 try catch 对代码运行的性能影响 React Native 教程" />
+<meta property="og:description" content="ES6新特性概览 「JavaScript」四种跨域方式详解 React 的 diff 算法 Flex 布局教程：语法篇 使用 JS 构建跨平台的原生应用：React Native iOS 通信机制初探 现在流行什么 JS库/框架？ React Native For Android 架构初探 浏览器缓存机制浅析 try catch 对代码运行的性能影响 图解Javascript上下文与作用域 React Native 教程 谈谈 React.js 的核心入门知识 React Native构建跨平台原生应用之ListView组件 前端性能优化的常用方法 慢牛系列四：好玩的React Native 跨站脚本攻击XSS 如何成为一名优秀的web前端工程师？ 谈谈React的Flux架构和Immutable.js 百度母婴技术团队—基于Reactjs实现webapp #1 2015 年开源前端框架盘点 TOP 20 20个最常用的javascript方法函数 逐渐深入地理解Ajax 前端自动化测试探索 危险的文件夹上传框 汤姆大叔的6道Javascript编程题题解 浏览器缓存机制 你可能不知道的10个JavaScript小技巧 Web性能API——帮你分析前端性能 深入了解浏览器的重绘与重排 基于webpack搭建前端工程解决方案探索 Web性能优化系列（3）：如何延迟加载JS Web开发牛人访谈：你们都在用什么？ 前端工程——基础篇 我的前端学习历程 我为什么反对用Node！" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://linjinxing.gitcafe.io/2015/12/19/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E7%BD%91%E4%B8%8A%E6%96%87%E7%AB%A0%E6%B1%87%E6%80%BB" />
 
@@ -45,15 +45,15 @@
     
     
 <meta itemprop="name" content="前端开发网上文章汇总">
-<meta itemprop="description" content="ES6新特性概览 React 的 diff 算法 使用 JS 构建跨平台的原生应用：React Native iOS 通信机制初探 React Native For Android 架构初探 try catch 对代码运行的性能影响 React Native 教程">
+<meta itemprop="description" content="ES6新特性概览 「JavaScript」四种跨域方式详解 React 的 diff 算法 Flex 布局教程：语法篇 使用 JS 构建跨平台的原生应用：React Native iOS 通信机制初探 现在流行什么 JS库/框架？ React Native For Android 架构初探 浏览器缓存机制浅析 try catch 对代码运行的性能影响 图解Javascript上下文与作用域 React Native 教程 谈谈 React.js 的核心入门知识 React Native构建跨平台原生应用之ListView组件 前端性能优化的常用方法 慢牛系列四：好玩的React Native 跨站脚本攻击XSS 如何成为一名优秀的web前端工程师？ 谈谈React的Flux架构和Immutable.js 百度母婴技术团队—基于Reactjs实现webapp #1 2015 年开源前端框架盘点 TOP 20 20个最常用的javascript方法函数 逐渐深入地理解Ajax 前端自动化测试探索 危险的文件夹上传框 汤姆大叔的6道Javascript编程题题解 浏览器缓存机制 你可能不知道的10个JavaScript小技巧 Web性能API——帮你分析前端性能 深入了解浏览器的重绘与重排 基于webpack搭建前端工程解决方案探索 Web性能优化系列（3）：如何延迟加载JS Web开发牛人访谈：你们都在用什么？ 前端工程——基础篇 我的前端学习历程 我为什么反对用Node！">
 
 
 <meta itemprop="dateModified" content="2015-12-19T13:39:46&#43;02:00" />
-<meta itemprop="wordCount" content="22">
+<meta itemprop="wordCount" content="61">
 
 
 
-<meta itemprop="keywords" content="android,ios,产品,其它,前端,学习方法,敏捷开发,时间管理,程序人生,管理,软件架构,android,ios,javascript,mvc,t1,t2,t3,t4,t5,t6,交互,产品经理,优秀,分层,前端,学习方法,开发效率,扩展,提高,敏捷开发,时间管理,架构,汇总,管理,耦合,职业规划,能力,设计,设计模式,评级,运营,重用," />
+<meta itemprop="keywords" content="android,ios,产品,其它,前端,学习方法,敏捷开发,时间管理,程序人生,管理,软件架构,android,devops,ios,java,javascript,mvc,python,t1,t2,t3,t4,t5,t6,交互,产品经理,人际关系,优秀,健康,其它,分层,创业,前端,大数据,学习方法,幽默,开发效率,心理学,扩展,技术,提高,效率,敏捷开发,数据库,时间管理,机器学习,架构,汇总,管理,精益,经济,综合,耦合,职业规划,能力,设计,设计模式,评级,读书,运维,运营,重用,销售," />
 
     
 
@@ -62,7 +62,7 @@
 
 
 <meta name="twitter:title" content="前端开发网上文章汇总"/>
-<meta name="twitter:description" content="ES6新特性概览 React 的 diff 算法 使用 JS 构建跨平台的原生应用：React Native iOS 通信机制初探 React Native For Android 架构初探 try catch 对代码运行的性能影响 React Native 教程"/>
+<meta name="twitter:description" content="ES6新特性概览 「JavaScript」四种跨域方式详解 React 的 diff 算法 Flex 布局教程：语法篇 使用 JS 构建跨平台的原生应用：React Native iOS 通信机制初探 现在流行什么 JS库/框架？ React Native For Android 架构初探 浏览器缓存机制浅析 try catch 对代码运行的性能影响 图解Javascript上下文与作用域 React Native 教程 谈谈 React.js 的核心入门知识 React Native构建跨平台原生应用之ListView组件 前端性能优化的常用方法 慢牛系列四：好玩的React Native 跨站脚本攻击XSS 如何成为一名优秀的web前端工程师？ 谈谈React的Flux架构和Immutable.js 百度母婴技术团队—基于Reactjs实现webapp #1 2015 年开源前端框架盘点 TOP 20 20个最常用的javascript方法函数 逐渐深入地理解Ajax 前端自动化测试探索 危险的文件夹上传框 汤姆大叔的6道Javascript编程题题解 浏览器缓存机制 你可能不知道的10个JavaScript小技巧 Web性能API——帮你分析前端性能 深入了解浏览器的重绘与重排 基于webpack搭建前端工程解决方案探索 Web性能优化系列（3）：如何延迟加载JS Web开发牛人访谈：你们都在用什么？ 前端工程——基础篇 我的前端学习历程 我为什么反对用Node！"/>
 
 
 
@@ -246,7 +246,7 @@
             <i class="fa fa-calendar"></i>
             <time datetime="2015-12-19 13:39:46 &#43;0200 &#43;0200" itemprop="datePublished">2015-12-19</time>
             &middot;
-            22
+            61
             字数
             &middot;
             1
@@ -285,19 +285,77 @@
             <div class="article-entry" itemprop="articleBody">
                 <p><a href="http://www.cnblogs.com/Wayou/p/es6_new_features.html">ES6新特性概览</a></p>
 
+<p><a href="https://mp.weixin.qq.com/s?__biz=MzAwNjQwNzU2NQ==&amp;mid=208424145&amp;idx=2&amp;sn=d6f3436dbef96e80048f3bcf2880c032&amp;scene=0&amp;key=41ecb04b05111003accd05a80b101d23f5f65bb90683c2faa0b9c46810386589bc6955510904b3d7f691121f017feb06&amp;ascene=0&amp;uin=MTM0ODQyNTk1&amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;version=11020201&amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D">「JavaScript」四种跨域方式详解</a></p>
+
 <p><a href="http://segmentfault.com/a/1190000000606216">React 的 diff 算法</a></p>
+
+<p><a href="https://mp.weixin.qq.com/s?__biz=MzAxODE2MjM1MA==&amp;mid=209323512&amp;idx=1&amp;sn=c2134c53bd55eef5bb977839c629b087&amp;key=41ecb04b0511100352e7e2f02fd9695d7de52481a587321f9f6ba555d7c8e6b09599fe88ef40e02db9eff1811cbee0fc&amp;ascene=0&amp;uin=MTM0ODQyNTk1&amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;version=11020201&amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D">Flex 布局教程：语法篇</a></p>
 
 <p><a href="http://taobaofed.org/blog/2015/12/30/the-communication-scheme-of-react-native-in-ios/">使用 JS 构建跨平台的原生应用：React Native iOS 通信机制初探</a></p>
 
+<p><a href="https://mp.weixin.qq.com/s?__biz=MzA4Nzc4MjI4MQ==&amp;mid=211241581&amp;idx=1&amp;sn=7d9fbd01da342425dc1f6281d3cfe197&amp;scene=0&amp;key=41ecb04b05111003aaba6c54ac19ca6585c4c00932fd75f341be9b795bede48d3fc8c172045ebc19f479d3aff8625cbe&amp;ascene=0&amp;uin=MTM0ODQyNTk1&amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;version=11020201&amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D">现在流行什么 JS库/框架？</a></p>
+
 <p><a href="http://zhuanlan.zhihu.com/magilu/20259704">React Native For Android 架构初探</a></p>
+
+<p><a href="https://mp.weixin.qq.com/s?__biz=MzAxODE2MjM1MA==&amp;mid=209846596&amp;idx=1&amp;sn=803b9c256d17b2ca2c1cec1322ee19f0&amp;scene=0&amp;key=41ecb04b0511100374b2888613719860979d4a4e623d6c1ef483816039adc27a3d3015a95881ce61b21a343876ef3551&amp;ascene=0&amp;uin=MTM0ODQyNTk1&amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;version=11020201&amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D">浏览器缓存机制浅析</a></p>
 
 <p><a href="http://taobaofed.org/blog/2015/10/28/try-catch-runing-problem/">try catch 对代码运行的性能影响</a></p>
 
+<p><a href="https://mp.weixin.qq.com/s?__biz=MzAxODE2MjM1MA==&amp;mid=209783326&amp;idx=1&amp;sn=aeaae340d52fa7f316bfaaf601682ef7&amp;scene=0&amp;key=41ecb04b05111003e740fa16b8f955013f175640e07a7239be0f667d77981e94083a81e08975c99fbe6f091ae648ea8b&amp;ascene=0&amp;uin=MTM0ODQyNTk1&amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;version=11020201&amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D">图解Javascript上下文与作用域</a></p>
+
 <p><a href="http://wiki.jikexueyuan.com/project/react-native/homepage.html">React Native 教程</a></p>
+
+<p><a href="https://mp.weixin.qq.com/s?__biz=MjM5OTA1MDUyMA==&amp;mid=211494151&amp;idx=2&amp;sn=f342b427d2d6fa789817f0ff2a20938b&amp;scene=0&amp;key=41ecb04b05111003cf4703fb7804b2fde6904b49a1292e12a5ff22980bee8c39ecb85e498f5adfbe878a64ea3baf09ce&amp;ascene=0&amp;uin=MTM0ODQyNTk1&amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;version=11020201&amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D">谈谈 React.js 的核心入门知识</a></p>
+
+<p><a href="http://item.congci.com/item/react-native-goujian-kua-pingtai-yuansheng-yingyong-zhi-listview-zujian">React Native构建跨平台原生应用之ListView组件</a></p>
+
+<p><a href="https://mp.weixin.qq.com/s?__biz=MzA4Nzc4MjI4MQ==&amp;mid=401777193&amp;idx=1&amp;sn=95540e0171a736caab1de5d876de7ae6&amp;scene=0&amp;key=41ecb04b05111003828645f0d91237dafa5b06ff4ae1c9ff7a56b5c4d9b1005883835619b87fce66b5dffde03f2f160c&amp;ascene=0&amp;uin=MTM0ODQyNTk1&amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;version=11020201&amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D">前端性能优化的常用方法</a></p>
+
+<p><a href="http://www.cnblogs.com/hongyin163/p/stockman_animation.html">慢牛系列四：好玩的React Native</a></p>
+
+<p><a href="https://mp.weixin.qq.com/s?__biz=MjM5NzU0MzU0Nw==&amp;mid=211716745&amp;idx=2&amp;sn=2b7b3814d0d60e6df2cbd30494b5d5fe&amp;scene=0&amp;key=41ecb04b05111003694db4f3baad1b5bb6f97ba2efc5599b8f5b7d644b373b2f00a2d8346676c1f977e45122ef3acef3&amp;ascene=0&amp;uin=MTM0ODQyNTk1&amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;version=11020201&amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D">跨站脚本攻击XSS</a></p>
+
+<p><a href="https://mp.weixin.qq.com/s?__biz=MzA4NDIzNzMwMw==&amp;mid=208791701&amp;idx=1&amp;sn=b1078c894492bb6f51f5a26a8c161b51&amp;scene=0&amp;key=41ecb04b05111003d2c2d8caf9bac2154b9f2fb7d4973d5d7c3b03571e6188188355e523ddc5771e2f4b754c08e7fb99&amp;ascene=0&amp;uin=MTM0ODQyNTk1&amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;version=11020201&amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D">如何成为一名优秀的web前端工程师？</a></p>
+
+<p><a href="https://mp.weixin.qq.com/s?__biz=MzAwNjQwNzU2NQ==&amp;mid=208443481&amp;idx=2&amp;sn=cef55528bc8bab076af7872d771a89cf&amp;scene=0&amp;key=41ecb04b05111003b97c50accb9bdef1de2cf4d28dca4c6bbbe4910beec3fd3d4a7d2cb0e16b421f00b929d6d0b2df92&amp;ascene=0&amp;uin=MTM0ODQyNTk1&amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;version=11020201&amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D">谈谈React的Flux架构和Immutable.js</a></p>
+
+<p><a href="https://mp.weixin.qq.com/s?__biz=MzAwNjQwNzU2NQ==&amp;mid=400112126&amp;idx=1&amp;sn=d434f635120460eca7ca3dca667a4e2b&amp;scene=0&amp;key=41ecb04b0511100363da8e80ae7e1c24c481b0372aab8274bea1f6d0300bb5978125e5cd9b3cecefd58ba0394513f3e3&amp;ascene=0&amp;uin=MTM0ODQyNTk1&amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;version=11020201&amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D">百度母婴技术团队—基于Reactjs实现webapp #1</a></p>
+
+<p><a href="https://mp.weixin.qq.com/s?__biz=MzA4NDIzNzMwMw==&amp;mid=402545665&amp;idx=2&amp;sn=f5d028937fb77d50dfe7bbfbf2308a70&amp;scene=0&amp;key=41ecb04b05111003dd2dbdd38e36a1dc8cc9daf6562559efaf1377326b02653cb5f58addbe50a69073cbc661a89ea344&amp;ascene=0&amp;uin=MTM0ODQyNTk1&amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;version=11020201&amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D">2015 年开源前端框架盘点 TOP 20</a></p>
+
+<p><a href="https://mp.weixin.qq.com/s?__biz=MzA4NDIzNzMwMw==&amp;mid=208174152&amp;idx=1&amp;sn=d1b7d2b45ea8784c755bfac31a0c3330&amp;key=41ecb04b05111003daca9d0088366247a7d809ee925136fc1526b50f8b277db6e5030a57f35ead72f10d5b901556b716&amp;ascene=0&amp;uin=MTM0ODQyNTk1&amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;version=11020201&amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D">20个最常用的javascript方法函数</a></p>
+
+<p><a href="https://mp.weixin.qq.com/s?__biz=MzAxODE2MjM1MA==&amp;mid=207384929&amp;idx=1&amp;sn=6083f84d02d7f05010ace2479c467ba3&amp;key=41ecb04b051110033a30c142c7664ea806191300c109c519ed3eef32a228d9596cd17c55417f719d5f55d094b05f51fc&amp;ascene=0&amp;uin=MTM0ODQyNTk1&amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;version=11020201&amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D">逐渐深入地理解Ajax</a></p>
+
+<p><a href="https://mp.weixin.qq.com/s?__biz=MzAxODE2MjM1MA==&amp;mid=209158489&amp;idx=1&amp;sn=be6afc7532381529c866488727d2af75&amp;key=41ecb04b05111003d37e2242ad43f8a7f469e5f910d5bf22793d416fbb0a89fd1855d662bc742a9a3a4a437b3a9db378&amp;ascene=0&amp;uin=MTM0ODQyNTk1&amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;version=11020201&amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D">前端自动化测试探索</a></p>
+
+<p><a href="https://mp.weixin.qq.com/s?__biz=MzAxODE2MjM1MA==&amp;mid=210668096&amp;idx=1&amp;sn=f8ad2467289374ff6dcc8c0306c42928&amp;scene=0&amp;key=41ecb04b05111003d1b27ee29617210b5389e10d84d9457fccfff5933cffa32ccb5de7f423ef0457e6337b6f8c58d384&amp;ascene=0&amp;uin=MTM0ODQyNTk1&amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;version=11020201&amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D">危险的文件夹上传框</a></p>
+
+<p><a href="https://mp.weixin.qq.com/s?__biz=MzA4NDIzNzMwMw==&amp;mid=402027531&amp;idx=2&amp;sn=d00e0e5a63819c7b4434f94fa06ca1bb&amp;scene=0&amp;key=41ecb04b05111003f68be53b6e210136638f27e4e56a91e400b7f4f7938812f716fb35d67a9a6e49295213a566f39272&amp;ascene=0&amp;uin=MTM0ODQyNTk1&amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;version=11020201&amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D">汤姆大叔的6道Javascript编程题题解</a></p>
+
+<p><a href="https://mp.weixin.qq.com/s?__biz=MzAxODE2MjM1MA==&amp;mid=401167590&amp;idx=1&amp;sn=f1e0979eac8df4cd20dae62ed11e494f&amp;scene=0&amp;key=41ecb04b05111003c41b0c42fae7fd482ad4f1a757dca5215a9261c3a13d088fd32db0f7c2291f9ad0b14198262afe64&amp;ascene=0&amp;uin=MTM0ODQyNTk1&amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;version=11020201&amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D">浏览器缓存机制</a></p>
+
+<p><a href="https://mp.weixin.qq.com/s?__biz=MjM5MDI5MjAyMA==&amp;mid=401625137&amp;idx=2&amp;sn=fdbc1ec75177f9059bc6dd6e7d4e8e50&amp;scene=0&amp;key=41ecb04b051110030b45c777d2f99c8732b24f5cd56dd9eaeab5cf4b64ef1cb9ae071aede689c52ec94669d944214ad5&amp;ascene=0&amp;uin=MTM0ODQyNTk1&amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;version=11020201&amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D">你可能不知道的10个JavaScript小技巧</a></p>
+
+<p><a href="https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&amp;mid=207609334&amp;idx=1&amp;sn=c2b03d45ea66b9f4b20591b0b71ba1ba&amp;key=41ecb04b05111003cc218410cd123596c1cc03aaa084fa212a0763db7c02e24b8f217c8ac061777a86204ac2c08efdd3&amp;ascene=0&amp;uin=MTM0ODQyNTk1&amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;version=11020201&amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D">Web性能API——帮你分析前端性能</a></p>
+
+<p><a href="https://mp.weixin.qq.com/s?__biz=MzA4Nzc4MjI4MQ==&amp;mid=401078457&amp;idx=1&amp;sn=32cce298a6314d0f987b10f588d9b337&amp;scene=0&amp;key=41ecb04b051110038ea216553015df6c6c7c746c1c9473b6b98261eeabbd6f586529b3bb162aaa8e2a307d9f75c61954&amp;ascene=0&amp;uin=MTM0ODQyNTk1&amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;version=11020201&amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D">深入了解浏览器的重绘与重排</a></p>
+
+<p><a href="https://mp.weixin.qq.com/s?__biz=MzAxODE2MjM1MA==&amp;mid=210235093&amp;idx=2&amp;sn=1d7ed995ef0895e97eb87d466d25636e&amp;scene=0&amp;key=41ecb04b051110039570d5ade0d20eb40419372ef0ef0d413512f82161b223ec3538641f23c0e333fc5d6e11f62f329d&amp;ascene=0&amp;uin=MTM0ODQyNTk1&amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;version=11020201&amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D">基于webpack搭建前端工程解决方案探索</a></p>
+
+<p><a href="https://mp.weixin.qq.com/s?__biz=MzAxODE2MjM1MA==&amp;mid=205870503&amp;idx=1&amp;sn=c919fd8c45f35f4095068611f76e72d9&amp;key=41ecb04b051110033a4237c015d83e9e7950a91d9a5a01701cadf43b714f403af4471d9164c96cbd996a6842f96312ed&amp;ascene=0&amp;uin=MTM0ODQyNTk1&amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;version=11020201&amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D">Web性能优化系列（3）：如何延迟加载JS</a></p>
+
+<p><a href="https://mp.weixin.qq.com/s?__biz=MzAxODE2MjM1MA==&amp;mid=207465643&amp;idx=1&amp;sn=d869021a71cce8e09e1a22daf92cb90a&amp;key=41ecb04b0511100393bc07351bd5c6f6e2b164ec9569a6f2494ee05cda6e8ec489ca8e40b79d5408ad166632eace74b0&amp;ascene=0&amp;uin=MTM0ODQyNTk1&amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;version=11020201&amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D">Web开发牛人访谈：你们都在用什么？</a></p>
+
+<p><a href="http://toutiao.com/a6187369155505225986/?iid=3015193378&amp;app=news_article&amp;wxshare_count=1&amp;tt_from=weixin&amp;utm_source=weixin&amp;utm_medium=toutiao_android&amp;utm_campaign=client_share&amp;from=timeline&amp;isappinstalled=1">前端工程——基础篇</a></p>
+
+<p><a href="https://mp.weixin.qq.com/s?__biz=MzAxODE2MjM1MA==&amp;mid=207201399&amp;idx=2&amp;sn=cdd375ffdf291a3e221896613175a5a4&amp;key=41ecb04b0511100375281a3c3d627e0220d69c00d4c998e10028582b8c983b2c06957f307fb6dae27426fb999e6a16eb&amp;ascene=0&amp;uin=MTM0ODQyNTk1&amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;version=11020201&amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D">我的前端学习历程</a></p>
+
+<p><a href="https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&amp;mid=208906645&amp;idx=1&amp;sn=2a80b58e01327053b5736e018a39a882&amp;scene=0&amp;key=41ecb04b05111003134bd68ad6523984ec61ef9c5c5b7209120e0301564294f79897deefb34a4d2be2e2eab655968217&amp;ascene=0&amp;uin=MTM0ODQyNTk1&amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;version=11020201&amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D">我为什么反对用Node！</a></p>
 
             </div>
             <footer class="article-footer">
-    <a data-url="http://linjinxing.gitcafe.io/2015/12/19/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E7%BD%91%E4%B8%8A%E6%96%87%E7%AB%A0%E6%B1%87%E6%80%BB" data-id="424069113a08a4256349764ee38dbbbf" class="article-share-link">
+    <a data-url="http://linjinxing.gitcafe.io/2015/12/19/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E7%BD%91%E4%B8%8A%E6%96%87%E7%AB%A0%E6%B1%87%E6%80%BB" data-id="550bb84749b59bd13efb109f27967faa" class="article-share-link">
         共享
     </a>
     
@@ -308,20 +366,20 @@
         
 <nav id="article-nav">
     
-    <a href="http://linjinxing.gitcafe.io/2015/12/19/%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95%E7%BD%91%E4%B8%8A%E6%96%87%E7%AB%A0%E6%B1%87%E6%80%BB" id="article-nav-older" class="article-nav-link-wrap">
+    <a href="http://linjinxing.gitcafe.io/2015/12/19/%E5%A4%A7%E6%95%B0%E6%8D%AE%E7%BD%91%E4%B8%8A%E6%96%87%E7%AB%A0%E6%B1%87%E6%80%BB" id="article-nav-older" class="article-nav-link-wrap">
       <strong class="article-nav-caption">
           更老文章
       </strong>
-      <div class="article-nav-title">学习方法网上文章汇总</div>
+      <div class="article-nav-title">大数据网上文章汇总</div>
     </a>
     
 
     
-    <a href="http://linjinxing.gitcafe.io/2015/12/19/%E4%BA%A7%E5%93%81%E7%BB%8F%E7%90%86%E7%BD%91%E4%B8%8A%E6%96%87%E7%AB%A0%E6%B1%87%E6%80%BB" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="http://linjinxing.gitcafe.io/2015/12/19/%E5%88%9B%E4%B8%9A%E7%BD%91%E4%B8%8A%E6%96%87%E7%AB%A0%E6%B1%87%E6%80%BB" id="article-nav-newer" class="article-nav-link-wrap">
       <strong class="article-nav-caption">
           更新文章
       </strong>
-      <div class="article-nav-title">产品经理网上文章汇总</div>
+      <div class="article-nav-title">创业网上文章汇总</div>
     </a>
     
 </nav>
@@ -448,12 +506,12 @@
                 <div class="item-inner">
                     
                     <p class="item-category">
-                        <a class="article-category-link" href="http://linjinxing.gitcafe.io/categories/%e4%ba%a7%e5%93%81">
-                        产品
+                        <a class="article-category-link" href="http://linjinxing.gitcafe.io/categories/android">
+                        android
                         </a>
                     </p>
                     
-                    <p class="item-title"><a href="http://linjinxing.gitcafe.io/2015/12/19/%E4%BA%A7%E5%93%81%E7%BB%8F%E7%90%86%E7%BD%91%E4%B8%8A%E6%96%87%E7%AB%A0%E6%B1%87%E6%80%BB" class="title">产品经理网上文章汇总</a></p>
+                    <p class="item-title"><a href="http://linjinxing.gitcafe.io/2015/12/19/java%E5%BC%80%E5%8F%91%E7%BD%91%E4%B8%8A%E6%96%87%E7%AB%A0%E6%B1%87%E6%80%BB" class="title">java开发网上文章汇总</a></p>
                     <p class="item-date">
                         <time datetime="2015-12-19 13:39:46 &#43;0200 &#43;0200" itemprop="datePublished">2015-12-19</time>
                     </p>
@@ -484,8 +542,22 @@
             
             
             
+                <a class="category-list-link" href="http://linjinxing.gitcafe.io/tags/devops">
+                    devops(1)
+                </a>
+               
+            
+            
+            
                 <a class="category-list-link" href="http://linjinxing.gitcafe.io/tags/ios">
                     ios(1)
+                </a>
+               
+            
+            
+            
+                <a class="category-list-link" href="http://linjinxing.gitcafe.io/tags/java">
+                    java(1)
                 </a>
                
             
@@ -500,6 +572,13 @@
             
                 <a class="category-list-link" href="http://linjinxing.gitcafe.io/tags/mvc">
                     mvc(1)
+                </a>
+               
+            
+            
+            
+                <a class="category-list-link" href="http://linjinxing.gitcafe.io/tags/python">
+                    python(1)
                 </a>
                
             
@@ -561,8 +640,29 @@
             
             
             
+                <a class="category-list-link" href="http://linjinxing.gitcafe.io/tags/%e4%ba%ba%e9%99%85%e5%85%b3%e7%b3%bb">
+                    人际关系(1)
+                </a>
+               
+            
+            
+            
                 <a class="category-list-link" href="http://linjinxing.gitcafe.io/tags/%e4%bc%98%e7%a7%80">
                     优秀(2)
+                </a>
+               
+            
+            
+            
+                <a class="category-list-link" href="http://linjinxing.gitcafe.io/tags/%e5%81%a5%e5%ba%b7">
+                    健康(1)
+                </a>
+               
+            
+            
+            
+                <a class="category-list-link" href="http://linjinxing.gitcafe.io/tags/%e5%85%b6%e5%ae%83">
+                    其它(1)
                 </a>
                
             
@@ -575,6 +675,13 @@
             
             
             
+                <a class="category-list-link" href="http://linjinxing.gitcafe.io/tags/%e5%88%9b%e4%b8%9a">
+                    创业(1)
+                </a>
+               
+            
+            
+            
                 <a class="category-list-link" href="http://linjinxing.gitcafe.io/tags/%e5%89%8d%e7%ab%af">
                     前端(1)
                 </a>
@@ -582,8 +689,22 @@
             
             
             
+                <a class="category-list-link" href="http://linjinxing.gitcafe.io/tags/%e5%a4%a7%e6%95%b0%e6%8d%ae">
+                    大数据(1)
+                </a>
+               
+            
+            
+            
                 <a class="category-list-link" href="http://linjinxing.gitcafe.io/tags/%e5%ad%a6%e4%b9%a0%e6%96%b9%e6%b3%95">
-                    学习方法(2)
+                    学习方法(1)
+                </a>
+               
+            
+            
+            
+                <a class="category-list-link" href="http://linjinxing.gitcafe.io/tags/%e5%b9%bd%e9%bb%98">
+                    幽默(1)
                 </a>
                
             
@@ -596,8 +717,22 @@
             
             
             
+                <a class="category-list-link" href="http://linjinxing.gitcafe.io/tags/%e5%bf%83%e7%90%86%e5%ad%a6">
+                    心理学(2)
+                </a>
+               
+            
+            
+            
                 <a class="category-list-link" href="http://linjinxing.gitcafe.io/tags/%e6%89%a9%e5%b1%95">
                     扩展(1)
+                </a>
+               
+            
+            
+            
+                <a class="category-list-link" href="http://linjinxing.gitcafe.io/tags/%e6%8a%80%e6%9c%af">
+                    技术(1)
                 </a>
                
             
@@ -610,6 +745,13 @@
             
             
             
+                <a class="category-list-link" href="http://linjinxing.gitcafe.io/tags/%e6%95%88%e7%8e%87">
+                    效率(1)
+                </a>
+               
+            
+            
+            
                 <a class="category-list-link" href="http://linjinxing.gitcafe.io/tags/%e6%95%8f%e6%8d%b7%e5%bc%80%e5%8f%91">
                     敏捷开发(1)
                 </a>
@@ -617,8 +759,22 @@
             
             
             
+                <a class="category-list-link" href="http://linjinxing.gitcafe.io/tags/%e6%95%b0%e6%8d%ae%e5%ba%93">
+                    数据库(1)
+                </a>
+               
+            
+            
+            
                 <a class="category-list-link" href="http://linjinxing.gitcafe.io/tags/%e6%97%b6%e9%97%b4%e7%ae%a1%e7%90%86">
                     时间管理(1)
+                </a>
+               
+            
+            
+            
+                <a class="category-list-link" href="http://linjinxing.gitcafe.io/tags/%e6%9c%ba%e5%99%a8%e5%ad%a6%e4%b9%a0">
+                    机器学习(1)
                 </a>
                
             
@@ -632,14 +788,35 @@
             
             
                 <a class="category-list-link" href="http://linjinxing.gitcafe.io/tags/%e6%b1%87%e6%80%bb">
-                    汇总(12)
+                    汇总(26)
                 </a>
                
             
             
             
                 <a class="category-list-link" href="http://linjinxing.gitcafe.io/tags/%e7%ae%a1%e7%90%86">
-                    管理(1)
+                    管理(2)
+                </a>
+               
+            
+            
+            
+                <a class="category-list-link" href="http://linjinxing.gitcafe.io/tags/%e7%b2%be%e7%9b%8a">
+                    精益(1)
+                </a>
+               
+            
+            
+            
+                <a class="category-list-link" href="http://linjinxing.gitcafe.io/tags/%e7%bb%8f%e6%b5%8e">
+                    经济(1)
+                </a>
+               
+            
+            
+            
+                <a class="category-list-link" href="http://linjinxing.gitcafe.io/tags/%e7%bb%bc%e5%90%88">
+                    综合(1)
                 </a>
                
             
@@ -687,6 +864,20 @@
             
             
             
+                <a class="category-list-link" href="http://linjinxing.gitcafe.io/tags/%e8%af%bb%e4%b9%a6">
+                    读书(1)
+                </a>
+               
+            
+            
+            
+                <a class="category-list-link" href="http://linjinxing.gitcafe.io/tags/%e8%bf%90%e7%bb%b4">
+                    运维(1)
+                </a>
+               
+            
+            
+            
                 <a class="category-list-link" href="http://linjinxing.gitcafe.io/tags/%e8%bf%90%e8%90%a5">
                     运营(1)
                 </a>
@@ -696,6 +887,13 @@
             
                 <a class="category-list-link" href="http://linjinxing.gitcafe.io/tags/%e9%87%8d%e7%94%a8">
                     重用(1)
+                </a>
+               
+            
+            
+            
+                <a class="category-list-link" href="http://linjinxing.gitcafe.io/tags/%e9%94%80%e5%94%ae">
+                    销售(1)
                 </a>
                
             
@@ -718,7 +916,7 @@
 <footer id="footer">
   <div class="outer">
     <div id="footer-info" class="inner">
-      &copy; 2015<br>
+      &copy; 2016<br>
       Powered by <a href="//gohugo.io">Hugo</a>. Theme by <a href="http://github.com/ppoffice">PPOffice</a>.
     </div>
   </div>

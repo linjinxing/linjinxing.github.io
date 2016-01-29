@@ -9,6 +9,8 @@ title = "iOS开发网上文章汇总"
 
 [iOS开发知识与能力体系 思维导图](http://blog.csdn.net/hursing/article/details/9020757)
 
+[Xcode 插件优缺点对比（推荐 20 款插件）](http://www.cocoachina.com/ios/20160122/15080.html)
+
 [Cocoa编码规范](https://mp.weixin.qq.com/s?__biz=MzAxMzE2Mjc2Ng==&mid=211692338&idx=1&sn=3eac55a6c93992646271fd808b71534d&scene=0&key=41ecb04b05111003fccc1999a722b07abf9b880d74905c3e9e9f3195f7c3c9aa21f6827d5c4fbcc5fb8cfb474f2fe20c&ascene=0&uin=MTM0ODQyNTk1&devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&version=11020201&pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D)
 
 [iOS学习路线](http://ios.skyfox.org/route.html)
@@ -47,4 +49,16 @@ title = "iOS开发网上文章汇总"
 
 [iOS崩溃调试的使用和技巧总结](http://www.cocoachina.com/ios/20151218/14748.html)
 
+** 函数式
 
+[Swift 新特性之柯里化函数](http://www.cocoachina.com/swift/20150430/11729.html)
+
+[Swift中的函数柯里化(Function Currying)](http://www.cocoachina.com/ios/20141110/10166.html)
+
+[Swift中的仿函数(Functor)和Monad模型](http://www.cocoachina.com/ios/20150216/11176.html)
+
+[用函数式编程解决逻辑难题 - Swift 版本](http://www.cocoachina.com/swift/20150316/11341.html)
+
+[Swift 的函数式编程](http://www.cocoachina.com/swift/20150106/10843.html)
+
+[GPUImage](http://www.cnblogs.com/salam/tag/GPUImage/)

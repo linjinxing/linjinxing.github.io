@@ -31,3 +31,5 @@ title = "读书文章汇总"
 
 [写给 Git 初学者的 7 个建议](https://mp.weixin.qq.com/s?__biz=MjM5MzA0OTkwMA==&mid=210501864&idx=1&sn=4935ac5af404d651293897b374c485b2&key=41ecb04b05111003459559e59d2edfd056fe084e4f0a836f6cb2cc9bae472fa3912bbbdd91b9f981a5c84078c3252076&ascene=0&uin=MTM0ODQyNTk1&devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&version=11020201&pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D)
 
+[APP性能测试方便了](https://mp.weixin.qq.com/s?__biz=MzA4Nzc4MjI4MQ==&mid=402324245&idx=1&sn=655c89069159a89bc07afee312361f3e&scene=1&srcid=0127Q7FCA6ZaCO6JxgnQM37E&key=710a5d99946419d93bd7bc44e84537e8efe46c6b4d16cd34c55ba0123d1acf618a90cf6ba3889b5b07f3daa90f5c10f8&ascene=0&uin=MTM0ODQyNTk1&devicetype=iMac14%2C1+OSX+OSX+10.10.5+build(14F1509)&version=11020201&pass_ticket=u4u1VAHsiiBdyEGFfwebvOTWL659OEi7M637LcmX3R0%3D)
+

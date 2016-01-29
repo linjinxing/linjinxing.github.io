@@ -132,12 +132,40 @@
     </item>
     
     <item>
+      <title>数据库网上文章汇总</title>
+      <link>http://linjinxing.gitcafe.io/2015/12/19/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%BD%91%E4%B8%8A%E6%96%87%E7%AB%A0%E6%B1%87%E6%80%BB</link>
+      <pubDate>Sat, 19 Dec 2015 13:39:46 +0200</pubDate>
+      
+      <guid>http://linjinxing.gitcafe.io/2015/12/19/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%BD%91%E4%B8%8A%E6%96%87%E7%AB%A0%E6%B1%87%E6%80%BB</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MzA4Mzc0NjkwNA==&amp;amp;mid=210253451&amp;amp;idx=1&amp;amp;sn=69f5c3049ee2944fd13df3d1c356f845&amp;amp;scene=0&amp;amp;key=41ecb04b05111003c11b9c40ac99ff506aac37b7726ddd123237d547817845c55a4a97d97909b98cabe43c8b361b4ac1&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;不同场景下MySQL的迁移方案&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MzA3MzYwNjQ3NA==&amp;amp;mid=401981456&amp;amp;idx=3&amp;amp;sn=71f57f1d85d880c9e80065f6a0a09f3c&amp;amp;scene=2&amp;amp;srcid=1222n3mPlXqmhKVZRqSOHsUX&amp;amp;from=timeline&amp;amp;isappinstalled=0&amp;amp;key=41ecb04b05111003659c013a0471cda0a62b3e52a82c922137b11124bd0d0f58d908cc0a849d6b8015baaf32db680fe9&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;块存储、文件存储、对象存储这三者的差别&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://blog.csdn.net/mindfloating/article/details/49902867&#34;&gt;MySQL 数据库主从复制架构&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MzA4Nzc4MjI4MQ==&amp;amp;mid=401062945&amp;amp;idx=1&amp;amp;sn=ed5e9f3f2ad0d975cbb1961c9d8774b7&amp;amp;scene=0&amp;amp;key=41ecb04b0511100301e9b012bf88c6ebc8a91ff955f4fe86ee727de11449419a396b42c002a425ab6a3c9b9d5629bb82&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;又拍网数据库架构案例分析&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MzA4Nzc4MjI4MQ==&amp;amp;mid=208524402&amp;amp;idx=1&amp;amp;sn=1b721240ab3f3ce3f7b1338e71428f36&amp;amp;scene=4&amp;amp;key=41ecb04b05111003694fb00c190dd383012e9900fb6906038a1946429f9074b3ee962d22b438f14cf0d24c9b2ef66486&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;MYSQL影响性能的主要参数&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MzA4Nzc4MjI4MQ==&amp;amp;mid=210213266&amp;amp;idx=1&amp;amp;sn=37cd4eec7046bd6d0f44c3f37a1b7673&amp;amp;scene=0&amp;amp;key=41ecb04b051110030cb0211469f1c8743a50788fe33be4eb30a8697ebb70a0e711d0fc8fa11601b83115cb7c0a5368dc&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;Mysql网络连接的性能配置项&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MzAwNjMxNjQzNA==&amp;amp;mid=207579983&amp;amp;idx=1&amp;amp;sn=fb5d501ab015188b369549d8771cf82f&amp;amp;key=41ecb04b05111003fa071efd7e34ba2840a85d0fb5cf66c12286daba96677d077d64ad21450653d8a277d139a40eeaf8&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;双机高可用、负载均衡、MySQL(读写分离、主从自动切换)架构设计&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MzA4Nzc4MjI4MQ==&amp;amp;mid=401954085&amp;amp;idx=1&amp;amp;sn=e6fe540cd7794a94417a4efc8f74240e&amp;amp;scene=0&amp;amp;key=41ecb04b051110030c346000a67f53bd0af836ab519254e14e12ac09bd5cd1b99d95a4051d56faa01417d69230f81534&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;HDFS 核心原理&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MjM5MzA4NTc2MA==&amp;amp;mid=424152551&amp;amp;idx=1&amp;amp;sn=f5898c56863d402ff6bea9442dd96558&amp;amp;scene=0&amp;amp;key=41ecb04b051110033d95018f31bdc4c397b02ff6c0dbd145940e4e33af2e27ae5d378150087badedcedce249c2ed20b8&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;这样讲分布式数据存储，对你来说是不是太简单&amp;hellip;&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>设计模式网上文章汇总</title>
       <link>http://linjinxing.gitcafe.io/2015/12/19/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E7%BD%91%E4%B8%8A%E6%96%87%E7%AB%A0%E6%B1%87%E6%80%BB</link>
       <pubDate>Sat, 19 Dec 2015 13:39:46 +0200</pubDate>
       
       <guid>http://linjinxing.gitcafe.io/2015/12/19/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E7%BD%91%E4%B8%8A%E6%96%87%E7%AB%A0%E6%B1%87%E6%80%BB</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://blog.csdn.net/martin_liang/article/details/8969074&#34;&gt;中介者模式(MVC为一应用)&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://blog.csdn.net/zhengzhb/article/details/7187278&#34;&gt;设计模式中类的关系&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -148,6 +176,46 @@
       
       <guid>http://linjinxing.gitcafe.io/2015/12/19/%E8%BD%AF%E4%BB%B6%E6%9E%B6%E6%9E%84%E7%BD%91%E4%B8%8A%E6%96%87%E7%AB%A0%E6%B1%87%E6%80%BB</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://www.csdn.net/article/2015-12-24/2826552&#34;&gt;OpenStack高可用核心架构分析&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&amp;amp;mid=208493291&amp;amp;idx=1&amp;amp;sn=14bacff7fcfcdffaecbf2fb72137f423&amp;amp;scene=2&amp;amp;key=41ecb04b0511100381bb6b36a452a8dd67141e2d6e4c1437ce7a674246459b0e87c27498e5b4ae96780d49794926577e&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;深解微服务架构：从过去，到未来｜架构&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MzAwNjQwNzU2NQ==&amp;amp;mid=208200731&amp;amp;idx=3&amp;amp;sn=1bb176ac85a711bf8f1c53c3b9f3acbd&amp;amp;scene=0&amp;amp;key=41ecb04b05111003ec8e9c31357086957d680c6e3d5a15aff971eb52c648d319d6115049ce4906ce0f1c4dc20541fb4e&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;推荐系统架构小结&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MjM5NzQ3ODAwMQ==&amp;amp;mid=212154026&amp;amp;idx=1&amp;amp;sn=e42d0a7b5f6abe49efdf862e0051903c&amp;amp;scene=2&amp;amp;key=41ecb04b05111003a1af8ad1e7e089678d4e48342e3104b316a6e1d113a6c42a367360ed3b830f07475649ba8ced5f32&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;如何扩展大规模Web网站的性能？&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MzAwMDU1MTE1OQ==&amp;amp;mid=209726147&amp;amp;idx=1&amp;amp;sn=838100776acc656c3d069f123ceda6bb&amp;amp;scene=2&amp;amp;srcid=AirTzlOg69UH4GJznOvE&amp;amp;key=41ecb04b051110031c1ff30449fc7077bffd620a7694898121e998602d2a2e9b33da9464240f4147ab0c93b3b5dc8f54&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;如何实现支持数亿用户的长连消息系统 | Golang高并发案例&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://toutiao.com/a4055096869/?tt_from=weixin_moments&amp;amp;utm_campaign=client_share&amp;amp;app=news_article&amp;amp;utm_source=weixin_moments&amp;amp;iid=2615471622&amp;amp;utm_medium=toutiao_android&#34;&gt;微信、陌陌等著名IM软件设计架构详解&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MzAwNjQwNzU2NQ==&amp;amp;mid=401602712&amp;amp;idx=1&amp;amp;sn=4eb8f8a0af87be7cc1b306989fc84c1a&amp;amp;scene=0&amp;amp;key=41ecb04b0511100390c353548dd9a06ab0b904bd40debc2d8e2ca7f87a881626fde6aeee7452e2c7d3a14ec6ce1a4877&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;高并发服务端分布式系统设计概要&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MjM5NzQ3ODAwMQ==&amp;amp;mid=211344351&amp;amp;idx=1&amp;amp;sn=8ef7a882a37fbc6ed03f2b6ec9364230&amp;amp;key=41ecb04b05111003f23ecf04f0bcbad5577f65cbef5a17b1d6d1ec08658599db380929b8293864729025c3ef0bc0abff&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;Nginx是如何做到高性能和高可扩展的？&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MzAwNjMxNjQzNA==&amp;amp;mid=207514436&amp;amp;idx=1&amp;amp;sn=c20a2169fbf2339751086734e8a5f036&amp;amp;scene=2&amp;amp;key=41ecb04b0511100350903e191786bb024d14b30b0fe8a295a7bd0c665762a25e1944169268a5ec36fac7fc9871dd024c&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;分布式MySQL数据库TDSQL架构分析&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MjM5OTA1MDUyMA==&amp;amp;mid=404383892&amp;amp;idx=2&amp;amp;sn=c105b6600d7790b609a613d21f624f58&amp;amp;scene=0&amp;amp;key=41ecb04b051110033d4bea27c5f67d5566488a8a1326302d2da3b0f014095bbf35003bc179575f53e7bdf2f4633c7914&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;秒杀系统架构分析与实战 （反馈非常好的文章，推荐）&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MjM5NzQ3ODAwMQ==&amp;amp;mid=213554743&amp;amp;idx=1&amp;amp;sn=fc923fcce950ad232636208d358b7fb1&amp;amp;scene=2&amp;amp;srcid=0909Sv5HYa0M6FpyxTDq1FVy&amp;amp;key=41ecb04b05111003c8508f753b7d026e735edf28f0f67df62452b91574a06cfee0a8dbe8bd77f2224bd4535d36ace9ee&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;6种常见架构设计安全误区&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MjM5NzU0MzU0Nw==&amp;amp;mid=400771435&amp;amp;idx=2&amp;amp;sn=18a71bbe499f3289d74a174908c52abb&amp;amp;scene=0&amp;amp;key=41ecb04b05111003c2b7c20c435431f69fb2d5f309597225304c9a653e841536adf82d11f0976c461422df912a5c1020&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;如何应对服务器压力？服务器横向扩展（加机器）策略漫谈&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MjM5NzQ3ODAwMQ==&amp;amp;mid=414248607&amp;amp;idx=1&amp;amp;sn=367e40fd3ca94047130bb535bd3191b5&amp;amp;scene=0&amp;amp;key=41ecb04b051110036ea75c841bf0d7d42ad54d758f6e55906ffe3f22418b6f5c87bf7a8e842b0082a90d7f0bab285478&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;如何学习掌握一个分布式系统？&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MjM5MzA0OTkwMA==&amp;amp;mid=209088922&amp;amp;idx=1&amp;amp;sn=37cece2b74bcd84f243b52c27108d54d&amp;amp;key=41ecb04b05111003ace45180e9d9d8da27b93096b783cc92444ed8e28c4ac4740f3a2f954363df7dd5f374ed6c6333a8&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;为最佳性能调优 Nginx&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MjM5MjAwODM4MA==&amp;amp;mid=205717373&amp;amp;idx=1&amp;amp;sn=512ce9abaeafb24e91ccd74c3263539b&amp;amp;key=41ecb04b051110031bc305195edf3103d77bdfd59b3fa41e4ea840afa9a46309027b94587f5562a4414725fa85e7c9cc&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;京东私有云三大技术方向解析&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MjM5MzA0OTkwMA==&amp;amp;mid=210918607&amp;amp;idx=1&amp;amp;sn=8e7dad53bed07f5a5f713205bf02d995&amp;amp;scene=0&amp;amp;key=41ecb04b05111003f74f0abca5f67599db0cbdc793fd20e6c3a9b2896a8e5cd052f527c7f25adb41fb8e40f9e729b13c&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;经验分享：如何构建亿级前端读服务&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MjM5OTkyNzkxMQ==&amp;amp;mid=206291726&amp;amp;idx=8&amp;amp;sn=3a23742b82dc81528c603ae6df3b0ede&amp;amp;scene=24&amp;amp;srcid=1011oT6VJ3tZwH1dvqXKUykp&amp;amp;key=41ecb04b0511100390079874492e6603619ae209b2167281b68ca944cd0574665be21d79d7142c14b0e96fb0ef8da983&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;微服务架构的设计模式&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MzA4Nzc4MjI4MQ==&amp;amp;mid=401257672&amp;amp;idx=1&amp;amp;sn=ff092b23d5f3b57ea460118aa9d26696&amp;amp;scene=0&amp;amp;key=41ecb04b05111003b90021af6ccd23a8c08e8cd32a78209c5f5ef9e7e7c75f732a071dd39bc165b4ebe3e8f04d8e0472&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;Restfull API&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MzAwNjQwNzU2NQ==&amp;amp;mid=400707190&amp;amp;idx=1&amp;amp;sn=5e61608f538a84201a6fea0e5830a18a&amp;amp;scene=0&amp;amp;key=41ecb04b05111003e31da78a7a1b099e746d4b11a853f04d3ce0c62c5b0ec05aa020a716478e7627f8a4abeb7ce0bdaf&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;软件架构模式&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MjM5MzM4NTYzMw==&amp;amp;mid=204725239&amp;amp;idx=1&amp;amp;sn=b625545e02c3e51c40d50cc0190ceaef&amp;amp;key=41ecb04b05111003260ec64c73170f10beff280dc68fdfc7e6378197eb310fec5d661ec7e39353199ee8f9cfdb6c6a17&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;【支付 . 技术控】最全最强解析：支付宝系统架构内部剖析（架构图）&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MjM5OTM0MzIwMQ==&amp;amp;mid=208336864&amp;amp;idx=2&amp;amp;sn=3894a600291005ab81ea121548ccbc37&amp;amp;scene=2&amp;amp;key=41ecb04b0511100360d9ab201a6efe7637b57497bb5a2aca74223be77bb43a1ce563c1a5cb5ee9f0646868b186dd775a&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;最全最强解析：支付宝钱包系统架构内部剖析（架构图）&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

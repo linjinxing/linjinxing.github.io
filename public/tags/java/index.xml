@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Java on 彤星的博客</title>
+    <link>http://linjinxing.gitcafe.io/tags/java/</link>
+    <description>Recent content in Java on 彤星的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 19 Dec 2015 13:39:46 +0200</lastBuildDate>
+    <atom:link href="http://linjinxing.gitcafe.io/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>java开发网上文章汇总</title>
+      <link>http://linjinxing.gitcafe.io/2015/12/19/java%E5%BC%80%E5%8F%91%E7%BD%91%E4%B8%8A%E6%96%87%E7%AB%A0%E6%B1%87%E6%80%BB</link>
+      <pubDate>Sat, 19 Dec 2015 13:39:46 +0200</pubDate>
+      
+      <guid>http://linjinxing.gitcafe.io/2015/12/19/java%E5%BC%80%E5%8F%91%E7%BD%91%E4%B8%8A%E6%96%87%E7%AB%A0%E6%B1%87%E6%80%BB</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MjM5OTA1MDUyMA==&amp;amp;mid=404429590&amp;amp;idx=2&amp;amp;sn=624a8302aa42e2f9d399ddbbfa15ba02&amp;amp;scene=0&amp;amp;key=41ecb04b051110034c2868b3cd1e4aa671619245abb156a0027355c5a9664ed2727bb5ab408b11c68c57474001a1c817&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;133个Java面试问题列表（上）&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MjM5OTA1MDUyMA==&amp;amp;mid=404429590&amp;amp;idx=3&amp;amp;sn=3df497e9d4e903ca4280d3c2a38b8dd7&amp;amp;scene=0&amp;amp;key=41ecb04b05111003e3d69619fca501c382dde2e4e12a299ad928eec88be69481291f557a6c144c4e0587bed47643ba84&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;133个Java面试问题列表（下）&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MzA3NDcyMTQyNQ==&amp;amp;mid=203127443&amp;amp;idx=1&amp;amp;sn=88472f708c2d2b3a238edaf1e84855dc&amp;amp;scene=24&amp;amp;srcid=1012K71kua2O2uUnBuU5THRU&amp;amp;key=41ecb04b05111003808719158a28e9052525e2d4437d4414c5c160ffefb6bbe0eb3c6b073956704a2001f2befe9b78d3&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;Java程序员应当知道的10个面向对象设计原则&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MzA3MDMyMjkzNg==&amp;amp;mid=210587474&amp;amp;idx=1&amp;amp;sn=d072028748e6b6305ac510fefc441c0d&amp;amp;key=41ecb04b051110036e5bec877502f1877f9ea9a8192b7098a6ed8406f41140e5a361057dc986a4e683cbd3a66b475018&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;8张图理解Java&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

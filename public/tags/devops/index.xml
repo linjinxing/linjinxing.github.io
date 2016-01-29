@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Devops on 彤星的博客</title>
+    <link>http://linjinxing.gitcafe.io/tags/devops/</link>
+    <description>Recent content in Devops on 彤星的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 19 Dec 2015 13:39:46 +0200</lastBuildDate>
+    <atom:link href="http://linjinxing.gitcafe.io/tags/devops/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>运维网上文章汇总</title>
+      <link>http://linjinxing.gitcafe.io/2015/12/19/%E8%BF%90%E7%BB%B4%E7%BD%91%E4%B8%8A%E6%96%87%E7%AB%A0%E6%B1%87%E6%80%BB</link>
+      <pubDate>Sat, 19 Dec 2015 13:39:46 +0200</pubDate>
+      
+      <guid>http://linjinxing.gitcafe.io/2015/12/19/%E8%BF%90%E7%BB%B4%E7%BD%91%E4%B8%8A%E6%96%87%E7%AB%A0%E6%B1%87%E6%80%BB</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MjM5NzQ3ODAwMQ==&amp;amp;mid=212426809&amp;amp;idx=2&amp;amp;sn=478853ccbf585f7caa90c8f62d1d1434&amp;amp;scene=2&amp;amp;key=41ecb04b051110038e06cf3cb8e66a3f3744f125eb09b951e5a10518b720fce598918b81122d179df6396bb7a60868fb&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;十篇精选的Docker技术文章&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

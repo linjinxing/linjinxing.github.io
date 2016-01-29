@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>机器学习 on 彤星的博客</title>
+    <link>http://linjinxing.gitcafe.io/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</link>
+    <description>Recent content in 机器学习 on 彤星的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 19 Dec 2015 13:39:46 +0200</lastBuildDate>
+    <atom:link href="http://linjinxing.gitcafe.io/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>大数据网上文章汇总</title>
+      <link>http://linjinxing.gitcafe.io/2015/12/19/%E5%A4%A7%E6%95%B0%E6%8D%AE%E7%BD%91%E4%B8%8A%E6%96%87%E7%AB%A0%E6%B1%87%E6%80%BB</link>
+      <pubDate>Sat, 19 Dec 2015 13:39:46 +0200</pubDate>
+      
+      <guid>http://linjinxing.gitcafe.io/2015/12/19/%E5%A4%A7%E6%95%B0%E6%8D%AE%E7%BD%91%E4%B8%8A%E6%96%87%E7%AB%A0%E6%B1%87%E6%80%BB</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MjM5MzA0OTkwMA==&amp;amp;mid=213020743&amp;amp;idx=1&amp;amp;sn=7cfee0135a332f593c5feee4793a8f03&amp;amp;scene=0&amp;amp;key=41ecb04b05111003caeae43faf3b37faaa1ccc31a554c35e5e7fff1ee1701c13300c105fb1a8c24ed4d53f94e9bddb26&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;有趣的机器学习：最简明入门指南&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MzA4MzEwOTkyMQ==&amp;amp;mid=409218006&amp;amp;idx=1&amp;amp;sn=7d5f75406b1b3c0bc82fe934e3111190&amp;amp;scene=0&amp;amp;key=41ecb04b0511100366ad7ae57603ff8ecda2e332c52c867c5d705b21b8bc680e4e08b6c2a90c2fea01ef04b33187f67f&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;最好的Python机器学习库&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://blog.jobbole.com/45936/&#34;&gt;40多个关于人脸检测/识别的API、库和软件&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MjM5NDEwMjg2MA==&amp;amp;mid=401913085&amp;amp;idx=1&amp;amp;sn=939d32e84100ce46173661a809d7f523&amp;amp;scene=0&amp;amp;key=41ecb04b051110038bcb6fe3a0e0161981b9d9c431313685eb49953372d90b679df367f3aec39dc874cea4ce431405b2&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;浅谈产品的用户画像：它并不是万能的&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

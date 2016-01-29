@@ -15,7 +15,139 @@
       <pubDate>Sat, 19 Dec 2015 13:39:46 +0200</pubDate>
       
       <guid>http://linjinxing.gitcafe.io/2015/12/19/%E4%BA%A7%E5%93%81%E7%BB%8F%E7%90%86%E7%BD%91%E4%B8%8A%E6%96%87%E7%AB%A0%E6%B1%87%E6%80%BB</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://www.csdn.net/article/2015-12-21/2826537&#34;&gt;如何获取有价值的用户反馈？&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;** 需求
+&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MjM5OTM5OTAyMQ==&amp;amp;mid=212770619&amp;amp;idx=2&amp;amp;sn=42efc15c6a05bc4a564434f0de6cf23e&amp;amp;scene=0&amp;amp;key=41ecb04b0511100374b33a75d4716e3a45eeeb778062fdc1d0a30fcc09961ba2d45ef2c6b245767bd9ded9235baa2dc4&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;知乎创始人周源分享：社交产品如何从0到1&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.csdn.net/article/2015-12-21/2826537&#34;&gt;如何获取有价值的用户反馈？&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.woshipm.com/operate/1959.html&#34;&gt;从社区的”二四模型“看社区建设&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.woshipm.com/operate/127099.html&#34;&gt;论网络社区内容运营的四大核心要素&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://36kr.com/p/217020.html&#34;&gt;验证最小化可行产品 (MVP) 的 15 种方法&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.woshipm.com/pd/125275.html&#34;&gt;关于MATERIAL DESIGN！做到这五点便足以让用户惊喜&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.woshipm.com/operate/10026.html&#34;&gt;浅谈内容社区设计之一： 内容生产&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MjM5OTEwNjI2MA==&amp;amp;mid=205594756&amp;amp;idx=3&amp;amp;sn=5470ced4d93bd6b4588dce0247ffdfdb&amp;amp;key=41ecb04b05111003882c62df7a795b8b9fa814f44bebc8cec9e0ba3ceb1901359378842aab082738213202ca6ee4a129&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;【竞品分析】竞品分析，不是你想象中的那样&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MjM5NzM4MTk5Mg==&amp;amp;mid=205017901&amp;amp;idx=1&amp;amp;sn=da8a96f3c816f5511d41908f5b39a2b6&amp;amp;key=41ecb04b05111003b982bad526d76517437c26a63f4192271cdde9d5d9f08f9c03cde3e8bf3068899571111c096e96d1&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;社交媒体上的信任与推荐背后的科学依据&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MjM5OTEwNjI2MA==&amp;amp;mid=205313876&amp;amp;idx=1&amp;amp;sn=b177da18bbb2b3d5e24be004a4bb62f6&amp;amp;scene=2&amp;amp;key=41ecb04b05111003385afd4ccc06912ced0e75c3c2859980879401d8a578a0a92d87d7b87484822c5cb13556cb14a7ff&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;做产品，懂人性，触人心&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.woshipm.com/pmd/125094.html&#34;&gt;为什么很多工具性的 App 都要做个社区？&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;ndash; 用户体验
+&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MjM5OTEwNjI2MA==&amp;amp;mid=209998662&amp;amp;idx=1&amp;amp;sn=a92639017f00f9a405afbbc138934989&amp;amp;scene=2&amp;amp;srcid=0925MOCgV7Lby6yHhbV5U9Uy&amp;amp;from=timeline&amp;amp;isappinstalled=0&amp;amp;key=41ecb04b05111003f54eef728c301f17ecac297cd52311160b90d4c8af39a3867aa4da4dafae54877df216fed9d47076&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;交互新人：如何做用户体验设计&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MzAxNzY1NjQ1OA==&amp;amp;mid=400793994&amp;amp;idx=4&amp;amp;sn=17d38a209c2415b1b95dbdbc76433884&amp;amp;scene=0&amp;amp;key=41ecb04b05111003ec5e728aafb3d99350bc4b5e1127dc0d6521777556c4df913a1cc253603e6a3dfe1a1f7f256bd04d&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;圣诞干货大礼包之《十张PPT知晓何为用户体验》&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;ndash; 商业模式
+&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MzA5NjYyNTMxMw==&amp;amp;mid=205164385&amp;amp;idx=4&amp;amp;sn=4c2b73e26fe7ffba87a7c0a4aef13633&amp;amp;key=41ecb04b05111003cff35f50eef04138d4214ad6b9dc4eaabc8886ab42a112a5ce24d93b128bc42c751c55874907bf6b&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;“产品是入口，社群才是商业模式”&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MjM5NTY1NjQwMQ==&amp;amp;mid=209006329&amp;amp;idx=3&amp;amp;sn=a1506588901c1b92674886db08a54559&amp;amp;scene=2&amp;amp;key=41ecb04b0511100343b972fe751ee37b28507f50963f7fcacea82833106df466dd3d82532dac03911960cbfad53c399e&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;互联网创业就这24种商业模式，最全面的总结&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;ndash; 运营
+&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MjM5NDEwMjg2MA==&amp;amp;mid=208422947&amp;amp;idx=1&amp;amp;sn=35e41f4bbb376eb3bc7e2db0cc1aaf9f&amp;amp;key=41ecb04b05111003c9665c6cea0f3d3fcd5e760659e74a0d62216a2191bfda97ddb7ee7de18acb6a51815457cf33430b&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;【干货】用户运营中的认知、考虑、行动模型&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MjM5NDEwMjg2MA==&amp;amp;mid=208635917&amp;amp;idx=1&amp;amp;sn=e3ec3f76b88a64f305065ef6ed91608e&amp;amp;key=41ecb04b05111003928fdae8eaa12644e5c17b191047a15d3f36217cb0688c70a617c9266555b90dc9d792996d97d21d&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;阿里数据产品经理工作(总结篇)：数据PD，做牛做马&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MzA4ODA0MDAyOA==&amp;amp;mid=212693864&amp;amp;idx=1&amp;amp;sn=42f266104a9f7eb7addb05483d914b35&amp;amp;scene=0&amp;amp;key=41ecb04b0511100384e966411094b54df939863ff02eb8b8af1625bd8111fc12955581a628560593481a12cbce5cc4b2&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;什么是互联网运营？说说我的理解&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MTEwNTM0ODI0MQ==&amp;amp;mid=208223362&amp;amp;idx=1&amp;amp;sn=3f9a25406c47e735e4ad5c1db05d30c6&amp;amp;scene=2&amp;amp;key=41ecb04b05111003b71d2476391dfcc9bcf07208cd675fb6533d9dd2e6b71241382a51e4f5a0371159f6b34f32e4830b&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;七情六欲聊运营&amp;mdash;-如何做更懂用户的产品运营【下篇】&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MzA5NzAzMjIxMw==&amp;amp;mid=206349069&amp;amp;idx=3&amp;amp;sn=11835a48fd2d4ce55b84ccf2ae1ee951&amp;amp;key=41ecb04b05111003fbc24da35f9de1895712da9daa8fda7cf5cf0711bd49713f56fee108ba4dac8fc25f6601df1b33cd&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;擅长“跨界营销”的Uber，在全球都玩过哪些创意？&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MzA4ODA0MDAyOA==&amp;amp;mid=207108782&amp;amp;idx=1&amp;amp;sn=5e992522a9e8db56fc50a833a3d29546&amp;amp;scene=2&amp;amp;key=41ecb04b05111003581bf08b2bb505957f7fcfbd01d43f2854bac0d9891437f6d6dd787b860c2e879e2c77508d510c11&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;运营高手推荐的经典互联网书籍&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.woshipm.com/operate/1843.html&#34;&gt;社区运营的10大原则&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MjM5MzIxNTQ2MA==&amp;amp;mid=211645638&amp;amp;idx=1&amp;amp;sn=ba015cf61c6b655197eb0a5e186e3fc7&amp;amp;scene=2&amp;amp;key=41ecb04b05111003811a8b178a07dcd90eb3c18357c051f10d17e640d157aee810b4002214ce43b3df40b872ce8dc5d9&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;我在阿里做运营&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MjM5MzAyODIyMA==&amp;amp;mid=208708677&amp;amp;idx=4&amp;amp;sn=c3e4da7d81da62222c509a4b581cb70d&amp;amp;key=41ecb04b05111003c16b11c97a66f42bd965b50a0332af148cff25a849266655d798a58cb0cfa41c5dd52202aefa7d6c&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;【产品篇】快速切入市场的6条途径&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://app.myzaker.com/news/article.php?&amp;amp;pk=552e3b871bc8e0694700005d&amp;amp;app_id=11063&amp;amp;sharechannel=wx&#34;&gt;新媒体运营，如何达到“人神合一”的最高境界？分享一些技巧和注意事项！&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.woshipm.com/operate/1932.html&#34;&gt;社区初建活动推广十四条&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://yuedu.163.com/news_reader/?utm_source=weixin&amp;amp;utm_medium=social#/~/source?id=23236724-1b70-4755-b387-38176adfe127_1&amp;amp;cid=dffd9420ae7d48be9dc04e5d7d11242c_1&#34;&gt;咦？这些产品当年都是怎么抢到第一批用户的？&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MzA4NjAzMjEyOA==&amp;amp;mid=204909575&amp;amp;idx=1&amp;amp;sn=378359bd1fd64d45df8a005b68bcffa3&amp;amp;scene=2&amp;amp;key=41ecb04b05111003b109fc08a4b8211164674cddb80d42e3109f1493ca7bdce80471ea25e6821c0242ffede7da35715d&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;【理念篇】应用运维三部曲&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MzA4MTM2MTcwOA==&amp;amp;mid=206363589&amp;amp;idx=1&amp;amp;sn=70b05ea9c7590bc812bfcbfbb07321ea&amp;amp;scene=2&amp;amp;key=41ecb04b05111003771674af79bf0a436c148b47265553143b877a35aad4795511f30c3d1a1c6ba28c14b7773206061e&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;运营总监分享：怎样才是一位优秀的产品运营？&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.woshipm.com/operate/13508.html&#34;&gt;网络社区用户成长的5个思考模式&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.woshipm.com/operate/141918.html&#34;&gt;互联网产品运营需要具备哪些素养？【附各职级能力模型】&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MTEwNTM0ODI0MQ==&amp;amp;mid=208223267&amp;amp;idx=1&amp;amp;sn=f25c5398b37fe48e73d3dae844b6ba07&amp;amp;scene=4&amp;amp;key=41ecb04b05111003419dd16a8c3036f6cc2fec316b55765a86a9cdb6f7adbba7a72ef0e52f931bf7ed721b6f14d0a30d&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;七情六欲聊运营&amp;mdash;-如何做更懂用户的产品运营【上篇】&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MjM5OTEwNjI2MA==&amp;amp;mid=204783544&amp;amp;idx=1&amp;amp;sn=9522cd9474c92551da4825678ac09d0c&amp;amp;key=41ecb04b05111003b45b5a1a65418a55b55682f43c34808d3e02fed50202c4f6a2b38544fd8e044e50aa8f24dd351166&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;【运营设计】4个流程帮你快速搞定运营设计&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.woshipm.com/operate/2138.html&#34;&gt;联网产品如何从无到有聚集用户？&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.woshipm.com/operate/1902.html&#34;&gt;社区运营的用户体验&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MzA4ODA0MDAyOA==&amp;amp;mid=400513464&amp;amp;idx=1&amp;amp;sn=bf6fdda1984d4f96dd4f4a4e0ee4ebc7&amp;amp;scene=0&amp;amp;key=41ecb04b05111003ad9e06b67b5f35ad74fd940da253c18476edf19bdc9c7c3182824b6e26eea12a116f5e2161b9e2e9&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;APP运营怎么样做好消息推送（push）呢？&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MzAxODE2MjM1MA==&amp;amp;mid=209087667&amp;amp;idx=1&amp;amp;sn=d61aec2faca1c4ac663753675150c831&amp;amp;key=41ecb04b0511100399018ead3a5ac649590ca07f29c6ab58632f71f26492f01cbd18227c3df27df23328e7dda722ca7e&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;顶尖微信运营宝典——从入门到精通，轻松学习微信推广方法&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;ndash; 方案
+&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MjM5NDEwMjg2MA==&amp;amp;mid=209086333&amp;amp;idx=1&amp;amp;sn=01a6f2cbd49a854e0a5843ac1f96d7a5&amp;amp;key=41ecb04b051110031d68c0cb87b528b61bf9ba3539578dc06d5f0e7540711e6174f9ff9c980956febcfd3cd4522cfcbb&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;【干货】如何写微信公众号文章：文章流畅耐读的奥秘&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MzAxODExMzcwNw==&amp;amp;mid=207419745&amp;amp;idx=1&amp;amp;sn=c285834a5cc303c185b5dde1663889ec&amp;amp;key=41ecb04b05111003b4c739305503eac0c94f272dbf0996a4977c494fd83bbb06b9efde59751d479b1e53413f54ecaf3a&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;写出价值3万的产品文案，你只需5步&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MjM5NDEwMjg2MA==&amp;amp;mid=208296388&amp;amp;idx=2&amp;amp;sn=b49e77ba3956e9e4edaeab20c6364b48&amp;amp;key=41ecb04b051110039289f6256302af6d540fa281fb1f9584fc83cff660f6da3525f41945e7fb463b4cddb98145f7aa6d&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;【必读】文案都写不好，还谈什么互联网思维&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.woshipm.com/operate/140187.html&#34;&gt;如何写一篇阅读100000+的微信文章&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MjM5MzAyODIyMA==&amp;amp;mid=209359837&amp;amp;idx=1&amp;amp;sn=2970401f4fe95164b2a4ee951b579c03&amp;amp;scene=1&amp;amp;key=41ecb04b05111003a07dd9d6d516190ba5195087cb7bbd10e471bc78cecac53a805e46f5e9faabd12fe4171db9a7f9af&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;【文案篇】文案月入3万不再只是梦！这里有借势高手死守的12个秘密&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;ndash; 设计
+&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MjM5NDEwMjg2MA==&amp;amp;mid=401165993&amp;amp;idx=3&amp;amp;sn=c384704b409f11e1c6f7b3e651fa084b&amp;amp;scene=0&amp;amp;key=41ecb04b05111003f739328f6ac90b14b0d95d00ed020ba8f6b70ed723ff536795ca51543fdb940b695c352b47e86123&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;如何避免订单重复支付？&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://m.xianguo.com/blog/8GsMp?devicetype=3&#34;&gt;产品经理怎么做减法？&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MjM5MzAyODIyMA==&amp;amp;mid=207476289&amp;amp;idx=2&amp;amp;sn=a87bd2dbd56765551e9777ede6edda3e&amp;amp;key=41ecb04b05111003e5ed7fc86c297c2bd04ed6624861f3005561b394e0c7a7d52627161df370b721dac88d24f3855a8c&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;【设计篇】如何让设计看起来高大上？更具设计感？&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MjM5OTEwNjI2MA==&amp;amp;mid=203444022&amp;amp;idx=1&amp;amp;sn=971207487785acc73544e785e93c00e3&amp;amp;scene=2&amp;amp;key=41ecb04b05111003adbaf584ad526efa1d98addd4c59ce81af54b7128804fa1fd0fa87af2a2d9aadf8470e0ce5d3cff8&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;【产品思维】平台型产品的设计思路&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MjM5OTEwNjI2MA==&amp;amp;mid=204464660&amp;amp;idx=3&amp;amp;sn=90b3d5f9118b7e0bdb30de108ba0f212&amp;amp;key=41ecb04b05111003050e62d8caad04bfdaa35740ff7541796573220e2ee55d5d8aa26f6d7e2d1220258bf237cfcb1a0f&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;【技能】帮你在10分钟内了解基于行为的产品设计&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MjM5OTEwNjI2MA==&amp;amp;mid=209896931&amp;amp;idx=1&amp;amp;sn=61407e400a25753dbf2451b4572c41ac&amp;amp;scene=0&amp;amp;key=41ecb04b0511100363ab0449e27e7a119231c83c30536f4311bbd33b73f4bb8b065c06e62c74c02c4d97451c868b8460&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;App设计者需要注意的21条禁忌&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MjM5NTA0NjY4MA==&amp;amp;mid=400886098&amp;amp;idx=3&amp;amp;sn=583a73c5c62168d4658071c828f96023&amp;amp;scene=1&amp;amp;srcid=1108ZGAaqDAaFYFVFKVeA826&amp;amp;key=41ecb04b051110039ba5652182e9bcc9dcea55e08a2bd2bf6eaf099f9683dc0208071466523234486376dac011c7f122&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;滴滴试驾设计背后的那些事，你看懂了多少？&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MjM5NjAxNDE2MA==&amp;amp;mid=205987069&amp;amp;idx=2&amp;amp;sn=b1f82c27f1f022fb55e363bbe720c0c7&amp;amp;scene=2&amp;amp;key=41ecb04b0511100332aa98648bc6d54f13dff05c63dd307465dafc39f541995e3edca5b38443767b4c880775cab8815d&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;【发现了吗】7-11如何做出令人发指的用户体验&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MzA3NDA4NDIzMQ==&amp;amp;mid=203983063&amp;amp;idx=4&amp;amp;sn=a3684d48baf145d2fe5066adb64dd37d&amp;amp;key=41ecb04b05111003b610ed4cc8a4d264058eb9072b1b81a68cd6d9d670460ae607c8ed38373cc940b1c1a12ed87696b5&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;四步教你打造完美登录体验&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.woshipm.com/pd/123505.html&#34;&gt;色彩设计方法&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.woshipm.com/ucd/111308.html&#34;&gt;[高逼格向]配色网站推荐—附本人使用体验&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;ndash; 管理&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MjM5NDEwMjg2MA==&amp;amp;mid=208144416&amp;amp;idx=1&amp;amp;sn=1eaf002ee390a9debea3acf79ad5a90b&amp;amp;scene=2&amp;amp;key=41ecb04b051110030190032004c18790227e6c81b6d14a55686bd02ee433a62532e730d848ceaa22919cdbfa70552bac&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;【5分钟一本书】暗时间：用时间管理把握产品的进度条&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;ndash; 产品研究
+&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MjM5NTU0MzI0MA==&amp;amp;mid=206284672&amp;amp;idx=2&amp;amp;sn=47fc31429336fef2a45dbf5d8ce86b0b&amp;amp;key=41ecb04b051110033ca2a9566ae070d9b5b6afbdcbc22f322eaf995395080a521bbe03460d8dd333a38b4b77fa3ada19&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;雷军：小米真正学的是同仁堂、海底捞、沃尔玛和Costco&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;ndash; 其它
+&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&amp;amp;mid=203900938&amp;amp;idx=1&amp;amp;sn=bff645d9a267da9602cbcfd4dc56fc1b&amp;amp;scene=2&amp;amp;key=41ecb04b0511100372c283faf06f771d54f2131f95f70049c49ac31413121f9cec4785c0bc45bf32e0de1d9b23dbf09d&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;10张图告诉你传统企业拥抱互联网的正确姿势#多么痛的领悟&amp;hellip;#&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/mp/appmsg/show?__biz=MTQzMjE1NjQwMQ==&amp;amp;appmsgid=10002020&amp;amp;itemidx=3&amp;amp;sign=1efb823e5dfff8b431989267ca6af49d&amp;amp;uin=MTM0ODQyNTk1&amp;amp;key=41ecb04b0511100309291b6c58f260311d89b3006b60c45bdbe99f67bf21e8957d1671e4c19f832f850be5280bc70ded&amp;amp;ascene=0&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;当你需要向用户解释时，就已经输了一半&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MjM5OTM5OTAyMQ==&amp;amp;mid=208315821&amp;amp;idx=1&amp;amp;sn=8b0d21254679f818dfd0a549d08b0ec3&amp;amp;key=41ecb04b05111003f42d6e4d4fac510f572f58227cd45981fa08e412b3e5d15e5b5a7214b5141168194fe5fdffea1107&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;马云、马化腾、周鸿祎曾说过那些经典，关于互联网思维你不能错过这40页PPT&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.cyzone.cn/a/20131206/247546.html&#34;&gt;实现互联网思维的“独孤九剑”&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MjM5NDEwMjg2MA==&amp;amp;mid=208296388&amp;amp;idx=1&amp;amp;sn=2a682e0eb449db51c2521068142bf13a&amp;amp;key=41ecb04b05111003ea8eda2c7785543c06b8741dab2ce0910012fcd47bcc023a9de27913cb1edf81fa425e46d277fda6&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;【干货】参与感，网易是这样做的&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s?__biz=MzAxNzY1NjQ1OA==&amp;amp;mid=400711553&amp;amp;idx=1&amp;amp;sn=2282f2d6b0a87e7290ff2cd611e670c4&amp;amp;scene=0&amp;amp;key=41ecb04b05111003c955f5a68be7cab40afa454797fb82e6c3e2f97095ddadd3d4233a53e3ef027ee9643db96a371b81&amp;amp;ascene=0&amp;amp;uin=MTM0ODQyNTk1&amp;amp;devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&amp;amp;version=11020201&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;史上最全产品经理知识浓缩经典&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/mp/appmsg/show?__biz=MTQzMjE1NjQwMQ==&amp;amp;appmsgid=10001957&amp;amp;itemidx=3&amp;amp;sign=4d017c71e026560ec6fd4c33d358298b&amp;amp;uin=MTM0ODQyNTk1&amp;amp;key=41ecb04b05111003507b7115bb425b7762747c2dfee918b2ced9962fde255bfb2d90a31c6d3e2d9c319d08c67f32a869&amp;amp;ascene=0&amp;amp;pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D&#34;&gt;2013互联网大会透露的八个热点与趋势&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

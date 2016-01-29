@@ -121,6 +121,8 @@ title = "产品经理网上文章汇总"
 
 [四步教你打造完美登录体验](https://mp.weixin.qq.com/s?__biz=MzA3NDA4NDIzMQ==&mid=203983063&idx=4&sn=a3684d48baf145d2fe5066adb64dd37d&key=41ecb04b05111003b610ed4cc8a4d264058eb9072b1b81a68cd6d9d670460ae607c8ed38373cc940b1c1a12ed87696b5&ascene=0&uin=MTM0ODQyNTk1&devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&version=11020201&pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D)
 
+[如何提高移动端注册登录体验](http://www.ui.cn/detail/71046.html)
+
 [色彩设计方法](http://www.woshipm.com/pd/123505.html)
 
 [[高逼格向]配色网站推荐—附本人使用体验](http://www.woshipm.com/ucd/111308.html)

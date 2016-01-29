@@ -6,20 +6,15 @@ tags = ["汇总","前端","javascript"]
 title = "前端开发网上文章汇总"
 +++
 
+[JavaScript Scoping and Hoisting](https://segmentfault.com/a/1190000004345355)
 
 [ES6新特性概览](http://www.cnblogs.com/Wayou/p/es6_new_features.html)
 
 [「JavaScript」四种跨域方式详解](https://mp.weixin.qq.com/s?__biz=MzAwNjQwNzU2NQ==&mid=208424145&idx=2&sn=d6f3436dbef96e80048f3bcf2880c032&scene=0&key=41ecb04b05111003accd05a80b101d23f5f65bb90683c2faa0b9c46810386589bc6955510904b3d7f691121f017feb06&ascene=0&uin=MTM0ODQyNTk1&devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&version=11020201&pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D)
 
-[React 的 diff 算法](http://segmentfault.com/a/1190000000606216)
-
 [Flex 布局教程：语法篇](https://mp.weixin.qq.com/s?__biz=MzAxODE2MjM1MA==&mid=209323512&idx=1&sn=c2134c53bd55eef5bb977839c629b087&key=41ecb04b0511100352e7e2f02fd9695d7de52481a587321f9f6ba555d7c8e6b09599fe88ef40e02db9eff1811cbee0fc&ascene=0&uin=MTM0ODQyNTk1&devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&version=11020201&pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D)
 
-[使用 JS 构建跨平台的原生应用：React Native iOS 通信机制初探](http://taobaofed.org/blog/2015/12/30/the-communication-scheme-of-react-native-in-ios/)
-
 [现在流行什么 JS库/框架？](https://mp.weixin.qq.com/s?__biz=MzA4Nzc4MjI4MQ==&mid=211241581&idx=1&sn=7d9fbd01da342425dc1f6281d3cfe197&scene=0&key=41ecb04b05111003aaba6c54ac19ca6585c4c00932fd75f341be9b795bede48d3fc8c172045ebc19f479d3aff8625cbe&ascene=0&uin=MTM0ODQyNTk1&devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&version=11020201&pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D)
-
-[React Native For Android 架构初探](http://zhuanlan.zhihu.com/magilu/20259704)
 
 [浏览器缓存机制浅析](https://mp.weixin.qq.com/s?__biz=MzAxODE2MjM1MA==&mid=209846596&idx=1&sn=803b9c256d17b2ca2c1cec1322ee19f0&scene=0&key=41ecb04b0511100374b2888613719860979d4a4e623d6c1ef483816039adc27a3d3015a95881ce61b21a343876ef3551&ascene=0&uin=MTM0ODQyNTk1&devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&version=11020201&pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D)  
 
@@ -27,15 +22,11 @@ title = "前端开发网上文章汇总"
 
 [图解Javascript上下文与作用域](https://mp.weixin.qq.com/s?__biz=MzAxODE2MjM1MA==&mid=209783326&idx=1&sn=aeaae340d52fa7f316bfaaf601682ef7&scene=0&key=41ecb04b05111003e740fa16b8f955013f175640e07a7239be0f667d77981e94083a81e08975c99fbe6f091ae648ea8b&ascene=0&uin=MTM0ODQyNTk1&devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&version=11020201&pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D)
 
-[React Native 教程](http://wiki.jikexueyuan.com/project/react-native/homepage.html)
-
 [谈谈 React.js 的核心入门知识](https://mp.weixin.qq.com/s?__biz=MjM5OTA1MDUyMA==&mid=211494151&idx=2&sn=f342b427d2d6fa789817f0ff2a20938b&scene=0&key=41ecb04b05111003cf4703fb7804b2fde6904b49a1292e12a5ff22980bee8c39ecb85e498f5adfbe878a64ea3baf09ce&ascene=0&uin=MTM0ODQyNTk1&devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&version=11020201&pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D)
-
-[React Native构建跨平台原生应用之ListView组件](http://item.congci.com/item/react-native-goujian-kua-pingtai-yuansheng-yingyong-zhi-listview-zujian)
 
 [前端性能优化的常用方法](https://mp.weixin.qq.com/s?__biz=MzA4Nzc4MjI4MQ==&mid=401777193&idx=1&sn=95540e0171a736caab1de5d876de7ae6&scene=0&key=41ecb04b05111003828645f0d91237dafa5b06ff4ae1c9ff7a56b5c4d9b1005883835619b87fce66b5dffde03f2f160c&ascene=0&uin=MTM0ODQyNTk1&devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&version=11020201&pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D)
 
-[慢牛系列四：好玩的React Native](http://www.cnblogs.com/hongyin163/p/stockman_animation.html)
+[Functional UI and Components as Higher Order Functions](https://blog.risingstack.com/functional-ui-and-components-as-higher-order-functions/)
 
 [跨站脚本攻击XSS](https://mp.weixin.qq.com/s?__biz=MjM5NzU0MzU0Nw==&mid=211716745&idx=2&sn=2b7b3814d0d60e6df2cbd30494b5d5fe&scene=0&key=41ecb04b05111003694db4f3baad1b5bb6f97ba2efc5599b8f5b7d644b373b2f00a2d8346676c1f977e45122ef3acef3&ascene=0&uin=MTM0ODQyNTk1&devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&version=11020201&pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D)
 

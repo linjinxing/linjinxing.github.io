@@ -15,6 +15,10 @@ title = "大数据网上文章汇总"
 
 [浅谈产品的用户画像：它并不是万能的](https://mp.weixin.qq.com/s?__biz=MjM5NDEwMjg2MA==&mid=401913085&idx=1&sn=939d32e84100ce46173661a809d7f523&scene=0&key=41ecb04b051110038bcb6fe3a0e0161981b9d9c431313685eb49953372d90b679df367f3aec39dc874cea4ce431405b2&ascene=0&uin=MTM0ODQyNTk1&devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&version=11020201&pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D)
 
+[Github上的十大机器学习项目](http://geek.csdn.net/news/detail/52337)
+
+[第2章 设计理念与基本架构](http://blog.csdn.net/beliefer/article/details/50561247)
+
 
 
 

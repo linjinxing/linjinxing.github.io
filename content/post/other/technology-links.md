@@ -8,8 +8,6 @@ title = "心理学网上文章汇总"
 
 [GitHub上整理的一些工具](https://mp.weixin.qq.com/s?__biz=MjM5MDI5MjAyMA==&mid=401350659&idx=2&sn=dee5a485c67a6c0af9f7e6c6b32530e8&scene=0&key=41ecb04b05111003c68c7b7faeb33b9da7c125940473b3093dc475808927b5e1614d1982b1ee351134028a43ee77f94d&ascene=0&uin=MTM0ODQyNTk1&devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&version=11020201&pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D)
 
-[10本伟大的心理学书籍 |阅读的价值在于它往往能改变你的一生](http://toutiao.com/a5351608352/?iid=2940383259&app=news_article&tt_from=weixin&utm_source=weixin&utm_medium=toutiao_ios&utm_campaign=client_share&wxshare_count=1)
-
 [编写高质量的代码，从命名入手](https://mp.weixin.qq.com/s?__biz=MzA4MjEyNTA5Mw==&mid=210573078&idx=1&sn=51885aeeaa7552a4c23fe4f1506cb328&scene=4&srcid=0903JR3hCeD9etD0NzLPTq4d&key=41ecb04b05111003f93fe72f7f2f71c5f14047639eeaa53ed163f4a32223166f68df5b02b549c0de32d881cc18aec5f9&ascene=0&uin=MTM0ODQyNTk1&devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&version=11020201&pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D)
 
 [2015年，你不愿错过的10篇技术好文](https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=402002243&idx=1&sn=5b0eee66674c197051f7c46e7cfb86d2&scene=0&key=41ecb04b051110037e57205051df40f14948cce9f0568b10306417f02ce8d51c5077b2610ee6d4f2fc299794073596a3&ascene=0&uin=MTM0ODQyNTk1&devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&version=11020201&pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D)
@@ -53,6 +51,8 @@ title = "心理学网上文章汇总"
 [65条最常用正则表达式,你要的都在这里了](https://mp.weixin.qq.com/s?__biz=MzA4NDIzNzMwMw==&mid=402528285&idx=1&sn=7773986165d93dba38d832f74b39413e&scene=0&key=41ecb04b05111003cfaf23bd4cbb829511fad9acea02c0a26e206dda4e5966983ede8f7ae55c517c53a8c92b15ce8e1f&ascene=0&uin=MTM0ODQyNTk1&devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&version=11020201&pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D)
 
 [Linux ps命令的几个高效用法](https://mp.weixin.qq.com/s?__biz=MzA4Nzc4MjI4MQ==&mid=401235349&idx=1&sn=2627d8a158e551131e46073fb02e65aa&scene=0&key=41ecb04b05111003a1de43815def67af512bc5c07c1408c0e9974a13d0dae6eacdfbfdf6e142bb6cb875fa0cb477fbc3&ascene=0&uin=MTM0ODQyNTk1&devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&version=11020201&pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D)
+
+[一张图带你看Linux内核运行原理](http://toutiao.com/a6240229809571365122/)
 
 
 
