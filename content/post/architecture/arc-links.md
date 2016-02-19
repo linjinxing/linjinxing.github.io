@@ -53,6 +53,9 @@ title = "软件架构网上文章汇总"
 
 [个人移动开发调试方法(微信)](https://github.com/shuchengliang/blog/blob/gh-pages/%E4%B8%AA%E4%BA%BA%E7%A7%BB%E5%8A%A8%E5%BC%80%E5%8F%91%E8%B0%83%E8%AF%95%E6%96%B9%E6%B3%95.md)
 
+[Node.js 分布式架构](http://nicefe.com/2016/01/29/node-js-distributed/)
+
+
 
 
 

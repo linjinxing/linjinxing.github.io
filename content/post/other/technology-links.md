@@ -6,7 +6,7 @@ tags = ["汇总","心理学"]
 title = "心理学网上文章汇总"
 +++
 
-[GitHub上整理的一些工具](https://mp.weixin.qq.com/s?__biz=MjM5MDI5MjAyMA==&mid=401350659&idx=2&sn=dee5a485c67a6c0af9f7e6c6b32530e8&scene=0&key=41ecb04b05111003c68c7b7faeb33b9da7c125940473b3093dc475808927b5e1614d1982b1ee351134028a43ee77f94d&ascene=0&uin=MTM0ODQyNTk1&devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&version=11020201&pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D)
+[程序员的编程能力层次模型](https://mp.weixin.qq.com/s?__biz=MjM5OTA1MDUyMA==&mid=405436375&idx=1&sn=67df60c228ada41edf809eec0c5763dc&scene=1&srcid=0216fvsUeshlQL3BLOc3UOO4&key=710a5d99946419d907ea9a8d78706b1b96d608c43cfedd5fbd4750fba89b9fcab98b3a04fc1a975294640fcb38cfd0a7&ascene=0&uin=MTM0ODQyNTk1&devicetype=iMac14%2C1+OSX+OSX+10.10.5+build(14F1509)&version=11020201&pass_ticket=RKxn4uE0AJZilwGg6HL0nNzDc6I3TEyyzRJQxKG5fyE%3D)
 
 [编写高质量的代码，从命名入手](https://mp.weixin.qq.com/s?__biz=MzA4MjEyNTA5Mw==&mid=210573078&idx=1&sn=51885aeeaa7552a4c23fe4f1506cb328&scene=4&srcid=0903JR3hCeD9etD0NzLPTq4d&key=41ecb04b05111003f93fe72f7f2f71c5f14047639eeaa53ed163f4a32223166f68df5b02b549c0de32d881cc18aec5f9&ascene=0&uin=MTM0ODQyNTk1&devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&version=11020201&pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D)
 
