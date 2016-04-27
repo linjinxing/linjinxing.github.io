@@ -11,6 +11,8 @@ title = "iOS开发网上文章汇总"
 
 [Xcode 插件优缺点对比（推荐 20 款插件）](http://www.cocoachina.com/ios/20160122/15080.html)
 
+[iOS应用架构谈 组件化方案](http://casatwy.com/iOS-Modulization.html)
+
 [IOS不用AutoLayout也能实现自动布局的类(1)----MyLinearLayout横空出世](http://blog.csdn.net/yangtiang/article/details/46483999)
 
 [Cocoa编码规范](https://mp.weixin.qq.com/s?__biz=MzAxMzE2Mjc2Ng==&mid=211692338&idx=1&sn=3eac55a6c93992646271fd808b71534d&scene=0&key=41ecb04b05111003fccc1999a722b07abf9b880d74905c3e9e9f3195f7c3c9aa21f6827d5c4fbcc5fb8cfb474f2fe20c&ascene=0&uin=MTM0ODQyNTk1&devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&version=11020201&pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D)

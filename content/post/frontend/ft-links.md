@@ -12,6 +12,8 @@ title = "前端开发网上文章汇总"
 
 [「JavaScript」四种跨域方式详解](https://mp.weixin.qq.com/s?__biz=MzAwNjQwNzU2NQ==&mid=208424145&idx=2&sn=d6f3436dbef96e80048f3bcf2880c032&scene=0&key=41ecb04b05111003accd05a80b101d23f5f65bb90683c2faa0b9c46810386589bc6955510904b3d7f691121f017feb06&ascene=0&uin=MTM0ODQyNTk1&devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&version=11020201&pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D)
 
+[【趣事】用 JavaScript 对抗 DDOS 攻击](http://www.cnblogs.com/index-html/p/js-network-firewall.html)
+
 [Flex 布局教程：语法篇](https://mp.weixin.qq.com/s?__biz=MzAxODE2MjM1MA==&mid=209323512&idx=1&sn=c2134c53bd55eef5bb977839c629b087&key=41ecb04b0511100352e7e2f02fd9695d7de52481a587321f9f6ba555d7c8e6b09599fe88ef40e02db9eff1811cbee0fc&ascene=0&uin=MTM0ODQyNTk1&devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&version=11020201&pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D)
 
 [现在流行什么 JS库/框架？](https://mp.weixin.qq.com/s?__biz=MzA4Nzc4MjI4MQ==&mid=211241581&idx=1&sn=7d9fbd01da342425dc1f6281d3cfe197&scene=0&key=41ecb04b05111003aaba6c54ac19ca6585c4c00932fd75f341be9b795bede48d3fc8c172045ebc19f479d3aff8625cbe&ascene=0&uin=MTM0ODQyNTk1&devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&version=11020201&pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D)

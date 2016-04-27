@@ -45,6 +45,10 @@ title = "产品经理网上文章汇总"
 
 
 -- 运营
+[理财产品突围之路，App Store快速获取用户的组合打法](http://www.woshipm.com/operate/278643.html)
+
+[在创业公司做运营，掌握那些技能才能成为优秀的运营人才？](http://www.woshipm.com/operate/275744.html)
+
 [【干货】用户运营中的认知、考虑、行动模型](https://mp.weixin.qq.com/s?__biz=MjM5NDEwMjg2MA==&mid=208422947&idx=1&sn=35e41f4bbb376eb3bc7e2db0cc1aaf9f&key=41ecb04b05111003c9665c6cea0f3d3fcd5e760659e74a0d62216a2191bfda97ddb7ee7de18acb6a51815457cf33430b&ascene=0&uin=MTM0ODQyNTk1&devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&version=11020201&pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D)
 
 [阿里数据产品经理工作(总结篇)：数据PD，做牛做马](https://mp.weixin.qq.com/s?__biz=MjM5NDEwMjg2MA==&mid=208635917&idx=1&sn=e3ec3f76b88a64f305065ef6ed91608e&key=41ecb04b05111003928fdae8eaa12644e5c17b191047a15d3f36217cb0688c70a617c9266555b90dc9d792996d97d21d&ascene=0&uin=MTM0ODQyNTk1&devicetype=iMac+MacBookAir7%2C1+OSX+OSX+10.10.5+build(14F1021)&version=11020201&pass_ticket=OUgFBuA2yqcV7ExJVNrQtm5NukTejEXnNHTun2M8jg8%3D)
